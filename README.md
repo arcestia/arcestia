@@ -1,8 +1,15 @@
 <h1 align="center">Hello, I'm Laurensius Jeffrey (just call me "Jeff")</h1>
 <h3 align="center">Now Just a Trader Who still like to code.</h3>
 
+### Things I Do
+- 💵 I do Trading a lots. Stocks, Crypto, Forex, Options and ETFs.
+- 🍳 I love cooking, eating my own cook.
+- 📚 Reading lots of book, mostly Geo-Politics and Geo-Economics.
+- 🗣️ I speak Bahasa Indonesia (mother tongue), English, Mandarin, Vietnamese, Bahasa Melayu, Singaporean English (Singlish), French and German.
 
-<table><tr>
-<td align="center" style="padding=0;width=50%;"><img align="center" style="padding=0;" src="https://github-readme-stats.vercel.app/api?username=arcestia&show_icons=true&hide=stars&count_private=true" alt="arcestia" /></td>
-<td align="center" style="padding=0;width=50%;"><img align="center" style="padding=0;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arcestia&layout=compact&hide=html" alt="arcestia" /></td>
-</tr></table>
+
+### Things I Likes
+- 🎮 Eve Echoes and League of Legends
+- 🎵 Pop, Jazz, Classic, actually anything.
+- 🎥 Action, Crimes, Political, Sci-fi, Spaces, Future, Scientific.
+- 📷 Photography
