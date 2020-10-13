@@ -13,3 +13,9 @@
 - 🎵 Pop, Jazz, Classic, actually anything.
 - 🎥 Action, Crimes, Political, Sci-fi, Spaces, Future, Scientific.
 - 📷 Photography
+
+### Activities & Involvement 
+- Human Right Activist
+- Greenpeace Volunteer
+- Amnesty International
+- Karmagawa & Ocean CleanUp Sponsor
