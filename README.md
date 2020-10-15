@@ -19,3 +19,5 @@
 - Greenpeace Volunteer
 - Amnesty International
 - Karmagawa & Ocean CleanUp Sponsor
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/O4O02FEHQ)
