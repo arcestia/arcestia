@@ -9,7 +9,7 @@
 
 
 ### Things I Likes
-- 🎮 Eve Echoes and League of Legends
+- 🎮 Eve Online and League of Legends
 - 🎵 Pop, Jazz, Classic, actually anything.
 - 🎥 Action, Crimes, Political, Sci-fi, Spaces, Future, Scientific.
 - 📷 Photography
@@ -18,6 +18,6 @@
 - Human Right Activist
 - Greenpeace Volunteer
 - Amnesty International
-- Karmagawa & Ocean CleanUp Sponsor
+- Ascendio Foundation
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/O4O02FEHQ)
