@@ -21,4 +21,3 @@
 - Ascendio Foundation
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/O4O02FEHQ)
-[![Saweria](https://saweria.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcapy_happy.603c7293.svg)](https://saweria.co/skiddle)
