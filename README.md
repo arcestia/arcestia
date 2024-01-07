@@ -21,5 +21,17 @@
 - Ascendio Foundation
 
 <!--START_SECTION:duolingoStats-->
+<!-- Automatically generated with https://github.com/centrumek/duolingo-readme-stats-->
+
+| Username | Day Streak | Total XP |
+|:---:|:---:|:---:|
+| 👤 arcestia | 🔥 1 | ⚡ 1241 |
+
+| Language | Level | XP |
+|:---:|:---:|:---:|
+| 🇮🇩 Indonesian | 👑 111 | ⚡ 120 |
+| 🇩🇪 German | 👑 1 | ⚡ 860 |
+| 🇺🇸 English | 👑 31 | ⚡ 130 |
+| 🇻🇳 Vietnamese | 👑 1 | ⚡ 131 |
 
 <!--END_SECTION:duolingoStats-->
