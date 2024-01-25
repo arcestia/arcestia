@@ -25,15 +25,16 @@
 
 | Username | Day Streak | Total XP |
 |:---:|:---:|:---:|
-| 👤 arcestia | 🔥 19 | ⚡ 20446 |
+| 👤 arcestia | 🔥 20 | ⚡ 20845 |
 
 | Language | Level | XP |
 |:---:|:---:|:---:|
-| 🇺🇸 Klingon | 👑 12 | ⚡ 4590 |
-| 🇮🇩 Indonesian | 👑 130 | ⚡ 762 |
-| 🇩🇪 German | 👑 13 | ⚡ 14617 |
+| 🇩🇪 German | 👑 13 | ⚡ 14651 |
+| 🇮🇩 Indonesian | 👑 130 | ⚡ 817 |
+| 🇺🇸 Klingon | 👑 12 | ⚡ 4670 |
+| null Esperanto | 👑 159 | ⚡ 115 |
+| 🇻🇳 Vietnamese | 👑 105 | ⚡ 246 |
 | 🇨🇳 Chinese | 👑 6 | ⚡ 216 |
-| 🇻🇳 Vietnamese | 👑 1 | ⚡ 131 |
 | 🇺🇸 English | 👑 31 | ⚡ 130 |
 
 <!--END_SECTION:duolingoStats-->
