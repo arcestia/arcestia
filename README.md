@@ -1,25 +1,91 @@
 <h1 align="center">Hello, I'm Laurensius Jeffrey (just call me "Jeff")</h1>
 <h3 align="center">Now Just a Trader Who still like to code.</h3>
 
-### Things I Do
-- 💵 I do Trading a lots. Stocks, Crypto, Forex, Options and ETFs.
-- 🍳 I love cooking, eating my own cook.
-- 📚 Reading lots of book, mostly Geo-Politics and Geo-Economics.
-- 🗣️ I speak Bahasa Indonesia (mother tongue), English, Mandarin, Vietnamese, Bahasa Melayu, Singaporean English (Singlish), French and German.
+<img src="https://github-stats-alpha.vercel.app/api?username=arcestia&cc=000&tc=fff&ic=fff&bc=000">
+
+<details>
+<summary>Things I Do</summary>
+<ul>
+    <li>💵 Trading
+        <ul>
+            <li>Stocks</li>
+            <li>Crypto</li>
+            <li>Forex</li>
+            <li>Options</li>
+            <li>ETFs</li>
+        </ul>
+    </li>
+    <li>🍳 Cooking
+        <ul>
+            <li>Enjoys cooking and eating homemade meals</li>
+        </ul>
+    </li>
+    <li>📚 Reading
+        <ul>
+            <li>Primarily focused on Geo-Politics and Geo-Economics</li>
+        </ul>
+    </li>
+    <li>🗣️ Multilingual
+        <ul>
+            <li>Bahasa Indonesia (mother tongue)</li>
+            <li>English</li>
+            <li>Mandarin</li>
+            <li>Vietnamese</li>
+            <li>Bahasa Melayu</li>
+            <li>Singaporean English (Singlish)</li>
+            <li>French</li>
+            <li>German</li>
+        </ul>
+    </li>
+</ul>
+</details>
+
+<details>
+<summary>Things I Like</summary>
+<ul>
+    <li>🎮 Video Games
+        <ul>
+            <li>Eve Online</li>
+            <li>League of Legends</li>
+        </ul>
+    </li>
+    <li>🎵 Music
+        <ul>
+            <li>Pop</li>
+            <li>Jazz</li>
+            <li>Classical</li>
+            <li>Open to anything</li>
+        </ul>
+    </li>
+    <li>🎥 Movies
+        <ul>
+            <li>Action</li>
+            <li>Crimes</li>
+            <li>Political</li>
+            <li>Sci-fi</li>
+            <li>Space</li>
+            <li>Future</li>
+            <li>Scientific</li>
+        </ul>
+    </li>
+    <li>📷 Photography</li>
+</ul>
+</details>
+
+<details>
+<summary>Activities & Involvement</summary>
+<ul>
+    <li>Ascendio Foundation</li>
+    <li>UNHCR Volunteer</li>
+    <li>Human Rights Activist</li>
+    <li>Greenpeace Volunteer</li>
+    <li>Amnesty International</li>
+</ul>
+</details>
 
 
-### Things I Likes
-- 🎮 Eve Online and League of Legends
-- 🎵 Pop, Jazz, Classic, actually anything.
-- 🎥 Action, Crimes, Political, Sci-fi, Spaces, Future, Scientific.
-- 📷 Photography
-
-### Activities & Involvement 
-- Human Right Activist
-- Greenpeace Volunteer
-- Amnesty International
-- Ascendio Foundation
-
+<details>
+<summary>Duolingo Stats</summary>
 <!--START_SECTION:duolingoStats-->
 <!-- Automatically generated with https://github.com/centrumek/duolingo-readme-stats-->
 
@@ -40,3 +106,4 @@
 | 🇺🇸 English | 👑 31 | ⚡ 130 |
 
 <!--END_SECTION:duolingoStats-->
+</details>
