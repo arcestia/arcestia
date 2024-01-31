@@ -91,12 +91,12 @@
 
 | Username | Day Streak | Total XP |
 |:---:|:---:|:---:|
-| 👤 arcestia | 🔥 24 | ⚡ 31972 |
+| 👤 arcestia | 🔥 25 | ⚡ 35652 |
 
 | Language | Level | XP |
 |:---:|:---:|:---:|
-| 🇫🇷 French | 👑 0 | ⚡ 15 |
-| null Esperanto | 👑 159 | ⚡ 1205 |
+| 🇫🇷 French | 👑 0 | ⚡ 3560 |
+| null Esperanto | 👑 159 | ⚡ 1340 |
 | 🇪🇸 Spanish | 👑 47 | ⚡ 7292 |
 | 🇻🇳 Vietnamese | 👑 105 | ⚡ 1341 |
 | 🇮🇩 Indonesian | 👑 130 | ⚡ 2407 |
