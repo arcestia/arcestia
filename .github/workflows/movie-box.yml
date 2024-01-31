@@ -10,14 +10,8 @@ on:
 jobs:
   build:
     name: Updating movie-box gist
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-        with:
-          ref: master
-      - name: Installing dependencies
-        run: npm install
       - name: Executing movie-box action
         uses: LuisAlejandro/movie-box@0.1.7
         env:
