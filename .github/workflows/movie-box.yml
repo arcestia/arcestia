@@ -19,7 +19,7 @@ jobs:
       - name: Installing dependencies
         run: npm install
       - name: Executing movie-box action
-        uses: ./
+        uses: LuisAlejandro/movie-box@0.1.7
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: ${{ secrets.GIST_ID }}
