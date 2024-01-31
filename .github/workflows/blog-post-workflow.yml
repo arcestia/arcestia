@@ -1,4 +1,4 @@
-name: Lastest Articles
+name: Latest Articles
 on:
   schedule:
     # Runs every hour
@@ -15,4 +15,4 @@ jobs:
         with:
           comment_tag_name: "BLOG"
           commit_message: "Updated readme with the latest Blog data"
-          feed_list: "https://skiddle.id/sitemap.xml,https://medium.com/feed/catatan-arcestia"
+          feed_list: "https://skiddle.id/sitemap.xml"
