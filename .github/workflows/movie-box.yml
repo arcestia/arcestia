@@ -1,0 +1,27 @@
+name: Update movie-box gist
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  watch:
+    types: [started]
+  
+jobs:
+  build:
+    name: Updating movie-box gist
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          ref: master
+      - name: Installing dependencies
+        run: npm install
+      - name: Executing movie-box action
+        uses: ./
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GIST_ID: ${{ secrets.GIST_ID }}
+          TRAKT_ID: ${{ secrets.TRAKT_ID }}
+          TRAKT_USERNAME: ${{ secrets.TRAKT_USERNAME }}
+          MOVIE_BOX_MODE: ${{ secrets.MOVIE_BOX_MODE }}
