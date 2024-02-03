@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: gautamkrishnar/blog-post-workflow@1.8.5
+      - uses: gautamkrishnar/blog-post-workflow@master
         with:
           comment_tag_name: "BLOG"
           commit_message: "Updated readme with the latest Blog data"
-          feed_list: "https://medium.com/feed/catatan-arcestia/"
+          feed_list: "https://skiddle.id/sitemap.xml"
