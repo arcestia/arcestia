@@ -6,6 +6,14 @@
 <img src="https://github-stats-alpha.vercel.app/api?username=arcestia&cc=000&tc=fff&ic=fff&bc=000">
 
 <details>
+<summary>Project I'm Currently Working on</summary>
+<ul>
+    <li>Open API for Utilized LLM Model With Laravel and FastAPI in AWS Lambda</li>
+    <li>Sekoci : Multimodal Large Language Model (MLLM) Still on Closed Development</li>
+</ul>
+</details>
+
+<details>
 <summary>Things I Do</summary>
 <ul>
     <li>💵 Trading
