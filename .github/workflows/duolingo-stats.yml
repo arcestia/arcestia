@@ -16,3 +16,5 @@ jobs:
       - uses: centrumek/duolingo-readme-stats@main
         with:
           DUOLINGO_USER_ID: 221394927
+          COMMIT_EMAIL: vrusolik@gmail.com
+          COMMIT_USERNAME: arcestia
