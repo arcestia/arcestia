@@ -101,11 +101,11 @@
 
 | Username | Day Streak | Total XP |
 |:---:|:---:|:---:|
-| 👤 arcestia | 🔥 29 | ⚡ 52203 |
+| 👤 arcestia | 🔥 29 | ⚡ 52523 |
 
 | Language | Level | XP |
 |:---:|:---:|:---:|
-| 🇫🇷 French | 👑 30 | ⚡ 8843 |
+| 🇫🇷 French | 👑 30 | ⚡ 9163 |
 | undefined High Valyrian | 👑 0 | ⚡ 3790 |
 | null Esperanto | 👑 165 | ⚡ 4400 |
 | 🇩🇪 German | 👑 14 | ⚡ 16711 |
