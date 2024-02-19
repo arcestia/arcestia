@@ -1,18 +1,28 @@
-name: Latest Articles
+name: 📰 Update Blog Post List
 on:
+  workflow_dispatch: # Manual dispatch
   schedule:
-    # Runs every hour
-    - cron: '0 * * * *'
-  workflow_dispatch:
-
+    - cron: '0 1 * * 0' # At 01:00 on Sunday.
 jobs:
-  update-readme-with-blog:
-    name: Update this repo's README with latest Hashnode blog posts
+  get-posts:
+    name: Get Blog Posts from RSS Feed
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: gautamkrishnar/blog-post-workflow@master
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Pull in listed.to posts into blog page
+        uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          comment_tag_name: "BLOG"
-          commit_message: "Updated readme with the latest Blog data"
-          feed_list: "https://medium.com/feed/catatan-arcestia"
+          feed_list: "https://skiddle.id/feed"
+          max_post_count: 100
+          readme_path: BLOG-POSTS.md
+          gh_token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          commit_message: '📰 Updates recent blog posts (all)'
+      - name: Pull in listed.to posts into readme
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://skiddle.id/feed"
+          max_post_count: 5
+          readme_path: README.md
+          gh_token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          commit_message: '📰 Updates recent blog posts (short)'
