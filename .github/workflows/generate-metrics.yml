@@ -25,7 +25,7 @@ jobs:
           user: arcestia
           template: classic
           base: ""
-          config_timezone: Europe/London
+          config_timezone: Asia/Bangkok
           plugin_sponsors: yes
           plugin_sponsors_past: yes
           plugin_sponsors_sections: goal, list
@@ -46,7 +46,7 @@ jobs:
           user: arcestia
           template: classic
           base: ""
-          config_timezone: Europe/London
+          config_timezone: Asia/Bangkok
           plugin_calendar: yes
           plugin_calendar_limit: 10
   
@@ -87,7 +87,7 @@ jobs:
           plugin_habits_trim: yes
           plugin_habits_days: 28
           plugin_habits_from: 500
-          config_timezone: Europe/London
+          config_timezone: Asia/Bangkok
 
   # Total Stargazers
   stargazer-metrics:
@@ -311,17 +311,7 @@ jobs:
           base: ""
           plugin_repositories: yes
           plugin_repositories_featured: >-
-            arcestia/dashy, arcestia/AdGuardian-Term, arcestia/portainer-templates, arcestia/personal-security-checklist,
-            arcestia/dotfiles, arcestia/web-check,
-            arcestia/awesome-privacy, arcestia/go-apod,arcestia/email-comparison, arcestia/awesome-selfhosted,
-            arcestia/docker-tcpdump, arcestia/my-website, arcestia/brewfile,
-            arcestia/pax, arcestia/all-the-countries, arcestia/minesweper, arcestia/wapalyzer,
-            arcestia/callisto-theme-standard-notes, arcestia/arcestia,
-            arcestia/twitter-sentiment-visualisation, arcestia/hasami-shogi, arcestia/nfu,
-            arcestia/espanso-config, arcestia/minimal-terminal-prompt,
-            arcestia/anti-theft-charge, arcestia/md-cv-maker, arcestia/usermonkey,
-            arcestia/alicia-sykes-website, arcestia/happy-app, arcestia/conky-system-stats-widget,
-            arcestia/awesome-selfhosted, arcestia/awesome-osint, arcestia/arcestia
+            arcestia/arcestia, arcestia/skiddle.id
    
  # Starred Topics
   starred-topics-metrics:
@@ -356,7 +346,7 @@ jobs:
           base: ""
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
           plugin_stackoverflow: yes
-          plugin_stackoverflow_user: 979052
+          plugin_stackoverflow_user: 23370400
           plugin_stackoverflow_sections: answers-top
           plugin_stackoverflow_limit: 5
 
@@ -377,7 +367,7 @@ jobs:
           plugin_tweets: yes
           plugin_tweets_token: ${{ secrets.TWITTER_TOKEN }}
           plugin_tweets_attachments: yes
-          plugin_tweets_user: Lissy_Sykes
+          plugin_tweets_user: LizSnowy
           plugin_tweets_limit: 5
 
   # RSS Feed
@@ -395,7 +385,7 @@ jobs:
           base: ""
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
           plugin_rss: yes
-          plugin_rss_source: https://notes.aliciasykes.com/feed
+          plugin_rss_source: https://skiddle.id/feed
           plugin_rss_limit: 8
 
   lines-code-changed:
@@ -435,7 +425,7 @@ jobs:
           user: arcestia
           template: classic
           base: header, activity, community, repositories, metadata
-          config_timezone: Europe/London
+          config_timezone: Asia/Bangkok
           plugin_achievements: yes
           plugin_achievements_display: compact
           plugin_achievements_secrets: yes
@@ -487,7 +477,7 @@ jobs:
           user: arcestia
           template: classic
           base: activity, community, repositories
-          config_timezone: Europe/London
+          config_timezone: Asia/Bangkok
           plugin_habits: yes
           plugin_habits_charts_type: classic
           plugin_habits_days: 14
