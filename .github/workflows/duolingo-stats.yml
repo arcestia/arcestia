@@ -16,7 +16,7 @@ jobs:
       - uses: centrumek/duolingo-readme-stats@main
         with:
           DUOLINGO_USER_ID: '221394927'
-          COMMIT_EMAIL: 'vrusolik@gmail.com'
-          COMMIT_USERNAME: 'arcestia'
+          COMMIT_EMAIL: 160487326+Skiddle-Git@users.noreply.github.com
+          COMMIT_USERNAME: Skiddle-Git
           COMMIT_MSG: 'Updating Duolingo Stats'
           SHOW_LANGUAGES: false
