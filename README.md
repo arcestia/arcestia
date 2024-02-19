@@ -116,12 +116,12 @@
 ------
 
 ### 📝 Check out my latest articles!
-<!-- BLOG:START -->
+<!-- BLOG-POST-LIST:START -->
 - [Finally Christmas, So what would i do?](https://medium.com/catatan-arcestia/finally-christmas-so-what-would-i-do-ca4d50c375aa?source=rss----39adbe2465e5---4)
 - [Thank You Jesus, for everything.](https://medium.com/catatan-arcestia/thank-you-jesus-for-everything-897914a19bfd?source=rss----39adbe2465e5---4)
 - [Hidup sesuai dengan Pribadi-Nya](https://medium.com/catatan-arcestia/hidup-sesuai-dengan-pribadi-nya-3dcc0b7b9b0d?source=rss----39adbe2465e5---4)
 - [Why I’m leaving?](https://medium.com/catatan-arcestia/why-i-leaving-bd41970c980d?source=rss----39adbe2465e5---4)
 - [Mengenali diri untuk Memaksimalkan Efisiensi Belajar! #PowerYourself](https://medium.com/catatan-arcestia/mengenali-diri-untuk-memaksimalkan-efisiensi-belajar-poweryourself-67abe80f8cbc?source=rss----39adbe2465e5---4)
-<!-- BLOG:END -->
+<!-- BLOG-POST-LIST:END -->
 
 ------
