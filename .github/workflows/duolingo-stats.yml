@@ -2,7 +2,7 @@ name: Duolingo README Stats Action
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs at 00:00 UTC every day
+    - cron: '0 */6 * * *' # Runs at 00:00 UTC every day
   workflow_dispatch:
 
 jobs:
@@ -19,4 +19,4 @@ jobs:
           COMMIT_EMAIL: 160487326+Skiddle-Git@users.noreply.github.com
           COMMIT_USERNAME: Skiddle-Git
           COMMIT_MSG: Updating Duolingo Stats
-          SHOW_LANGUAGES: false
+          SHOW_LANGUAGES: true
