@@ -3,7 +3,7 @@ name: ⭐ Generate Stared Repo List
 on:
   workflow_dispatch: # Manual dispatch
   schedule:
-    - cron: '0 1 * * 0' # At 01:00 on Sunday.
+    - cron: '0 1 * * *' # At 01:00.
 jobs:
   build:
     runs-on: ubuntu-latest
