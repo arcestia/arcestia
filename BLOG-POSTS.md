@@ -4,9 +4,10 @@
 
 
 <!-- BLOG-POST-LIST:START -->
-- [My New Adventure Will Begin in 2024](https://skiddle.id/notes/My-New-Adventure-Will-Begin-in-2024)
-- [Adding Comments &lpar;via Utterances&rpar;](https://skiddle.id/notes/Adding-comments-via-utterances)
-- [New Chapter Begin Now!](https://skiddle.id/notes/new-chapter-begin-now)
-- [Startup Gagal? Kenapa?](https://skiddle.id/notes/Startup-gagal-lagi)
-- [New Blog](https://skiddle.id/notes/New-Blog)
+- [Guides To Git For Beginner](/notes/Guides-To-Git-For-Beginner)
+- [My New Adventure Will Begin in 2024](/notes/My-New-Adventure-Will-Begin-in-2024)
+- [Adding Comments &lpar;via Utterances&rpar;](/notes/Adding-comments-via-utterances)
+- [New Chapter Begin Now!](/notes/new-chapter-begin-now)
+- [Startup Gagal? Kenapa?](/notes/Startup-gagal-lagi)
+- [New Blog](/notes/New-Blog)
 <!-- BLOG-POST-LIST:END -->
