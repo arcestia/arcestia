@@ -23,7 +23,7 @@
                                 </svg>
                                 ⚫ Ads Block
                             </h2>
-                            <div class="count">7 repositories</div>
+                            <div class="count">8 repositories</div>
                             <div class="description"></div>
                             <div class="languages">
                                 <div class="row">
@@ -32,10 +32,10 @@
                                             <rect x="0" y="0" width="420" height="8" fill="white" rx="5"/>
                                         </mask>
                                         <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                                        <rect mask="url(#languages-bar)" x="0" y="0" width="180" height="8" fill="#800000"/>
-                                        <rect mask="url(#languages-bar)" x="180" y="0" width="120" height="8" fill="#3572a5"/>
-                                        <rect mask="url(#languages-bar)" x="299.99999999999994" y="0" width="60" height="8" fill="#cccccc"/>
-                                        <rect mask="url(#languages-bar)" x="359.99999999999994" y="0" width="60" height="8" fill="#89e051"/>
+                                        <rect mask="url(#languages-bar)" x="0" y="0" width="157.5" height="8" fill="#800000"/>
+                                        <rect mask="url(#languages-bar)" x="157.5" y="0" width="105" height="8" fill="#3572a5"/>
+                                        <rect mask="url(#languages-bar)" x="262.5" y="0" width="105" height="8" fill="#89e051"/>
+                                        <rect mask="url(#languages-bar)" x="367.5" y="0" width="52.5" height="8" fill="#cccccc"/>
                                     </svg>
                                 </div>
                                 <div class="row">
@@ -48,20 +48,20 @@
                                                 Adblock Filter List
                                             </div>
                                             <small>
-                                                <div>42.86%</div>
+                                                <div>37.5%</div>
                                                 <div>3★</div>
                                             </small>
                                         </div>
                                         <div class="field language details">
                                             <div class="field">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                                    <path fill="#cccccc" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                                    <path fill="#89e051" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                                 </svg>
-                                                Text
+                                                Shell
                                             </div>
                                             <small>
-                                                <div>14.29%</div>
-                                                <div>1★</div>
+                                                <div>25%</div>
+                                                <div>2★</div>
                                             </small>
                                         </div>
                                     </section>
@@ -74,19 +74,19 @@
                                                 Python
                                             </div>
                                             <small>
-                                                <div>28.57%</div>
+                                                <div>25%</div>
                                                 <div>2★</div>
                                             </small>
                                         </div>
                                         <div class="field language details">
                                             <div class="field">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                                    <path fill="#89e051" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                                    <path fill="#cccccc" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                                 </svg>
-                                                Shell
+                                                Text
                                             </div>
                                             <small>
-                                                <div>14.29%</div>
+                                                <div>12.5%</div>
                                                 <div>1★</div>
                                             </small>
                                         </div>
