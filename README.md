@@ -101,20 +101,20 @@
 
 | Username | Day Streak | Total XP |
 |:---:|:---:|:---:|
-| 👤 arcestia | 🔥 60 | ⚡ 75269 |
+| 👤 arcestia | 🔥 61 | ⚡ 75469 |
 
 | Language | Level | XP |
 |:---:|:---:|:---:|
-| 🇪🇸 Spanish | 👑 58 | ⚡ 21973 |
-| 🇻🇳 Vietnamese | 👑 112 | ⚡ 1609 |
-| 🇩🇪 German | 👑 14 | ⚡ 22881 |
-| 🇫🇷 French | 👑 33 | ⚡ 10750 |
-| 🇺🇸 Klingon | 👑 23 | ⚡ 4710 |
-| undefined High Valyrian | 👑 22 | ⚡ 3790 |
-| null Esperanto | 👑 178 | ⚡ 4400 |
-| 🇮🇩 Indonesian | 👑 130 | ⚡ 4810 |
-| 🇨🇳 Chinese | 👑 6 | ⚡ 216 |
-| 🇺🇸 English | 👑 31 | ⚡ 130 |
+| 🇪🇸 Spanish | 👑 0 | ⚡ 22173 |
+| 🇻🇳 Vietnamese | 👑 0 | ⚡ 1609 |
+| 🇩🇪 German | 👑 0 | ⚡ 22881 |
+| 🇫🇷 French | 👑 0 | ⚡ 10750 |
+| 🇺🇸 Klingon | 👑 0 | ⚡ 4710 |
+| undefined High Valyrian | 👑 0 | ⚡ 3790 |
+| null Esperanto | 👑 0 | ⚡ 4400 |
+| 🇮🇩 Indonesian | 👑 0 | ⚡ 4810 |
+| 🇨🇳 Chinese | 👑 0 | ⚡ 216 |
+| 🇺🇸 English | 👑 0 | ⚡ 130 |
 
 <!--END_SECTION:duolingoStats-->
 </details>
