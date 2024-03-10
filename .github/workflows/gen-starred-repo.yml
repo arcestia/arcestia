@@ -16,14 +16,14 @@ jobs:
         uses: rverst/stargazer@v1.2.6
         with:
           github-user: ${{ github.actor }}
-          github-token: ${{ secrets.BOT_GH_TOKEN }}
+          github-token: ${{ secrets.GH_TOKEN }}
           list-file: "STARRED-REPOS.md"
 
       # Commit the changes
       - name: Commit files
         run: |
-          git config --local user.email "160487326+Skiddle-Git@users.noreply.github.com"
-          git config --local user.name "Skiddle-Git"
+          git config --local user.email "vrusolik@gmail.com"
+          git config --local user.name "arcestia"
           git add .
           git commit -m ":star: Updates Starred Repo List"
 
