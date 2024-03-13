@@ -2,7 +2,7 @@ name: 'Workflow cleanup'
 
 on:
   schedule:
-    - cron: '0 0 */3 * *'
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
@@ -10,9 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Delete workflow runs
-        uses: Mattraks/delete-workflow-runs@v2
+        uses: GitRML/delete-workflow-runs@main
         with:
-          token: ${{ github.token }}
+          token: ${{ secrets.BOT_GITHUB_TOKEN || github.token }}
           repository: ${{ github.repository }}
-          retain_days: 30
-          keep_minimum_runs: 6
+          keep_minimum_runs: 1
+          retain_days: 1
