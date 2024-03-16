@@ -101,7 +101,7 @@
 
 | Username | Day Streak | Total XP |
 |:---:|:---:|:---:|
-| 👤 arcestia | 🔥 67 | ⚡ 78824 |
+| 👤 arcestia | 🔥 0 | ⚡ 78824 |
 
 | Language | Level | XP |
 |:---:|:---:|:---:|
