@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           filename: assets/metrics/sponsors.svg
           committer_message: "📊 Updates metrics - sponsors"
           # Options
@@ -39,7 +39,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           filename: assets/metrics/contributions.svg
           committer_message: "📊 Updates metrics - contributions"
           committer_token: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
@@ -58,7 +58,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           filename: assets/metrics/tickets.svg
           committer_message: "📊 Updates metrics - tickets"
           committer_token: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
@@ -76,7 +76,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           filename: assets/metrics/habits.svg
           committer_message: "📊 Updates metrics - habbits"
           user: arcestia
@@ -97,7 +97,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           filename: assets/metrics/stargazers.svg
           committer_message: "📊 Updates metrics - stargazers"
           committer_token: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
@@ -115,7 +115,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           filename: assets/metrics/activity.svg
           committer_message: "📊 Updates metrics - activity"
           committer_token: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
@@ -134,7 +134,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           filename: assets/metrics/reactions.svg
           committer_message: "📊 Updates metrics - reactions"
           committer_token: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
@@ -156,7 +156,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           committer_message: "📊 Updates metrics - people"
           committer_token: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           filename: assets/metrics/people.svg
@@ -174,7 +174,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           filename: assets/metrics/languages.svg
           committer_message: "📊 Updates metrics - languages"
           committer_token: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
@@ -197,7 +197,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           filename: assets/metrics/achievements.svg
           committer_message: "📊 Updates metrics - acheivments"
           committer_token: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
@@ -215,7 +215,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           filename: assets/metrics/notable.svg
           committer_message: "📊 Updates metrics - notable contribs"
           committer_token: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
@@ -235,7 +235,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           filename: assets/metrics/discussions.svg
           committer_message: "📊 Updates metrics - discussions"
           committer_token: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
@@ -252,7 +252,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           filename: assets/metrics/gists.svg
           committer_message: "📊 Updates metrics - gists"
           committer_token: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
@@ -268,7 +268,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           filename: assets/metrics/starlists.svg
           committer_message: "📊 Updates metrics - starlists"
           committer_token: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
@@ -287,7 +287,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           filename: assets/metrics/intro.svg
           committer_message: "📊 Updates metrics - intro"
           committer_token: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
@@ -303,7 +303,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           filename: assets/metrics/repositories.svg
           committer_message: "📊 Updates metrics - repositories"
           committer_token: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
@@ -321,7 +321,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           filename: assets/metrics/topics.svg
           committer_message: "📊 Updates metrics - topics"
           committer_token: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
@@ -344,7 +344,7 @@ jobs:
           committer_token: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           user: arcestia
           base: ""
-          token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           plugin_stackoverflow: yes
           plugin_stackoverflow_user: 23370400
           plugin_stackoverflow_sections: answers-top
@@ -363,7 +363,7 @@ jobs:
           committer_token: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           user: arcestia
           base: ""
-          token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           plugin_tweets: yes
           plugin_tweets_token: ${{ secrets.TWITTER_TOKEN }}
           plugin_tweets_attachments: yes
@@ -383,7 +383,7 @@ jobs:
           committer_token: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           user: arcestia
           base: ""
-          token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           plugin_rss: yes
           plugin_rss_source: https://skiddle.id/feed
           plugin_rss_limit: 8
@@ -417,7 +417,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           filename: assets/metrics/all.svg
           committer_message: "📊 Updates metrics - all"
           committer_token: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
@@ -470,7 +470,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           filename: assets/metrics/summary.svg
           committer_message: "📊 Updates metrics - summary"
           committer_token: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
