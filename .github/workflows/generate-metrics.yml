@@ -30,6 +30,24 @@ jobs:
           plugin_sponsors_past: yes
           plugin_sponsors_sections: goal, list
           plugin_sponsors_size: 36
+
+  # Classic One
+  classic-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+          filename: assets/metrics/classic.svg
+          committer_message: "📊 Updates metrics - classic"
+          # Options
+          user: arcestia
+          template: classic
+          base: header, repositories
+          config_timezone: Asia/Bangkok
+          plugin_lines: yes
   
   # 10 Years worth of contribution charts
   historical-contribuitions-metrics:
