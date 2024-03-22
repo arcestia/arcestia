@@ -23,7 +23,7 @@
                                 </svg>
                                 ⚫ Ads &amp; DNS Blocklist
                             </h2>
-                            <div class="count">20 repositories</div>
+                            <div class="count">21 repositories</div>
                             <div class="description"></div>
                             <div class="languages">
                                 <div class="row">
@@ -32,12 +32,12 @@
                                             <rect x="0" y="0" width="420" height="8" fill="white" rx="5"/>
                                         </mask>
                                         <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                                        <rect mask="url(#languages-bar)" x="0" y="0" width="161.53846153846155" height="8" fill="#89e051"/>
-                                        <rect mask="url(#languages-bar)" x="161.53846153846155" y="0" width="96.92307692307693" height="8" fill="#800000"/>
-                                        <rect mask="url(#languages-bar)" x="258.46153846153845" y="0" width="64.61538461538461" height="8" fill="#3572a5"/>
-                                        <rect mask="url(#languages-bar)" x="323.0769230769231" y="0" width="32.30769230769231" height="8" fill="#cccccc"/>
-                                        <rect mask="url(#languages-bar)" x="355.3846153846154" y="0" width="32.30769230769231" height="8" fill="#e34c26"/>
-                                        <rect mask="url(#languages-bar)" x="387.69230769230774" y="0" width="32.30769230769231" height="8" fill="#f1e05a"/>
+                                        <rect mask="url(#languages-bar)" x="0" y="0" width="150" height="8" fill="#89e051"/>
+                                        <rect mask="url(#languages-bar)" x="150" y="0" width="120" height="8" fill="#800000"/>
+                                        <rect mask="url(#languages-bar)" x="270" y="0" width="60" height="8" fill="#3572a5"/>
+                                        <rect mask="url(#languages-bar)" x="329.99999999999994" y="0" width="30" height="8" fill="#cccccc"/>
+                                        <rect mask="url(#languages-bar)" x="359.99999999999994" y="0" width="30" height="8" fill="#e34c26"/>
+                                        <rect mask="url(#languages-bar)" x="389.99999999999994" y="0" width="30" height="8" fill="#f1e05a"/>
                                     </svg>
                                 </div>
                                 <div class="row">
@@ -50,7 +50,7 @@
                                                 Shell
                                             </div>
                                             <small>
-                                                <div>25%</div>
+                                                <div>23.81%</div>
                                                 <div>5★</div>
                                             </small>
                                         </div>
@@ -62,7 +62,7 @@
                                                 Python
                                             </div>
                                             <small>
-                                                <div>10%</div>
+                                                <div>9.52%</div>
                                                 <div>2★</div>
                                             </small>
                                         </div>
@@ -74,7 +74,7 @@
                                                 HTML
                                             </div>
                                             <small>
-                                                <div>5%</div>
+                                                <div>4.76%</div>
                                                 <div>1★</div>
                                             </small>
                                         </div>
@@ -88,8 +88,8 @@
                                                 Adblock Filter List
                                             </div>
                                             <small>
-                                                <div>15%</div>
-                                                <div>3★</div>
+                                                <div>19.05%</div>
+                                                <div>4★</div>
                                             </small>
                                         </div>
                                         <div class="field language details">
@@ -100,7 +100,7 @@
                                                 Text
                                             </div>
                                             <small>
-                                                <div>5%</div>
+                                                <div>4.76%</div>
                                                 <div>1★</div>
                                             </small>
                                         </div>
@@ -112,7 +112,7 @@
                                                 JavaScript
                                             </div>
                                             <small>
-                                                <div>5%</div>
+                                                <div>4.76%</div>
                                                 <div>1★</div>
                                             </small>
                                         </div>
