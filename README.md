@@ -1,12 +1,12 @@
 <img src="https://cdn.skiddle.id/github/profile.webp" alt="Github Profile Banner">
 
 <h1 align="center">Hello, I'm Laurensius Jeffrey (just call me "Jeff")</h1>
-<h3 align="center">Now Just a Trader Who still like to code.</h3>
+<h3 align="center">Part-time Stock Trader and Investor. Developer & Contributor to OSS</h3>
 
 <img src="https://github-stats-alpha.vercel.app/api?username=arcestia&cc=000&tc=fff&ic=fff&bc=000">
 
 <details>
-<summary>Project I'm Currently Working on</summary>
+<summary>Project I'm Currently Working on (Private atm)</summary>
 <ul>
     <li>Open API for Utilized LLM Model With Laravel and FastAPI in AWS Lambda</li>
     <li>Sekoci : Multimodal Large Language Model (MLLM) Still on Closed Development</li>
