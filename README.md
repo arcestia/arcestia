@@ -4,6 +4,7 @@
 <h3 align="center">Part-time Stock Trader and Investor. Developer & Contributor to OSS</h3>
 
 <img src="https://github-stats-alpha.vercel.app/api?username=arcestia&cc=000&tc=fff&ic=fff&bc=000">
+<img src="https://wakapi.dev/api/badge/skiddle/interval:any">
 
 <details>
 <summary>Project I'm Currently Working on (Private atm)</summary>
