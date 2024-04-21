@@ -7,7 +7,7 @@
 <img src="https://wakapi.dev/api/badge/skiddle/interval:any?label=Coding%20Time">
 
 <details>
-<summary>Project I'm Currently Working on (Private atm)</summary>
+<summary>Project I'm Currently Working (Sorry Project Moved to Mercurial)</summary>
 <ul>
     <li>Open API for Utilized LLM Model With Laravel and FastAPI in AWS Lambda</li>
     <li>Sekoci : Multimodal Large Language Model (MLLM) Still on Closed Development</li>
