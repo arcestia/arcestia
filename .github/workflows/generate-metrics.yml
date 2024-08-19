@@ -21,6 +21,7 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
           filename: assets/metrics/sponsors.svg
           committer_message: "📊 Updates metrics - sponsors"
+          committer_token: ${{ secrets.GH_TOKEN }}
           # Options
           user: arcestia
           template: classic
@@ -42,6 +43,7 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
           filename: assets/metrics/classic.svg
           committer_message: "📊 Updates metrics - classic"
+          committer_token: ${{ secrets.GH_TOKEN }}
           # Options
           user: arcestia
           template: classic
@@ -97,6 +99,7 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
           filename: assets/metrics/habits.svg
           committer_message: "📊 Updates metrics - habbits"
+          committer_token: ${{ secrets.GH_TOKEN }}
           user: arcestia
           base: ""
           plugin_habits: yes
