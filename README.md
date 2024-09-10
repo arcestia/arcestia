@@ -1,7 +1,7 @@
 <img src="https://cdn.skiddle.id/github/profile.webp" alt="Github Profile Banner">
 
 <h1 align="center">Hello, I'm Laurensius Jeffrey (just call me "Jeff")</h1>
-<h3 align="center">Part-time Stock Trader and Investor. Developer & Hardcore Data Hoarder</h3>
+<h3 align="center">Part-time Stock Trader and Developer.</h3>
 <div align="center">
     <img src="https://wakapi.dev/api/badge/skiddle/interval:any?label=Coding%20Time"><br>
     <img align="center" src="https://streak-stats.demolab.com?user=arcestia" alt="GitHub Streak" />
