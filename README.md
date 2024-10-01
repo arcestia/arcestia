@@ -29,6 +29,7 @@
 
 ## Activism
 
+* Active Archiving Internet with Archive Team & Internet Archive.
 * Founded Ascendio Foundation for social charity activities.
 * Volunteered with the UN on several occasions.
 * Amnesty International: Educates people on defending human rights.
