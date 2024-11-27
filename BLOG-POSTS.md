@@ -4,10 +4,6 @@
 
 
 <!-- BLOG-POST-LIST:START -->
-- [Guides To Git For Beginner](/notes/Guides-To-Git-For-Beginner)
-- [My New Adventure Will Begin in 2024](/notes/My-New-Adventure-Will-Begin-in-2024)
-- [Adding Comments &lpar;via Utterances&rpar;](/notes/Adding-comments-via-utterances)
-- [New Chapter Begin Now!](/notes/new-chapter-begin-now)
-- [Startup Gagal? Kenapa?](/notes/Startup-gagal-lagi)
-- [New Blog](/notes/New-Blog)
+- [Introducing Atprotoblog: Your Gateway to Decentralized Blogging](http://skiddle.id/posts/3l6a5qv3s3k2q)
+- [Hello Atproto!!](http://skiddle.id/posts/3l3v2c4quyz2s)
 <!-- BLOG-POST-LIST:END -->
