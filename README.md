@@ -45,6 +45,9 @@
 <!-- BLOG-POST-LIST:START -->
 - [Introducing Atprotoblog: Your Gateway to Decentralized Blogging](http://skiddle.id/posts/3l6a5qv3s3k2q)
 - [Hello Atproto!!](http://skiddle.id/posts/3l3v2c4quyz2s)
+- [The AI Dilemma - Nature](https://www.nature.com/articles/d41586-023-00288-7)
+- [Fatal Force database - The Washington Post](https://www.washingtonpost.com/graphics/investigations/police-shootings-database/)
+- [Finally Christmas, So what would i do? - Medium](https://medium.com/catatan-arcestia/finally-christmas-so-what-would-i-do-ca4d50c375aa?source=rss-8e9b96e06105------2)
 <!-- BLOG-POST-LIST:END -->
 
 ------
