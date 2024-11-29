@@ -45,9 +45,9 @@
 <!-- BLOG-POST-LIST:START -->
 - [Introducing Atprotoblog: Your Gateway to Decentralized Blogging](http://skiddle.id/posts/3l6a5qv3s3k2q)
 - [Hello Atproto!!](http://skiddle.id/posts/3l3v2c4quyz2s)
-- [Finally Christmas, So what would i do? - Medium](https://medium.com/catatan-arcestia/finally-christmas-so-what-would-i-do-ca4d50c375aa?source=rss-8e9b96e06105------2)
-- [When dreams came true… - Medium](https://medium.com/just-a-piece-of-works/when-dreams-came-true-b552c635dd70?source=rss-8e9b96e06105------2)
-- [Hidup sesuai dengan Pribadi-Nya - Medium](https://medium.com/catatan-arcestia/hidup-sesuai-dengan-pribadi-nya-3dcc0b7b9b0d?source=rss-8e9b96e06105------2)
+- [Guides To Git For Beginner](http://skiddle.id/blog/2024/Guides-To-Git-For-Beginner)
+- [My New Adventure Will Begin in 2024](http://skiddle.id/blog/2023/My-New-Adventure-Will-Begin-in-2024)
+- [Adding Comments &lpar;via Utterances&rpar;](http://skiddle.id/blog/2020/Adding-comments-via-utterances)
 <!-- BLOG-POST-LIST:END -->
 
 ------
