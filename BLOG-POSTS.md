@@ -4,6 +4,7 @@
 
 
 <!-- BLOG-POST-LIST:START -->
+- [My Local AI Setup](http://skiddle.id/posts/3ldsuecqpou25)
 - [Introducing Atprotoblog: Your Gateway to Decentralized Blogging](http://skiddle.id/posts/3l6a5qv3s3k2q)
 - [Hello Atproto!!](http://skiddle.id/posts/3l3v2c4quyz2s)
 - [Guides To Git For Beginner](http://skiddle.id/blog/2024/Guides-To-Git-For-Beginner)
