@@ -2,7 +2,7 @@ name: 📰 Update Blog Post List
 on:
   workflow_dispatch: # Manual dispatch
   schedule:
-    - cron: '0 1 * * *' # At 01:00 Everyday.
+    - cron: '0 */8 * * *' # Every 8 hours.
 jobs:
   get-posts:
     name: Get Blog Posts from RSS Feed
