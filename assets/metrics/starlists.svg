@@ -142,7 +142,7 @@
                                 </svg>
                                 🤖 AI &amp; ML Stuff 🧠
                             </h2>
-                            <div class="count">8 repositories</div>
+                            <div class="count">9 repositories</div>
                             <div class="description"></div>
                             <div class="languages">
                                 <div class="row">
@@ -151,9 +151,9 @@
                                             <rect x="0" y="0" width="420" height="8" fill="white" rx="5"/>
                                         </mask>
                                         <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                                        <rect mask="url(#languages-bar)" x="0" y="0" width="315" height="8" fill="#3572a5"/>
-                                        <rect mask="url(#languages-bar)" x="315" y="0" width="52.5" height="8" fill="#3178c6"/>
-                                        <rect mask="url(#languages-bar)" x="367.5" y="0" width="52.5" height="8" fill="#da5b0b"/>
+                                        <rect mask="url(#languages-bar)" x="0" y="0" width="280" height="8" fill="#3572a5"/>
+                                        <rect mask="url(#languages-bar)" x="280" y="0" width="93.33333333333333" height="8" fill="#da5b0b"/>
+                                        <rect mask="url(#languages-bar)" x="373.3333333333333" y="0" width="46.666666666666664" height="8" fill="#3178c6"/>
                                     </svg>
                                 </div>
                                 <div class="row">
@@ -166,24 +166,10 @@
                                                 Python
                                             </div>
                                             <small>
-                                                <div>75%</div>
+                                                <div>66.67%</div>
                                                 <div>6★</div>
                                             </small>
                                         </div>
-                                        <div class="field language details">
-                                            <div class="field">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                                    <path fill="#da5b0b" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
-                                                </svg>
-                                                Jupyter Notebook
-                                            </div>
-                                            <small>
-                                                <div>12.5%</div>
-                                                <div>1★</div>
-                                            </small>
-                                        </div>
-                                    </section>
-                                    <section>
                                         <div class="field language details">
                                             <div class="field">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -192,8 +178,22 @@
                                                 TypeScript
                                             </div>
                                             <small>
-                                                <div>12.5%</div>
+                                                <div>11.11%</div>
                                                 <div>1★</div>
+                                            </small>
+                                        </div>
+                                    </section>
+                                    <section>
+                                        <div class="field language details">
+                                            <div class="field">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                                    <path fill="#da5b0b" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                                </svg>
+                                                Jupyter Notebook
+                                            </div>
+                                            <small>
+                                                <div>22.22%</div>
+                                                <div>2★</div>
                                             </small>
                                         </div>
                                     </section>
