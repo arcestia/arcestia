@@ -5,7 +5,7 @@
 <div align="center">
     <img src="https://wakapi.dev/api/badge/skiddle/interval:any?label=Coding%20Time"><br>
     <img align="center" src="https://streak-stats.demolab.com?user=arcestia" alt="GitHub Streak" /><br>
-    <img src="https://img.shields.io/endpoint?url=https://api.skiddle.id/spotify/now" alt="Now Playing">
+    <img src="https://nocache.advaith.workers.dev/?url=https://img.shields.io/endpoint?url=https://api.skiddle.id/spotify/now" alt="Now Playing">
 </div>
 
 ## Skills & Interests
