@@ -16,14 +16,14 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 37.8mb of code in 542 edited files across 543 commits</small>
+                <small>estimation from 37.8mb of code in 547 edited files across 548 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="129.1751976695797" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="129.1751976695797" y="0" width="330.8248023304203" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="116.33610673862529" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="116.33610673862529" y="0" width="343.6638932613747" height="8" fill="#ededed"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -49,8 +49,8 @@
                                 Other
                             </div>
                             <small>
-                                <div>209 lines</div>
-                                <div>8.64 kB</div>
+                                <div>234 lines</div>
+                                <div>9.97 kB</div>
                             </small>
                         </div>
                     </section>
@@ -66,7 +66,7 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 4.70mb of code in 1893 edited files across 390 commits over last 63 days</small>
+                <small>estimation from 4.71mb of code in 1892 edited files across 388 commits over last 61 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
