@@ -48,11 +48,11 @@
 
 ### 📝 Check out my latest articles!
 <!-- BLOG-POST-LIST:START -->
-- [Self Evaluation: A Year of Growth and Insight](http://skiddle.id/posts/3le7kasjsxc2a)
+- [EN: Self Evaluation: A Year of Growth and Insight](http://skiddle.id/posts/3le7kasjsxc2a)
+- [DE: Selbstbewertung: Ein Jahr voller Wachstum und Einsichten](http://skiddle.id/posts/3ledu6dnpqs2a)
 - [Building a Personal API with Hono and Cloudflare Workers](http://skiddle.id/posts/3ldzlpg67ok2a)
 - [My Local AI Setup](http://skiddle.id/posts/3ldsuecqpou25)
 - [Introducing Atprotoblog: Your Gateway to Decentralized Blogging](http://skiddle.id/posts/3l6a5qv3s3k2q)
-- [Hello Atproto!!](http://skiddle.id/posts/3l3v2c4quyz2s)
 <!-- BLOG-POST-LIST:END -->
 
 ------
