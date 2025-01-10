@@ -16,11 +16,11 @@
 - **Reading:** Primarily Geo-Politics & Geo-Economics, also Cybersecurity & AI
 - **Multilingual:**
     - Bahasa Indonesia (Native)
+    - Bahasa Melayu (B2)
     - English (B1)
-    - Mandarin (A2)
-    - Vietnamese (A1)
-    - Bahasa Melayu (B1)
-    - Singaporean English (B2)
+    - Thai (Intermediate)
+    - Mandarin (HSK 3)
+    - Vietnamese (Level 4)
     - French (A1)
     - German (A2)
     - Esperanto
