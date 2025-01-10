@@ -17,7 +17,7 @@
 - **Multilingual:**
     - Bahasa Indonesia (Native)
     - Bahasa Melayu (B2)
-    - English (B1)
+    - English (B2)
     - Thai (Intermediate)
     - Mandarin (HSK 3)
     - Vietnamese (Level 4)
