@@ -142,7 +142,7 @@
                                 </svg>
                                 🤖 AI &amp; ML Stuff 🧠
                             </h2>
-                            <div class="count">10 repositories</div>
+                            <div class="count">11 repositories</div>
                             <div class="description"></div>
                             <div class="languages">
                                 <div class="row">
@@ -151,9 +151,9 @@
                                             <rect x="0" y="0" width="420" height="8" fill="white" rx="5"/>
                                         </mask>
                                         <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                                        <rect mask="url(#languages-bar)" x="0" y="0" width="252" height="8" fill="#3572a5"/>
-                                        <rect mask="url(#languages-bar)" x="252" y="0" width="84" height="8" fill="#3178c6"/>
-                                        <rect mask="url(#languages-bar)" x="336" y="0" width="84" height="8" fill="#da5b0b"/>
+                                        <rect mask="url(#languages-bar)" x="0" y="0" width="267.27272727272725" height="8" fill="#3572a5"/>
+                                        <rect mask="url(#languages-bar)" x="267.27272727272725" y="0" width="76.36363636363636" height="8" fill="#3178c6"/>
+                                        <rect mask="url(#languages-bar)" x="343.6363636363636" y="0" width="76.36363636363636" height="8" fill="#da5b0b"/>
                                     </svg>
                                 </div>
                                 <div class="row">
@@ -166,8 +166,8 @@
                                                 Python
                                             </div>
                                             <small>
-                                                <div>60%</div>
-                                                <div>6★</div>
+                                                <div>63.64%</div>
+                                                <div>7★</div>
                                             </small>
                                         </div>
                                         <div class="field language details">
@@ -178,7 +178,7 @@
                                                 Jupyter Notebook
                                             </div>
                                             <small>
-                                                <div>20%</div>
+                                                <div>18.18%</div>
                                                 <div>2★</div>
                                             </small>
                                         </div>
@@ -192,7 +192,7 @@
                                                 TypeScript
                                             </div>
                                             <small>
-                                                <div>20%</div>
+                                                <div>18.18%</div>
                                                 <div>2★</div>
                                             </small>
                                         </div>
