@@ -48,11 +48,11 @@
 
 ### 📝 Check out my latest articles!
 <!-- BLOG-POST-LIST:START -->
-- [My Ultimate AI Workstation: Future-Proofed for DeepSeek R1 &lpar;671B&rpar; &amp; NVIDIA Project DIGITS 🚀](http://skiddle.id/posts/3lh6t7k7mhc27)
 - [Introducing Our Free API Service: CheckDomain](http://skiddle.id/posts/3lelddfqwzk27)
 - [EN: Self Evaluation: A Year of Growth and Insight](http://skiddle.id/posts/3le7kasjsxc2a)
 - [DE: Selbstbewertung: Ein Jahr voller Wachstum und Einsichten](http://skiddle.id/posts/3ledu6dnpqs2a)
 - [Building a Personal API with Hono and Cloudflare Workers](http://skiddle.id/posts/3ldzlpg67ok2a)
+- [My Local AI Setup](http://skiddle.id/posts/3ldsuecqpou25)
 <!-- BLOG-POST-LIST:END -->
 
 ------
