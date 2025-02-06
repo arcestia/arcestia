@@ -151,9 +151,9 @@
                                             <rect x="0" y="0" width="420" height="8" fill="white" rx="5"/>
                                         </mask>
                                         <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                                        <rect mask="url(#languages-bar)" x="0" y="0" width="280" height="8" fill="#3572a5"/>
-                                        <rect mask="url(#languages-bar)" x="280" y="0" width="70" height="8" fill="#3178c6"/>
-                                        <rect mask="url(#languages-bar)" x="349.99999999999994" y="0" width="70" height="8" fill="#da5b0b"/>
+                                        <rect mask="url(#languages-bar)" x="0" y="0" width="315" height="8" fill="#3572a5"/>
+                                        <rect mask="url(#languages-bar)" x="315" y="0" width="70" height="8" fill="#3178c6"/>
+                                        <rect mask="url(#languages-bar)" x="385" y="0" width="35" height="8" fill="#da5b0b"/>
                                     </svg>
                                 </div>
                                 <div class="row">
@@ -166,8 +166,8 @@
                                                 Python
                                             </div>
                                             <small>
-                                                <div>66.67%</div>
-                                                <div>8★</div>
+                                                <div>75%</div>
+                                                <div>9★</div>
                                             </small>
                                         </div>
                                         <div class="field language details">
@@ -178,8 +178,8 @@
                                                 Jupyter Notebook
                                             </div>
                                             <small>
-                                                <div>16.67%</div>
-                                                <div>2★</div>
+                                                <div>8.33%</div>
+                                                <div>1★</div>
                                             </small>
                                         </div>
                                     </section>
