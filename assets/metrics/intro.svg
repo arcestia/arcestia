@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="42" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="60" class="">
     <defs>
         <style/>
     </defs>
@@ -15,8 +15,9 @@
                 </h2>
                 <div class="row fill-width">
                     <section>
-                        <div class="introduction">
-                        </div>
+                        <div class="introduction">Repo Elsewhere: 
+https://git.skiddle.id
+https://codeberg.org/arcestia</div>
                     </section>
                 </div>
             </section>
