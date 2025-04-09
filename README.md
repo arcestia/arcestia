@@ -1,4 +1,4 @@
-<img src="https://cdn.skiddle.id/github/profile.webp" alt="Github Profile Banner">
+<img src="https://nocache.advaith.workers.dev/?url=https://cdn.skiddle.id/github/profile.webp" alt="Github Profile Banner">
 
 <h1 align="center">Hello, I'm Laurensius Jeffrey (just call me "Jeff")</h1>
 <h3 align="center">Part-time Stock Trader and Developer.</h3>
