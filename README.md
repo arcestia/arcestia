@@ -32,9 +32,9 @@
 ## Activism
 
 - Active Archiving Internet with Archive Team & Internet Archive.
-- Founded Ascendio Foundation for social charity activities.
+- Founded Ascendio Foundation for charitable & digital initiative (Digital Rights, Open-Source, Decentralized).
 - Volunteered with the UNHCR Indonesia on several occasions.
-- Amnesty International: Educates people on defending human rights.
+- Amnesty International: Educates people on Protection of Digital Rights.
 - Greenpeace Supporter (formerly volunteered in deforestation protests)
 
 <h3 align="left">Languages and Tools:</h3>
