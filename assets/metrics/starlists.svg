@@ -129,7 +129,7 @@
                                 </svg>
                                 🤖 AI &amp; ML Stuff 🧠
                             </h2>
-                            <div class="count">16 repositories</div>
+                            <div class="count">17 repositories</div>
                             <div class="description"></div>
                             <div class="languages">
                                 <div class="row">
@@ -138,9 +138,9 @@
                                             <rect x="0" y="0" width="420" height="8" fill="white" rx="5"/>
                                         </mask>
                                         <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                                        <rect mask="url(#languages-bar)" x="0" y="0" width="308" height="8" fill="#3572a5"/>
-                                        <rect mask="url(#languages-bar)" x="308" y="0" width="84" height="8" fill="#3178c6"/>
-                                        <rect mask="url(#languages-bar)" x="392" y="0" width="28" height="8" fill="#da5b0b"/>
+                                        <rect mask="url(#languages-bar)" x="0" y="0" width="288.75" height="8" fill="#3572a5"/>
+                                        <rect mask="url(#languages-bar)" x="288.75" y="0" width="105" height="8" fill="#3178c6"/>
+                                        <rect mask="url(#languages-bar)" x="393.75" y="0" width="26.25" height="8" fill="#da5b0b"/>
                                     </svg>
                                 </div>
                                 <div class="row">
@@ -153,7 +153,7 @@
                                                 Python
                                             </div>
                                             <small>
-                                                <div>68.75%</div>
+                                                <div>64.71%</div>
                                                 <div>11★</div>
                                             </small>
                                         </div>
@@ -165,7 +165,7 @@
                                                 Jupyter Notebook
                                             </div>
                                             <small>
-                                                <div>6.25%</div>
+                                                <div>5.88%</div>
                                                 <div>1★</div>
                                             </small>
                                         </div>
@@ -179,8 +179,8 @@
                                                 TypeScript
                                             </div>
                                             <small>
-                                                <div>18.75%</div>
-                                                <div>3★</div>
+                                                <div>23.53%</div>
+                                                <div>4★</div>
                                             </small>
                                         </div>
                                     </section>
