@@ -129,7 +129,7 @@
                                 </svg>
                                 🤖 AI &amp; ML Stuff 🧠
                             </h2>
-                            <div class="count">18 repositories</div>
+                            <div class="count">19 repositories</div>
                             <div class="description"></div>
                             <div class="languages">
                                 <div class="row">
@@ -138,9 +138,10 @@
                                             <rect x="0" y="0" width="420" height="8" fill="white" rx="5"/>
                                         </mask>
                                         <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                                        <rect mask="url(#languages-bar)" x="0" y="0" width="296.47058823529414" height="8" fill="#3572a5"/>
-                                        <rect mask="url(#languages-bar)" x="296.47058823529414" y="0" width="98.82352941176471" height="8" fill="#3178c6"/>
-                                        <rect mask="url(#languages-bar)" x="395.29411764705884" y="0" width="24.705882352941178" height="8" fill="#da5b0b"/>
+                                        <rect mask="url(#languages-bar)" x="0" y="0" width="280" height="8" fill="#3572a5"/>
+                                        <rect mask="url(#languages-bar)" x="280" y="0" width="93.33333333333333" height="8" fill="#3178c6"/>
+                                        <rect mask="url(#languages-bar)" x="373.3333333333333" y="0" width="23.333333333333332" height="8" fill="#da5b0b"/>
+                                        <rect mask="url(#languages-bar)" x="396.66666666666663" y="0" width="23.333333333333332" height="8" fill="#a97bff"/>
                                     </svg>
                                 </div>
                                 <div class="row">
@@ -153,7 +154,7 @@
                                                 Python
                                             </div>
                                             <small>
-                                                <div>66.67%</div>
+                                                <div>63.16%</div>
                                                 <div>12★</div>
                                             </small>
                                         </div>
@@ -165,7 +166,7 @@
                                                 Jupyter Notebook
                                             </div>
                                             <small>
-                                                <div>5.56%</div>
+                                                <div>5.26%</div>
                                                 <div>1★</div>
                                             </small>
                                         </div>
@@ -179,8 +180,20 @@
                                                 TypeScript
                                             </div>
                                             <small>
-                                                <div>22.22%</div>
+                                                <div>21.05%</div>
                                                 <div>4★</div>
+                                            </small>
+                                        </div>
+                                        <div class="field language details">
+                                            <div class="field">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                                    <path fill="#a97bff" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                                </svg>
+                                                Kotlin
+                                            </div>
+                                            <small>
+                                                <div>5.26%</div>
+                                                <div>1★</div>
                                             </small>
                                         </div>
                                     </section>
