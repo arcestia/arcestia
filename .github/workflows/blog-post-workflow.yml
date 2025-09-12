@@ -13,7 +13,7 @@ jobs:
       - name: Pull in listed.to posts into blog page
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://skiddle.id/feed"
+          feed_list: "https://skiddle.id/rss.xml"
           max_post_count: 100
           readme_path: BLOG-POSTS.md
           gh_token: ${{ secrets.BOT_GITHUB_TOKEN }}
@@ -23,7 +23,7 @@ jobs:
       - name: Pull in listed.to posts into readme
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://skiddle.id/feed"
+          feed_list: "https://skiddle.id/rss.xml"
           max_post_count: 5
           readme_path: README.md
           gh_token: ${{ secrets.BOT_GITHUB_TOKEN }}
