@@ -4,6 +4,5 @@
 
 
 <!-- BLOG-POST-LIST:START -->
-- [lalalala](https://skiddle.id/posts/3lymzp75x2t2u/)
-- [Testing Only](https://skiddle.id/posts/3lykfj47ais2c/)
+- [A Newest Refactoring of My Personal Sites](https://skiddle.id/posts/3lyutoqgvqh2k/)
 <!-- BLOG-POST-LIST:END -->
