@@ -48,6 +48,7 @@
 
 ### 📝 Check out my latest articles!
 <!-- BLOG-POST-LIST:START -->
+- [My Last Month at Aerialite](https://skiddle.id/posts/3lz6nxxqb6s2x/)
 - [A Newest Refactoring of My Personal Sites](https://skiddle.id/posts/3lyutoqgvqh2k/)
 <!-- BLOG-POST-LIST:END -->
 
