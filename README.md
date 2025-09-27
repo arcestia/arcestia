@@ -6,7 +6,9 @@
 <div align="center">
     <img src="https://wakapi.dev/api/badge/skiddle/interval:any?label=Coding%20Time"><br>
     <img align="center" src="https://streak.skiddle.my.id?user=arcestia" alt="GitHub Streak" /><br>
-    <img src="https://skiddle.blue/lastfm.svg" alt="Now Playing">
+    <a href="https://www.last.fm/user/arcestia">
+      <img src="https://skiddle.blue/lastfm.svg" alt="Now Playing">
+    </a>
 </div>
 
 ## Skills & Interests
