@@ -16,7 +16,7 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 46.9mb of code in 1879 edited files across 1691 commits</small>
+                <small>estimation from 47mb of code in 1883 edited files across 1695 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
@@ -131,19 +131,19 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 533kb of code in 200 edited files across 228 commits over last 30 days</small>
+                <small>estimation from 543kb of code in 202 edited files across 230 commits over last 30 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="189.50809402669233" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="189.50809402669233" y="0" width="127.06850319712146" height="8" fill="#ff5a03"/>
-                    <rect mask="url(#languages-bar)" x="316.57659722381374" y="0" width="66.08026035340224" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="382.656857577216" y="0" width="38.37111055088274" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="421.0279681280988" y="0" width="32.68168587995325" height="8" fill="#878787"/>
-                    <rect mask="url(#languages-bar)" x="453.70965400805204" y="0" width="5.92487337565604" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="459.634527383708" y="0" width="0.36547261629195027" height="8" fill="#663399"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="187.8079101178038" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="187.8079101178038" y="0" width="130.05541927864087" height="8" fill="#ff5a03"/>
+                    <rect mask="url(#languages-bar)" x="317.8633293964447" y="0" width="65.48741709821023" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="383.35074649465497" y="0" width="38.02686169407347" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="421.3776081887284" y="0" width="32.38848005814482" height="8" fill="#878787"/>
+                    <rect mask="url(#languages-bar)" x="453.76608824687327" y="0" width="5.871717997637867" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="459.6378062445111" y="0" width="0.3621937554889313" height="8" fill="#663399"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -205,8 +205,8 @@
                                 Astro
                             </div>
                             <small>
-                                <div>722 lines</div>
-                                <div>36.1 kB</div>
+                                <div>754 lines</div>
+                                <div>37.3 kB</div>
                             </small>
                         </div>
                         <div class="field language details">
