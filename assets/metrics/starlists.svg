@@ -138,9 +138,8 @@
                                             <rect x="0" y="0" width="420" height="8" fill="white" rx="5"/>
                                         </mask>
                                         <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                                        <rect mask="url(#languages-bar)" x="0" y="0" width="280" height="8" fill="#3572a5"/>
-                                        <rect mask="url(#languages-bar)" x="280" y="0" width="93.33333333333333" height="8" fill="#3178c6"/>
-                                        <rect mask="url(#languages-bar)" x="373.3333333333333" y="0" width="23.333333333333332" height="8" fill="#da5b0b"/>
+                                        <rect mask="url(#languages-bar)" x="0" y="0" width="303.3333333333333" height="8" fill="#3572a5"/>
+                                        <rect mask="url(#languages-bar)" x="303.3333333333333" y="0" width="93.33333333333333" height="8" fill="#3178c6"/>
                                         <rect mask="url(#languages-bar)" x="396.66666666666663" y="0" width="23.333333333333332" height="8" fill="#a97bff"/>
                                     </svg>
                                 </div>
@@ -154,16 +153,16 @@
                                                 Python
                                             </div>
                                             <small>
-                                                <div>60%</div>
-                                                <div>12★</div>
+                                                <div>65%</div>
+                                                <div>13★</div>
                                             </small>
                                         </div>
                                         <div class="field language details">
                                             <div class="field">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                                    <path fill="#da5b0b" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                                    <path fill="#a97bff" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                                 </svg>
-                                                Jupyter Notebook
+                                                Kotlin
                                             </div>
                                             <small>
                                                 <div>5%</div>
@@ -182,18 +181,6 @@
                                             <small>
                                                 <div>20%</div>
                                                 <div>4★</div>
-                                            </small>
-                                        </div>
-                                        <div class="field language details">
-                                            <div class="field">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                                    <path fill="#a97bff" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
-                                                </svg>
-                                                Kotlin
-                                            </div>
-                                            <small>
-                                                <div>5%</div>
-                                                <div>1★</div>
                                             </small>
                                         </div>
                                     </section>
