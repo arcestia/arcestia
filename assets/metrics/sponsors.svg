@@ -21,8 +21,8 @@
                                 <mask id="project-bar">
                                     <rect x="0" y="0" width="440" height="8" fill="white" rx="5"/>
                                 </mask>
-                                <rect mask="url(#project-bar)" x="0" y="0" width="180.39999999999998" height="8" fill="#ec6cb9"/>
-                                <rect mask="url(#project-bar)" x="180.39999999999998" y="0" width="259.59999999999997" height="8" fill="#d1d5da"/>
+                                <rect mask="url(#project-bar)" x="0" y="0" width="158.4" height="8" fill="#ec6cb9"/>
+                                <rect mask="url(#project-bar)" x="158.4" y="0" width="281.6" height="8" fill="#d1d5da"/>
                             </svg>
                         </div>
                         <div class="goal-text">
