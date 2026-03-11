@@ -39,8 +39,8 @@ Total starred repositories: `239`
 
 ## Adblock Filter List
 
-  - [ABPindo/indonesianadblockrules](https://github.com/ABPindo/indonesianadblockrules) - Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia. (⭐️218)
-  - [AdguardTeam/AdGuardSDNSFilter](https://github.com/AdguardTeam/AdGuardSDNSFilter) - AdGuard DNS filter \[*GNU GPLv3*\] (⭐️1185)
+  - [ABPindo/indonesianadblockrules](https://github.com/ABPindo/indonesianadblockrules) - Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia. (⭐️219)
+  - [AdguardTeam/AdGuardSDNSFilter](https://github.com/AdguardTeam/AdGuardSDNSFilter) - AdGuard DNS filter \[*GNU GPLv3*\] (⭐️1186)
   - [DandelionSprout/adfilt](https://github.com/DandelionSprout/adfilt) - The place where I, DandelionSprout, store my web filter lists for countless topics, including my Nordic adblock list. As simple as that, really. (⭐️2065)
   - [easylist/easylist](https://github.com/easylist/easylist) - EasyList filter subscription (EasyList, EasyPrivacy, EasyList Cookie, Fanboy's Social/Annoyances/Notifications Blocking List) (⭐️2896)
 
@@ -50,30 +50,30 @@ Total starred repositories: `239`
 
 ## Batchfile
 
-  - [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) - Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting. \[*GNU GPLv3*\] (⭐️168223)
+  - [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) - Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting. \[*GNU GPLv3*\] (⭐️168328)
 
 ## C
 
-  - [memcached/memcached](https://github.com/memcached/memcached) - memcached development tree \[*Modified BSD License*\] (⭐️14137)
-  - [moosefs/moosefs](https://github.com/moosefs/moosefs) - MooseFS Distributed Storage – Open Source, Petabyte, Fault-Tolerant, Highly Performing, Scalable Network Distributed File System / Software-Defined Storage \[*GNU GPLv2*\] (⭐️1949)
-  - [pgvector/pgvector](https://github.com/pgvector/pgvector) - Open-source vector similarity search for Postgres (⭐️20176)
-  - [tursodatabase/libsql](https://github.com/tursodatabase/libsql) - libSQL is a fork of SQLite that is both Open Source, and Open Contributions. \[*MIT License*\] (⭐️16475)
-  - [valkey-io/valkey](https://github.com/valkey-io/valkey) - A flexible distributed key-value database that is optimized for caching and other realtime workloads. (⭐️25071)
+  - [memcached/memcached](https://github.com/memcached/memcached) - memcached development tree \[*Modified BSD License*\] (⭐️14135)
+  - [moosefs/moosefs](https://github.com/moosefs/moosefs) - MooseFS Distributed Storage – Open Source, Petabyte, Fault-Tolerant, Highly Performing, Scalable Network Distributed File System / Software-Defined Storage \[*GNU GPLv2*\] (⭐️1950)
+  - [pgvector/pgvector](https://github.com/pgvector/pgvector) - Open-source vector similarity search for Postgres (⭐️20191)
+  - [tursodatabase/libsql](https://github.com/tursodatabase/libsql) - libSQL is a fork of SQLite that is both Open Source, and Open Contributions. \[*MIT License*\] (⭐️16479)
+  - [valkey-io/valkey](https://github.com/valkey-io/valkey) - A flexible distributed key-value database that is optimized for caching and other realtime workloads. (⭐️25080)
 
 ## C#
 
   - [jamesmontemagno/XamarinDNR](https://github.com/jamesmontemagno/XamarinDNR) - Dot Net Rocks, PCL, Azure! (⭐️16)
   - [nishanil/Dev-Days-HOL](https://github.com/nishanil/Dev-Days-HOL) - Xamarin, Azure Mobile Apps & Mobile DevOps Hands on Labs \[*MIT License*\] (⭐️30)
-  - [ShareX/ShareX](https://github.com/ShareX/ShareX) - ShareX is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file types to a wide range of destinations. \[*GNU GPLv3*\] (⭐️35821)
+  - [ShareX/ShareX](https://github.com/ShareX/ShareX) - ShareX is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file types to a wide range of destinations. \[*GNU GPLv3*\] (⭐️35835)
 
 ## C++
 
-  - [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) - ClickHouse® is a real-time analytics database management system \[*Apache License 2.0*\] (⭐️46252)
-  - [dropbox/lepton](https://github.com/dropbox/lepton) - Lepton is a tool and file format for losslessly compressing JPEGs by an average of 22%. \[*Apache License 2.0*\] (⭐️5005) *Archived!*
-  - [duckdb/duckdb](https://github.com/duckdb/duckdb) - DuckDB is an analytical in-process SQL database management system \[*MIT License*\] (⭐️36526)
+  - [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) - ClickHouse® is a real-time analytics database management system \[*Apache License 2.0*\] (⭐️46274)
+  - [dropbox/lepton](https://github.com/dropbox/lepton) - Lepton is a tool and file format for losslessly compressing JPEGs by an average of 22%. \[*Apache License 2.0*\] (⭐️5006) *Archived!*
+  - [duckdb/duckdb](https://github.com/duckdb/duckdb) - DuckDB is an analytical in-process SQL database management system \[*MIT License*\] (⭐️36546)
   - [facebook/ThreatExchange](https://github.com/facebook/ThreatExchange) - Trust & Safety tools for working together to fight digital harms.  (⭐️1321)
-  - [MrKepzie/Natron](https://github.com/MrKepzie/Natron) - Open-source compositing software. Node-graph based. Similar in functionalities to Adobe After Effects and Nuke by The Foundry. \[*GNU GPLv2*\] (⭐️1504)
-  - [pqrs-org/Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements) - Karabiner-Elements is a powerful tool for customizing keyboards on macOS \[*The Unlicense*\] (⭐️21672)
+  - [MrKepzie/Natron](https://github.com/MrKepzie/Natron) - Open-source compositing software. Node-graph based. Similar in functionalities to Adobe After Effects and Nuke by The Foundry. \[*GNU GPLv2*\] (⭐️1505)
+  - [pqrs-org/Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements) - Karabiner-Elements is a powerful tool for customizing keyboards on macOS \[*The Unlicense*\] (⭐️21677)
 
 ## CSS
 
@@ -82,31 +82,31 @@ Total starred repositories: `239`
 
 ## Dart
 
-  - [myConsciousness/atproto.dart](https://github.com/myConsciousness/atproto.dart) - 🦋 Production-Ready AT Protocol & Bluesky SDK for Flutter & Dart 💙 \[*Modified BSD License*\] (⭐️206)
+  - [myConsciousness/atproto.dart](https://github.com/myConsciousness/atproto.dart) - 🦋 Production-Ready AT Protocol & Bluesky SDK for Flutter & Dart 💙 \[*Modified BSD License*\] (⭐️207)
 
 ## Go
 
   - [allegro/bigcache](https://github.com/allegro/bigcache) - Efficient cache for gigabytes of data written in Go. \[*Apache License 2.0*\] (⭐️8102)
   - [ANG13T/DroneXtract](https://github.com/ANG13T/DroneXtract) - DroneXtract is a digital forensics suite for DJI drones 🔍.  Analyze sensor values, visualize flight maps, and audit for criminal activity 🗺 \[*MIT License*\] (⭐️347)
   - [ANG13T/SatIntel](https://github.com/ANG13T/SatIntel) - SatIntel is an OSINT tool for Satellites 🛰. Extract satellite telemetry, receive orbital predictions, and parse TLEs 🔭 (⭐️864)
-  - [binwiederhier/ntfy](https://github.com/binwiederhier/ntfy) - Send push notifications to your phone or desktop using PUT/POST \[*Apache License 2.0*\] (⭐️29108)
-  - [bluesky-social/indigo](https://github.com/bluesky-social/indigo) - Go source code for Bluesky's atproto services. \[*Apache License 2.0*\] (⭐️1307)
-  - [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach) - CockroachDB — the cloud native, distributed SQL database designed for high availability, effortless scale, and control over data placement. (⭐️32045)
+  - [binwiederhier/ntfy](https://github.com/binwiederhier/ntfy) - Send push notifications to your phone or desktop using PUT/POST \[*Apache License 2.0*\] (⭐️29118)
+  - [bluesky-social/indigo](https://github.com/bluesky-social/indigo) - Go source code for Bluesky's atproto services. \[*Apache License 2.0*\] (⭐️1309)
+  - [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach) - CockroachDB — the cloud native, distributed SQL database designed for high availability, effortless scale, and control over data placement. (⭐️32055)
   - [fabriziosalmi/caddy-waf](https://github.com/fabriziosalmi/caddy-waf) - Caddy WAF (Regex Rules, IP and DNS filtering, Rate Limiting, GeoIP, Tor, Anomaly Detection) \[*GNU AGPLv3*\] (⭐️742)
-  - [GhostTroops/scan4all](https://github.com/GhostTroops/scan4all) - Official repository  vuls Scan: 15000+PoCs; 23 kinds of application password crack; 7000+Web fingerprints; 146 protocols and 90000+ rules Port scanning; Fuzz, HW, awesome BugBounty( ͡° ͜ʖ ͡°)... \[*Modified BSD License*\] (⭐️5961)
-  - [haileyok/cocoon](https://github.com/haileyok/cocoon) - An ATProtocol PDS (Personal Data Server) written in Go with  a SQLite block and blob store \[*MIT License*\] (⭐️84)
-  - [k3s-io/k3s](https://github.com/k3s-io/k3s) - Lightweight Kubernetes \[*Apache License 2.0*\] (⭐️32388)
+  - [GhostTroops/scan4all](https://github.com/GhostTroops/scan4all) - Official repository  vuls Scan: 15000+PoCs; 23 kinds of application password crack; 7000+Web fingerprints; 146 protocols and 90000+ rules Port scanning; Fuzz, HW, awesome BugBounty( ͡° ͜ʖ ͡°)... \[*Modified BSD License*\] (⭐️5962)
+  - [haileyok/cocoon](https://github.com/haileyok/cocoon) - An ATProtocol PDS (Personal Data Server) written in Go with  a SQLite block and blob store \[*MIT License*\] (⭐️85)
+  - [k3s-io/k3s](https://github.com/k3s-io/k3s) - Lightweight Kubernetes \[*Apache License 2.0*\] (⭐️32393)
   - [k3s-io/kine](https://github.com/k3s-io/kine) - Run Kubernetes on MySQL, Postgres, sqlite, not etcd. \[*Apache License 2.0*\] (⭐️2287)
-  - [linkerd/linkerd2](https://github.com/linkerd/linkerd2) - Ultralight, security-first service mesh for Kubernetes. Main repo for Linkerd 2.x. \[*Apache License 2.0*\] (⭐️11325)
-  - [microsoft/typescript-go](https://github.com/microsoft/typescript-go) - Staging repo for development of native port of TypeScript \[*Apache License 2.0*\] (⭐️24394)
-  - [minio/minio](https://github.com/minio/minio) - MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license. \[*GNU AGPLv3*\] (⭐️60445) *Archived!*
+  - [linkerd/linkerd2](https://github.com/linkerd/linkerd2) - Ultralight, security-first service mesh for Kubernetes. Main repo for Linkerd 2.x. \[*Apache License 2.0*\] (⭐️11327)
+  - [microsoft/typescript-go](https://github.com/microsoft/typescript-go) - Staging repo for development of native port of TypeScript \[*Apache License 2.0*\] (⭐️24401)
+  - [minio/minio](https://github.com/minio/minio) - MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license. \[*GNU AGPLv3*\] (⭐️60452) *Archived!*
   - [mubeng/mubeng](https://github.com/mubeng/mubeng) - An incredibly fast proxy checker & IP rotator with ease. \[*Apache License 2.0*\] (⭐️2071)
-  - [openfaas/faas](https://github.com/openfaas/faas) - OpenFaaS - Serverless Functions Made Simple (⭐️26104)
-  - [prometheus/prometheus](https://github.com/prometheus/prometheus) - The Prometheus monitoring system and time series database. \[*Apache License 2.0*\] (⭐️63161)
-  - [sirupsen/logrus](https://github.com/sirupsen/logrus) - Structured, pluggable logging for Go. \[*MIT License*\] (⭐️25704)
-  - [syncthing/syncthing](https://github.com/syncthing/syncthing) - Open Source Continuous File Synchronization \[*Mozilla Public License 2.0*\] (⭐️80663)
+  - [openfaas/faas](https://github.com/openfaas/faas) - OpenFaaS - Serverless Functions Made Simple (⭐️26108)
+  - [prometheus/prometheus](https://github.com/prometheus/prometheus) - The Prometheus monitoring system and time series database. \[*Apache License 2.0*\] (⭐️63191)
+  - [sirupsen/logrus](https://github.com/sirupsen/logrus) - Structured, pluggable logging for Go. \[*MIT License*\] (⭐️25703)
+  - [syncthing/syncthing](https://github.com/syncthing/syncthing) - Open Source Continuous File Synchronization \[*Mozilla Public License 2.0*\] (⭐️80704)
   - [teal-fm/piper](https://github.com/teal-fm/piper) - [WIP] music platform user data scraper \[*MIT License*\] (⭐️83)
-  - [tomnomnom/gron](https://github.com/tomnomnom/gron) - Make JSON greppable! \[*MIT License*\] (⭐️14393)
+  - [tomnomnom/gron](https://github.com/tomnomnom/gron) - Make JSON greppable! \[*MIT License*\] (⭐️14396)
 
 ## HTML
 
@@ -115,7 +115,7 @@ Total starred repositories: `239`
   - [joelhooks/joelhooks-com](https://github.com/joelhooks/joelhooks-com) - playing with static pages \[*MIT License*\] (⭐️108)
   - [pojntfx/felicitas.pojtinger.com](https://github.com/pojntfx/felicitas.pojtinger.com) - My personal site. \[*GNU AGPLv3*\] (⭐️17)
   - [SinauDev/SinauDev.github.io](https://github.com/SinauDev/SinauDev.github.io) - Just Ordinary Blog for Sinau Development \[*MIT License*\] (⭐️4)
-  - [tracelabs/tlosint-live](https://github.com/tracelabs/tlosint-live) - Trace Labs OSINT Linux Distribution based on Kali.  (⭐️793)
+  - [tracelabs/tlosint-live](https://github.com/tracelabs/tlosint-live) - Trace Labs OSINT Linux Distribution based on Kali.  (⭐️794)
 
 ## JSON
 
@@ -129,23 +129,23 @@ Total starred repositories: `239`
 
   - [absturztau-be/tor-dash](https://github.com/absturztau-be/tor-dash) - a web frontend for tor node statistics \[*GNU AGPLv3*\] (⭐️7)
   - [ashuotaku/Personal-Wiki](https://github.com/ashuotaku/Personal-Wiki) - A showcase of my obsidian vault to help others to organize their notes in a better way. (⭐️263)
-  - [digitalocean/nginxconfig.io](https://github.com/digitalocean/nginxconfig.io) - ⚙️ NGINX config generator on steroids 💉 \[*MIT License*\] (⭐️28346)
+  - [digitalocean/nginxconfig.io](https://github.com/digitalocean/nginxconfig.io) - ⚙️ NGINX config generator on steroids 💉 \[*MIT License*\] (⭐️28347)
   - [EkaPutCom/eputra.github.io](https://github.com/EkaPutCom/eputra.github.io) - my blog (⭐️1)
-  - [lockfale/OSINT-Framework](https://github.com/lockfale/OSINT-Framework) - OSINT Framework \[*MIT License*\] (⭐️10948)
+  - [lockfale/OSINT-Framework](https://github.com/lockfale/OSINT-Framework) - OSINT Framework \[*MIT License*\] (⭐️10959)
   - [MaggieAppleton/digital-gardeners](https://github.com/MaggieAppleton/digital-gardeners) - Resources, links, projects, and ideas for gardeners tending their digital notes on the public interwebs \[*MIT License*\] (⭐️4630)
-  - [mozilla-firefox/firefox](https://github.com/mozilla-firefox/firefox) - The official repository of Mozilla's Firefox web browser. (⭐️11479)
+  - [mozilla-firefox/firefox](https://github.com/mozilla-firefox/firefox) - The official repository of Mozilla's Firefox web browser. (⭐️11493)
   - [reactide/reactide](https://github.com/reactide/reactide) - Reactide is the first dedicated IDE for React web application development. \[*MIT License*\] (⭐️10512)
   - [serverless/serverless](https://github.com/serverless/serverless) - ⚡ Serverless Framework – Effortlessly build apps that auto-scale, incur zero costs when idle, and require minimal maintenance using AWS Lambda and other managed cloud services. (⭐️46946)
   - [Skiddle-ID/checkdomain](https://github.com/Skiddle-ID/checkdomain) - Check Domain Blocked on Trust+ by Kominfo \[*MIT License*\] (⭐️10) *Archived!*
   - [Skiddle-ID/proxylist](https://github.com/Skiddle-ID/proxylist) - A proxy scraper | Proxy list - Updates every hours \[*MIT License*\] (⭐️23)
-  - [spicetify/cli](https://github.com/spicetify/cli) - Command-line tool to customize Spotify client. Supports Windows, macOS, and Linux. \[*GNU LGPLv2.1*\] (⭐️22369)
+  - [spicetify/cli](https://github.com/spicetify/cli) - Command-line tool to customize Spotify client. Supports Windows, macOS, and Linux. \[*GNU LGPLv2.1*\] (⭐️22374)
   - [taniarascia/taniarascia.com](https://github.com/taniarascia/taniarascia.com) - 💾 ‎  Personal website running on Gatsby, React, and Node.js. \[*MIT License*\] (⭐️2115)
-  - [zen-browser/desktop](https://github.com/zen-browser/desktop) - Welcome to a calmer internet \[*Mozilla Public License 2.0*\] (⭐️40564)
+  - [zen-browser/desktop](https://github.com/zen-browser/desktop) - Welcome to a calmer internet \[*Mozilla Public License 2.0*\] (⭐️40584)
 
 ## Kotlin
 
-  - [google-ai-edge/gallery](https://github.com/google-ai-edge/gallery) - A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally. \[*Apache License 2.0*\] (⭐️15321)
-  - [kavishdevar/librepods](https://github.com/kavishdevar/librepods) - AirPods liberated from Apple's ecosystem. \[*GNU GPLv3*\] (⭐️25744)
+  - [google-ai-edge/gallery](https://github.com/google-ai-edge/gallery) - A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally. \[*Apache License 2.0*\] (⭐️15332)
+  - [kavishdevar/librepods](https://github.com/kavishdevar/librepods) - AirPods liberated from Apple's ecosystem. \[*GNU GPLv3*\] (⭐️25757)
   - [saket/press](https://github.com/saket/press) - Cross-platform markdown editor written in Kotlin Multiplatform (work in progress) (⭐️1867) *Archived!*
   - [utsmannn/hiya-hiya-hiya](https://github.com/utsmannn/hiya-hiya-hiya) - Whatsapp Clone base on Firebase Cloud Messaging (⭐️186)
   - [utsmannn/Kemana](https://github.com/utsmannn/Kemana) - Ojek Online Open Source (like uber or gojek) (⭐️215)
@@ -156,29 +156,29 @@ Total starred repositories: `239`
 
 ## Lua
 
-  - [BlackArch/blackarch-iso](https://github.com/BlackArch/blackarch-iso) - BlackArch Linux ISOs (⭐️267)
+  - [BlackArch/blackarch-iso](https://github.com/BlackArch/blackarch-iso) - BlackArch Linux ISOs (⭐️266)
 
 ## Markdown
 
-  - [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) - Master programming by recreating your favorite technologies from scratch. (⭐️473731)
+  - [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) - Master programming by recreating your favorite technologies from scratch. (⭐️474006)
   - [skiddle-archives/monitoring-backup](https://github.com/skiddle-archives/monitoring-backup) - 📈 Uptime monitor and status page for Skiddle-ID, powered by @upptime \[*MIT License*\] (⭐️1) *Archived!*
 
 ## PHP
 
-  - [danielmiessler/SecLists](https://github.com/danielmiessler/SecLists) - SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more. \[*MIT License*\] (⭐️69333)
-  - [DenverCoder1/github-readme-streak-stats](https://github.com/DenverCoder1/github-readme-streak-stats) - 🔥 Stay motivated and show off your contribution streak! 🌟 Display your total contributions, current streak, and longest streak on your GitHub profile README \[*MIT License*\] (⭐️6641)
-  - [knuckleswtf/scribe](https://github.com/knuckleswtf/scribe) - Generate API documentation for humans from your Laravel codebase.✍ \[*MIT License*\] (⭐️2271)
-  - [Laravel-Backpack/CRUD](https://github.com/Laravel-Backpack/CRUD) - Build custom admin panels. Fast! \[*MIT License*\] (⭐️3378)
-  - [laravel/reverb](https://github.com/laravel/reverb) - Laravel Reverb provides a real-time WebSocket communication backend for Laravel applications. \[*MIT License*\] (⭐️1525)
+  - [danielmiessler/SecLists](https://github.com/danielmiessler/SecLists) - SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more. \[*MIT License*\] (⭐️69352)
+  - [DenverCoder1/github-readme-streak-stats](https://github.com/DenverCoder1/github-readme-streak-stats) - 🔥 Stay motivated and show off your contribution streak! 🌟 Display your total contributions, current streak, and longest streak on your GitHub profile README \[*MIT License*\] (⭐️6645)
+  - [knuckleswtf/scribe](https://github.com/knuckleswtf/scribe) - Generate API documentation for humans from your Laravel codebase.✍ \[*MIT License*\] (⭐️2272)
+  - [Laravel-Backpack/CRUD](https://github.com/Laravel-Backpack/CRUD) - Build custom admin panels. Fast! \[*MIT License*\] (⭐️3379)
+  - [laravel/reverb](https://github.com/laravel/reverb) - Laravel Reverb provides a real-time WebSocket communication backend for Laravel applications. \[*MIT License*\] (⭐️1527)
   - [laravel/vapor-cli](https://github.com/laravel/vapor-cli) - The CLI client for interacting with Laravel Vapor. \[*MIT License*\] (⭐️312)
-  - [Leantime/leantime](https://github.com/Leantime/leantime) - Leantime is a goals focused project management system for non-project managers. Building with ADHD, Autism, and dyslexia in mind. \[*GNU AGPLv3*\] (⭐️9377)
-  - [MISP/MISP](https://github.com/MISP/MISP) - MISP (core software) - Open Source Threat Intelligence and Sharing Platform \[*GNU AGPLv3*\] (⭐️6158)
+  - [Leantime/leantime](https://github.com/Leantime/leantime) - Leantime is a goals focused project management system for non-project managers. Building with ADHD, Autism, and dyslexia in mind. \[*GNU AGPLv3*\] (⭐️9382)
+  - [MISP/MISP](https://github.com/MISP/MISP) - MISP (core software) - Open Source Threat Intelligence and Sharing Platform \[*GNU AGPLv3*\] (⭐️6159)
   - [ProjectBFG/Simple-Discussions](https://github.com/ProjectBFG/Simple-Discussions) - SD is a non-board based discuss software (⭐️3)
   - [rykas-productions/chivalry-engine](https://github.com/rykas-productions/chivalry-engine) - Chivalry Engine \[*MIT License*\] (⭐️14)
   - [scronide/scuttle](https://github.com/scronide/scuttle) - Web-based social bookmarking system. Allows multiple users to store, share and tag their favourite links online. \[*GNU GPLv2*\] (⭐️197)
-  - [sergix44/XBackBone](https://github.com/sergix44/XBackBone) - A lightweight file manager with full ShareX support and more \[*GNU AGPLv3*\] (⭐️1127)
+  - [sergix44/XBackBone](https://github.com/sergix44/XBackBone) - A lightweight file manager with full ShareX support and more \[*GNU AGPLv3*\] (⭐️1128)
   - [skiddle-archives/klasemate](https://github.com/skiddle-archives/klasemate) - Klasemate Open Source discussion board (Forum) Software \[*GNU GPLv2*\] (⭐️3) *Archived!*
-  - [statamic/statamic](https://github.com/statamic/statamic) - Statamic: The New Site/App Package (⭐️825)
+  - [statamic/statamic](https://github.com/statamic/statamic) - Statamic: The New Site/App Package (⭐️824)
 
 ## PowerShell
 
@@ -188,69 +188,69 @@ Total starred repositories: `239`
 
   - [aancw/Belati](https://github.com/aancw/Belati) - The Traditional Swiss Army Knife for OSINT \[*GNU GPLv2*\] (⭐️557) *Archived!*
   - [AmnestyTech/investigations](https://github.com/AmnestyTech/investigations) - Indicators of Compromise from Amnesty International's cyber investigations (⭐️1647)
-  - [ArchiveBox/ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) - 🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more... \[*MIT License*\] (⭐️27025)
+  - [ArchiveBox/ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) - 🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more... \[*MIT License*\] (⭐️27031)
   - [ArchiveTeam/grab-site](https://github.com/ArchiveTeam/grab-site) - The archivist's web crawler: WARC output, dashboard for all crawls, dynamic ignore patterns (⭐️1559)
-  - [blocklistproject/Lists](https://github.com/blocklistproject/Lists) - Primary Block Lists \[*The Unlicense*\] (⭐️4703)
+  - [blocklistproject/Lists](https://github.com/blocklistproject/Lists) - Primary Block Lists \[*The Unlicense*\] (⭐️4705)
   - [ByteLeMani/ctf_proxy](https://github.com/ByteLeMani/ctf_proxy) - An Intrusion Prevention System for Attack-Defense CTFs \[*GNU AGPLv3*\] (⭐️52)
   - [C4T-BuT-S4D/S4DFarm](https://github.com/C4T-BuT-S4D/S4DFarm) - Attack & Defense CTF Farm based on DestructiveFarm (⭐️128)
-  - [coqui-ai/TTS](https://github.com/coqui-ai/TTS) - 🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production \[*Mozilla Public License 2.0*\] (⭐️44771)
+  - [coqui-ai/TTS](https://github.com/coqui-ai/TTS) - 🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production \[*Mozilla Public License 2.0*\] (⭐️44780)
   - [DavidBuchanan314/millipds](https://github.com/DavidBuchanan314/millipds) - A from-scratch atproto PDS implementation in Python \[*MIT License*\] (⭐️153)
-  - [dwyl/english-words](https://github.com/dwyl/english-words) - :memo: A text file containing 479k English words for all your dictionary/word-based projects e.g: auto-completion / autosuggestion \[*The Unlicense*\] (⭐️11969)
+  - [dwyl/english-words](https://github.com/dwyl/english-words) - :memo: A text file containing 479k English words for all your dictionary/word-based projects e.g: auto-completion / autosuggestion \[*The Unlicense*\] (⭐️11970)
   - [ecstatic-nobel/OSweep](https://github.com/ecstatic-nobel/OSweep) - Don't Just Search OSINT. Sweep It. \[*MIT License*\] (⭐️312)
-  - [exo-explore/exo](https://github.com/exo-explore/exo) - Run frontier AI locally. \[*Apache License 2.0*\] (⭐️42410)
+  - [exo-explore/exo](https://github.com/exo-explore/exo) - Run frontier AI locally. \[*Apache License 2.0*\] (⭐️42441)
   - [fabriziosalmi/blacklists](https://github.com/fabriziosalmi/blacklists) - Daily updated domains blacklist 🚫 \[*GNU GPLv3*\] (⭐️52)
   - [fabriziosalmi/patterns](https://github.com/fabriziosalmi/patterns) - Automated OWASP CRS and Bad Bot Detection for Nginx, Apache, Traefik and HaProxy \[*MIT License*\] (⭐️305)
   - [fabriziosalmi/proxmox-lxc-autoscale](https://github.com/fabriziosalmi/proxmox-lxc-autoscale) - Automatically scale LXC containers resources on Proxmox hosts \[*MIT License*\] (⭐️234)
   - [fabriziosalmi/proxmox-vm-autoscale](https://github.com/fabriziosalmi/proxmox-vm-autoscale) - Automatically scale virtual machines resources on Proxmox hosts \[*MIT License*\] (⭐️289)
-  - [huggingface/transformers](https://github.com/huggingface/transformers) - 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.  \[*Apache License 2.0*\] (⭐️157666)
-  - [intelowlproject/IntelOwl](https://github.com/intelowlproject/IntelOwl) - IntelOwl: manage your Threat Intelligence at scale \[*GNU AGPLv3*\] (⭐️4488)
-  - [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary) - One webpage for every book ever published! \[*GNU AGPLv3*\] (⭐️6240)
+  - [huggingface/transformers](https://github.com/huggingface/transformers) - 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.  \[*Apache License 2.0*\] (⭐️157711)
+  - [intelowlproject/IntelOwl](https://github.com/intelowlproject/IntelOwl) - IntelOwl: manage your Threat Intelligence at scale \[*GNU AGPLv3*\] (⭐️4489)
+  - [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary) - One webpage for every book ever published! \[*GNU AGPLv3*\] (⭐️6244)
   - [jstrieb/github-stats](https://github.com/jstrieb/github-stats) - Better GitHub statistics images for your profile, with stats from private repos too \[*GNU GPLv3*\] (⭐️3393)
-  - [krateng/maloja](https://github.com/krateng/maloja) - Self-hosted music scrobble database to create personal listening statistics and charts \[*GNU GPLv3*\] (⭐️1667)
-  - [langchain-ai/langchain](https://github.com/langchain-ai/langchain) - The agent engineering platform \[*MIT License*\] (⭐️128869)
-  - [Lightricks/LTX-Video](https://github.com/Lightricks/LTX-Video) - Official repository for LTX-Video \[*Apache License 2.0*\] (⭐️9442)
-  - [Manisso/fsociety](https://github.com/Manisso/fsociety) - fsociety Hacking Tools Pack – A Penetration Testing Framework \[*MIT License*\] (⭐️11910)
+  - [krateng/maloja](https://github.com/krateng/maloja) - Self-hosted music scrobble database to create personal listening statistics and charts \[*GNU GPLv3*\] (⭐️1666)
+  - [langchain-ai/langchain](https://github.com/langchain-ai/langchain) - The agent engineering platform \[*MIT License*\] (⭐️129034)
+  - [Lightricks/LTX-Video](https://github.com/Lightricks/LTX-Video) - Official repository for LTX-Video \[*Apache License 2.0*\] (⭐️9452)
+  - [Manisso/fsociety](https://github.com/Manisso/fsociety) - fsociety Hacking Tools Pack – A Penetration Testing Framework \[*MIT License*\] (⭐️11913)
   - [MarshalX/atproto](https://github.com/MarshalX/atproto) - The AT Protocol (🦋 Bluesky) SDK for Python 🐍 \[*MIT License*\] (⭐️643)
   - [mmotti/pihole-regex](https://github.com/mmotti/pihole-regex) - Custom regex filter list for use with Pi-hole. \[*MIT License*\] (⭐️1373)
-  - [modmail-dev/Modmail](https://github.com/modmail-dev/Modmail) - A Discord bot that functions as a shared inbox between staff and members, similar to Reddit's Modmail. \[*GNU AGPLv3*\] (⭐️1662)
+  - [modmail-dev/Modmail](https://github.com/modmail-dev/Modmail) - A Discord bot that functions as a shared inbox between staff and members, similar to Reddit's Modmail. \[*GNU AGPLv3*\] (⭐️1663)
   - [MrTuxx/SocialPwned](https://github.com/MrTuxx/SocialPwned) - SocialPwned is an OSINT tool that allows to get the emails, from a target, published in social networks such as Instagram, Linkedin and Twitter to find possible credentials leaks in PwnDB or Dehashed  and obtain Google account information via GHunt. \[*GNU GPLv3*\] (⭐️1261) *Archived!*
   - [OpenAttackDefenseTools/tulip](https://github.com/OpenAttackDefenseTools/tulip) - Network analysis tool for Attack Defence CTF \[*GNU GPLv3*\] (⭐️428)
-  - [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) - 🙌 OpenHands: AI-Driven Development (⭐️68839)
-  - [ouuan/ouuan](https://github.com/ouuan/ouuan) - A profile README with 253 stars and 194 forks 🌟 \[*Apache License 2.0*\] (⭐️253)
+  - [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) - 🙌 OpenHands: AI-Driven Development (⭐️68890)
+  - [ouuan/ouuan](https://github.com/ouuan/ouuan) - A profile README with 254 stars and 194 forks 🌟 \[*Apache License 2.0*\] (⭐️254)
   - [pyinstaller/pyinstaller](https://github.com/pyinstaller/pyinstaller) - Freeze (package) Python programs into stand-alone executables (⭐️12915)
-  - [QuivrHQ/quivr](https://github.com/QuivrHQ/quivr) - Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want. (⭐️38981)
-  - [SandAI-org/MAGI-1](https://github.com/SandAI-org/MAGI-1) - MAGI-1: Autoregressive Video Generation at Scale \[*Apache License 2.0*\] (⭐️3652)
-  - [sarperavci/GoogleRecaptchaBypass](https://github.com/sarperavci/GoogleRecaptchaBypass) - Solve Google reCAPTCHA in less than 5 seconds! 🚀 (⭐️1655)
+  - [QuivrHQ/quivr](https://github.com/QuivrHQ/quivr) - Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want. (⭐️38980)
+  - [SandAI-org/MAGI-1](https://github.com/SandAI-org/MAGI-1) - MAGI-1: Autoregressive Video Generation at Scale \[*Apache License 2.0*\] (⭐️3654)
+  - [sarperavci/GoogleRecaptchaBypass](https://github.com/sarperavci/GoogleRecaptchaBypass) - Solve Google reCAPTCHA in less than 5 seconds! 🚀 (⭐️1656)
   - [saveweb/wikiteam3](https://github.com/saveweb/wikiteam3) - archiving MediaWikis (and uploading wikidump to the Internet Archive) \[*GNU GPLv3*\] (⭐️87)
-  - [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) - Hunt down social media accounts by username across social networks \[*MIT License*\] (⭐️73534)
-  - [smicallef/spiderfoot](https://github.com/smicallef/spiderfoot) - SpiderFoot automates OSINT for threat intelligence and mapping your attack surface. \[*MIT License*\] (⭐️16901)
-  - [spack/spack](https://github.com/spack/spack) - A flexible package manager that supports multiple versions, configurations, platforms, and compilers. \[*Apache License 2.0*\] (⭐️4968)
-  - [StevenBlack/hosts](https://github.com/StevenBlack/hosts) - 🔒 Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories. \[*MIT License*\] (⭐️29972)
-  - [stitionai/devika](https://github.com/stitionai/devika) - Devika is the first open-source implementation of an Agentic Software Engineer. Initially started as an open-source alternative to Devin. \[*MIT License*\] (⭐️19491)
-  - [sympy/sympy](https://github.com/sympy/sympy) - A computer algebra system written in pure Python (⭐️14451)
+  - [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) - Hunt down social media accounts by username across social networks \[*MIT License*\] (⭐️73563)
+  - [smicallef/spiderfoot](https://github.com/smicallef/spiderfoot) - SpiderFoot automates OSINT for threat intelligence and mapping your attack surface. \[*MIT License*\] (⭐️16912)
+  - [spack/spack](https://github.com/spack/spack) - A flexible package manager that supports multiple versions, configurations, platforms, and compilers. \[*Apache License 2.0*\] (⭐️4970)
+  - [StevenBlack/hosts](https://github.com/StevenBlack/hosts) - 🔒 Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories. \[*MIT License*\] (⭐️29977)
+  - [stitionai/devika](https://github.com/stitionai/devika) - Devika is the first open-source implementation of an Agentic Software Engineer. Initially started as an open-source alternative to Devin. \[*MIT License*\] (⭐️19493)
+  - [sympy/sympy](https://github.com/sympy/sympy) - A computer algebra system written in pure Python (⭐️14462)
   - [TheHive-Project/Cortex-Analyzers](https://github.com/TheHive-Project/Cortex-Analyzers) - Cortex Analyzers Repository \[*GNU AGPLv3*\] (⭐️477)
-  - [tinygrad/tinygrad](https://github.com/tinygrad/tinygrad) - You like pytorch? You like micrograd? You love tinygrad! ❤️  \[*MIT License*\] (⭐️31531)
-  - [twintproject/twint](https://github.com/twintproject/twint) - An advanced Twitter scraping & OSINT tool written in Python that doesn't use Twitter's API, allowing you to scrape a user's followers, following, Tweets and more while evading most API limitations. \[*MIT License*\] (⭐️16339) *Archived!*
-  - [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) - Ultralytics YOLO 🚀 \[*GNU AGPLv3*\] (⭐️54126)
-  - [vikhyat/moondream](https://github.com/vikhyat/moondream) - tiny vision language model \[*Apache License 2.0*\] (⭐️9397)
-  - [YunoHost/yunohost](https://github.com/YunoHost/yunohost) - YunoHost is an operating system aiming to simplify as much as possible the administration of a server. This repository corresponds to the core code, written mostly in Python and Bash. \[*GNU AGPLv3*\] (⭐️2839)
+  - [tinygrad/tinygrad](https://github.com/tinygrad/tinygrad) - You like pytorch? You like micrograd? You love tinygrad! ❤️  \[*MIT License*\] (⭐️31542)
+  - [twintproject/twint](https://github.com/twintproject/twint) - An advanced Twitter scraping & OSINT tool written in Python that doesn't use Twitter's API, allowing you to scrape a user's followers, following, Tweets and more while evading most API limitations. \[*MIT License*\] (⭐️16340) *Archived!*
+  - [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) - Ultralytics YOLO 🚀 \[*GNU AGPLv3*\] (⭐️54178)
+  - [vikhyat/moondream](https://github.com/vikhyat/moondream) - tiny vision language model \[*Apache License 2.0*\] (⭐️9406)
+  - [YunoHost/yunohost](https://github.com/YunoHost/yunohost) - YunoHost is an operating system aiming to simplify as much as possible the administration of a server. This repository corresponds to the core code, written mostly in Python and Bash. \[*GNU AGPLv3*\] (⭐️2843)
 
 ## Ruby
 
   - [hibiken/stories](https://github.com/hibiken/stories) - Medium clone built with Ruby on Rails \[*MIT License*\] (⭐️835) *Archived!*
-  - [Homebrew/brew](https://github.com/Homebrew/brew) - 🍺 The missing package manager for macOS (or Linux) \[*BSD 2-Clause "Simplified" License*\] (⭐️46920)
+  - [Homebrew/brew](https://github.com/Homebrew/brew) - 🍺 The missing package manager for macOS (or Linux) \[*BSD 2-Clause "Simplified" License*\] (⭐️46941)
 
 ## Rust
 
-  - [facebook/sapling](https://github.com/facebook/sapling) - A Scalable, User-Friendly Source Control System. \[*GNU GPLv2*\] (⭐️6757)
-  - [gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler) - The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte (⭐️19818)
-  - [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) - Comfortably monitor your Internet traffic 🕵️‍♂️ \[*Apache License 2.0*\] (⭐️32936)
-  - [influxdata/influxdb](https://github.com/influxdata/influxdb) - Scalable datastore for metrics, events, and real-time analytics \[*Apache License 2.0*\] (⭐️31402)
-  - [neondatabase/neon](https://github.com/neondatabase/neon) - Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero. \[*Apache License 2.0*\] (⭐️21152)
-  - [nikivdev/flow](https://github.com/nikivdev/flow) - Everything you need to move your project faster \[*MIT License*\] (⭐️21159)
-  - [shshemi/tabiew](https://github.com/shshemi/tabiew) - A lightweight TUI application to view and query tabular data files, such as CSV, TSV, and parquet. \[*MIT License*\] (⭐️2771)
+  - [facebook/sapling](https://github.com/facebook/sapling) - A Scalable, User-Friendly Source Control System. \[*GNU GPLv2*\] (⭐️6758)
+  - [gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler) - The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte (⭐️19834)
+  - [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) - Comfortably monitor your Internet traffic 🕵️‍♂️ \[*Apache License 2.0*\] (⭐️32940)
+  - [influxdata/influxdb](https://github.com/influxdata/influxdb) - Scalable datastore for metrics, events, and real-time analytics \[*Apache License 2.0*\] (⭐️31415)
+  - [neondatabase/neon](https://github.com/neondatabase/neon) - Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero. \[*Apache License 2.0*\] (⭐️21160)
+  - [nikivdev/flow](https://github.com/nikivdev/flow) - Everything you need to move your project faster \[*MIT License*\] (⭐️21157)
+  - [shshemi/tabiew](https://github.com/shshemi/tabiew) - A lightweight TUI application to view and query tabular data files, such as CSV, TSV, and parquet. \[*MIT License*\] (⭐️2773)
   - [teal-fm/teal](https://github.com/teal-fm/teal) - Your music, beautifully tracked. All yours. (coming soon) \[*MIT License*\] (⭐️285)
-  - [zed-industries/zed](https://github.com/zed-industries/zed) - Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. (⭐️76721)
+  - [zed-industries/zed](https://github.com/zed-industries/zed) - Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. (⭐️76829)
 
 ## SCSS
 
@@ -261,97 +261,97 @@ Total starred repositories: `239`
 ## Shell
 
   - [arcestia/blocklists](https://github.com/arcestia/blocklists) - Mirror of multiple third-party blocklists (updated hourly). \[*MIT License*\] (⭐️6)
-  - [BlackArch/blackarch](https://github.com/BlackArch/blackarch) - An ArchLinux based distribution for penetration testers and security researchers. \[*Modified BSD License*\] (⭐️3264)
-  - [bluesky-social/pds](https://github.com/bluesky-social/pds) - Bluesky PDS (Personal Data Server) container image, compose file, and documentation (⭐️2404)
-  - [dockur/windows](https://github.com/dockur/windows) - Windows inside a Docker container. \[*MIT License*\] (⭐️50274)
-  - [firehol/blocklist-ipsets](https://github.com/firehol/blocklist-ipsets) - ipsets dynamically updated with firehol's update-ipsets.sh script (⭐️3774)
+  - [BlackArch/blackarch](https://github.com/BlackArch/blackarch) - An ArchLinux based distribution for penetration testers and security researchers. \[*Modified BSD License*\] (⭐️3263)
+  - [bluesky-social/pds](https://github.com/bluesky-social/pds) - Bluesky PDS (Personal Data Server) container image, compose file, and documentation (⭐️2407)
+  - [dockur/windows](https://github.com/dockur/windows) - Windows inside a Docker container. \[*MIT License*\] (⭐️50291)
+  - [firehol/blocklist-ipsets](https://github.com/firehol/blocklist-ipsets) - ipsets dynamically updated with firehol's update-ipsets.sh script (⭐️3775)
   - [JaKooLit/Fedora-Hyprland](https://github.com/JaKooLit/Fedora-Hyprland) - For automated installation of Hyprland on Fedora (latest release) or any Fedora based distros \[*GNU GPLv3*\] (⭐️2296)
   - [masonr/yet-another-bench-script](https://github.com/masonr/yet-another-bench-script) - YABS - a simple bash script to estimate Linux server performance using fio, iperf3, & Geekbench \[*Do What The F*ck You Want To Public License*\] (⭐️6234)
-  - [mishakorzik/AllHackingTools](https://github.com/mishakorzik/AllHackingTools) -  All-in-One Hacking Tools For Hackers! And more hacking tools! For termux. \[*GNU GPLv3*\] (⭐️5245)
+  - [mishakorzik/AllHackingTools](https://github.com/mishakorzik/AllHackingTools) -  All-in-One Hacking Tools For Hackers! And more hacking tools! For termux. \[*GNU GPLv3*\] (⭐️5253)
   - [ppfeufer/adguard-filter-list](https://github.com/ppfeufer/adguard-filter-list) - DNS block list that can be used for AdGuardHome. \[*GNU GPLv3*\] (⭐️425)
   - [pure-dns/filters](https://github.com/pure-dns/filters) - Internet filtering via DNS RPZ file. (⭐️3)
-  - [Ultimate-Hosts-Blacklist/Ultimate.Hosts.Blacklist](https://github.com/Ultimate-Hosts-Blacklist/Ultimate.Hosts.Blacklist) - The Ultimate Unified Hosts file for protecting your network, computer, smartphones and Wi-Fi devices against millions of bad web sites. Protect your children and family from gaining access to bad web sites and protect your devices and pc from being infected with Malware or Ransomware. \[*MIT License*\] (⭐️1525)
+  - [Ultimate-Hosts-Blacklist/Ultimate.Hosts.Blacklist](https://github.com/Ultimate-Hosts-Blacklist/Ultimate.Hosts.Blacklist) - The Ultimate Unified Hosts file for protecting your network, computer, smartphones and Wi-Fi devices against millions of bad web sites. Protect your children and family from gaining access to bad web sites and protect your devices and pc from being infected with Malware or Ransomware. \[*MIT License*\] (⭐️1526)
 
 ## Swift
 
-  - [claration/Feather](https://github.com/claration/Feather) - Free on-device iOS/iPadOS application manager/installer, using certificates part of the Apple Developer Program. \[*GNU GPLv3*\] (⭐️3744)
+  - [claration/Feather](https://github.com/claration/Feather) - Free on-device iOS/iPadOS application manager/installer, using certificates part of the Apple Developer Program. \[*GNU GPLv3*\] (⭐️3754)
 
 ## Text
 
-  - [hagezi/dns-blocklists](https://github.com/hagezi/dns-blocklists) - DNS-Blocklists: For a better internet - keep the internet clean! \[*GNU GPLv3*\] (⭐️20653)
+  - [hagezi/dns-blocklists](https://github.com/hagezi/dns-blocklists) - DNS-Blocklists: For a better internet - keep the internet clean! \[*GNU GPLv3*\] (⭐️20680)
 
 ## TypeScript
 
-  - [7PH/powerglitch](https://github.com/7PH/powerglitch) - Tiny JS library to glitch anything on the web \[*MIT License*\] (⭐️1463)
-  - [abi/screenshot-to-code](https://github.com/abi/screenshot-to-code) - Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue) \[*MIT License*\] (⭐️71838)
+  - [7PH/powerglitch](https://github.com/7PH/powerglitch) - Tiny JS library to glitch anything on the web \[*MIT License*\] (⭐️1464)
+  - [abi/screenshot-to-code](https://github.com/abi/screenshot-to-code) - Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue) \[*MIT License*\] (⭐️71871)
   - [arcestia/atprotoblog](https://github.com/arcestia/atprotoblog) - A Blog Utilizing ATProtocol. With Integration Self-hosted option Markdown Post and Medium. (ARCHIVED) (⭐️1) *Archived!*
   - [arcestia/shortlink](https://github.com/arcestia/shortlink) - A simple URL shortener service powered by Cloudflare Workers and Turso. \[*MIT License*\] (⭐️4)
   - [bentoml/Yatai](https://github.com/bentoml/Yatai) - Model Deployment at Scale on Kubernetes 🦄️ (⭐️837)
-  - [better-auth/better-auth](https://github.com/better-auth/better-auth) - The most comprehensive authentication framework for TypeScript \[*MIT License*\] (⭐️27044)
-  - [bluesky-social/atproto](https://github.com/bluesky-social/atproto) - Social networking technology created by Bluesky (⭐️9187)
+  - [better-auth/better-auth](https://github.com/better-auth/better-auth) - The most comprehensive authentication framework for TypeScript \[*MIT License*\] (⭐️27078)
+  - [bluesky-social/atproto](https://github.com/bluesky-social/atproto) - Social networking technology created by Bluesky (⭐️9191)
   - [bluesky-social/feed-generator](https://github.com/bluesky-social/feed-generator) - ATProto Feed Generator Starter Kit \[*MIT License*\] (⭐️2018)
   - [bluesky-social/ozone](https://github.com/bluesky-social/ozone) - web interface for labeling content in atproto / Bluesky (⭐️507)
-  - [bluesky-social/social-app](https://github.com/bluesky-social/social-app) - The Bluesky Social application for Web, iOS, and Android \[*MIT License*\] (⭐️17768)
-  - [bluewave-labs/Checkmate](https://github.com/bluewave-labs/Checkmate) - Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations. Don't be shy, join here: https://discord.com/invite/NAb6H3UTjK :) \[*GNU AGPLv3*\] (⭐️9377)
+  - [bluesky-social/social-app](https://github.com/bluesky-social/social-app) - The Bluesky Social application for Web, iOS, and Android \[*MIT License*\] (⭐️17773)
+  - [bluewave-labs/Checkmate](https://github.com/bluewave-labs/Checkmate) - Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations. Don't be shy, join here: https://discord.com/invite/NAb6H3UTjK :) \[*GNU AGPLv3*\] (⭐️9378)
   - [char/burrow](https://github.com/char/burrow) - idiosyncratic AT Protocol PDS implementation (⭐️12)
-  - [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) - AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs \[*GNU AGPLv3*\] (⭐️41113)
-  - [danielpetho/fancy](https://github.com/danielpetho/fancy) -  \[*MIT License*\] (⭐️2801)
-  - [danny-avila/LibreChat](https://github.com/danny-avila/LibreChat) - Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active. \[*MIT License*\] (⭐️34476)
-  - [docmost/docmost](https://github.com/docmost/docmost) - Docmost is an open-source collaborative wiki and documentation software. It is an open-source alternative to Confluence and Notion. \[*GNU AGPLv3*\] (⭐️19369)
-  - [elysiajs/elysia](https://github.com/elysiajs/elysia) - Ergonomic Framework for Humans \[*MIT License*\] (⭐️17555)
+  - [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) - AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs \[*GNU AGPLv3*\] (⭐️41195)
+  - [danielpetho/fancy](https://github.com/danielpetho/fancy) -  \[*MIT License*\] (⭐️2803)
+  - [danny-avila/LibreChat](https://github.com/danny-avila/LibreChat) - Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active. \[*MIT License*\] (⭐️34513)
+  - [docmost/docmost](https://github.com/docmost/docmost) - Docmost is an open-source collaborative wiki and documentation software. It is an open-source alternative to Confluence and Notion. \[*GNU AGPLv3*\] (⭐️19389)
+  - [elysiajs/elysia](https://github.com/elysiajs/elysia) - Ergonomic Framework for Humans \[*MIT License*\] (⭐️17570)
   - [Erisa/worker-links](https://github.com/Erisa/worker-links) - A simple URL Shortener for Cloudflare Workers! \[*MIT License*\] (⭐️66)
   - [FoxxMD/multi-scrobbler](https://github.com/FoxxMD/multi-scrobbler) - Scrobble plays from multiple sources to multiple clients \[*MIT License*\] (⭐️956)
-  - [grafana/grafana](https://github.com/grafana/grafana) - The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more.  \[*GNU AGPLv3*\] (⭐️72624)
+  - [grafana/grafana](https://github.com/grafana/grafana) - The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more.  \[*GNU AGPLv3*\] (⭐️72645)
   - [haileyok/blug](https://github.com/haileyok/blug) - My little ATProtocol blog using Remix, Tailwind, and Redis (⭐️105)
-  - [iptv-org/iptv](https://github.com/iptv-org/iptv) - Collection of publicly available IPTV channels from all over the world \[*The Unlicense*\] (⭐️112663)
+  - [iptv-org/iptv](https://github.com/iptv-org/iptv) - Collection of publicly available IPTV channels from all over the world \[*The Unlicense*\] (⭐️112737)
   - [joneslloyd/bluniversal-comments](https://github.com/joneslloyd/bluniversal-comments) - Start a conversation next to any web page using your Bluesky account (⭐️93)
   - [kitabisa/docker-slim-action](https://github.com/kitabisa/docker-slim-action) - GitHub Action to minify container image by up to 30x (and for compiled languages even more) making it secure too! \[*MIT License*\] (⭐️33)
   - [knotbin/airport](https://github.com/knotbin/airport) - AT Protocol PDS migration built in Deno Fresh \[*MIT License*\] (⭐️60)
-  - [linkwarden/linkwarden](https://github.com/linkwarden/linkwarden) - ⚡️⚡️⚡️ Self-hosted collaborative bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place. \[*GNU AGPLv3*\] (⭐️17453)
+  - [linkwarden/linkwarden](https://github.com/linkwarden/linkwarden) - ⚡️⚡️⚡️ Self-hosted collaborative bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place. \[*GNU AGPLv3*\] (⭐️17464)
   - [Lissy93/domain-locker](https://github.com/Lissy93/domain-locker) - 🌐 The all-in-one tool, for keeping track of your domain name portfolio. Got domain names? Get Domain Locker! \[*MIT License*\] (⭐️1210)
-  - [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) - 🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2026 (⭐️20889)
-  - [Lissy93/web-check](https://github.com/Lissy93/web-check) - 🕵️‍♂️ All-in-one OSINT tool for analysing any website \[*MIT License*\] (⭐️32239)
-  - [lobehub/lobehub](https://github.com/lobehub/lobehub) - The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction. (⭐️73349)
+  - [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) - 🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2026 (⭐️20899)
+  - [Lissy93/web-check](https://github.com/Lissy93/web-check) - 🕵️‍♂️ All-in-one OSINT tool for analysing any website \[*MIT License*\] (⭐️32246)
+  - [lobehub/lobehub](https://github.com/lobehub/lobehub) - The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction. (⭐️73405)
   - [marcomaroni-github/twitter-to-bluesky](https://github.com/marcomaroni-github/twitter-to-bluesky) - Import all tweets exported from X/Twitter to a Bluesky account. (⭐️625) *Archived!*
   - [mary-ext/atcute](https://github.com/mary-ext/atcute) - a collection of lightweight TypeScript packages for AT Protocol, the protocol powering Bluesky. \[*BSD Zero Clause License*\] (⭐️456)
   - [mary-ext/atproto-scraping](https://github.com/mary-ext/atproto-scraping) - Git scraping of AT Protocol/Bluesky instances (⭐️172)
-  - [mattermost/mattermost](https://github.com/mattermost/mattermost) - Mattermost is an open source platform for secure collaboration across the entire software development lifecycle.. (⭐️35733)
-  - [mattermost/mattermost-mobile](https://github.com/mattermost/mattermost-mobile) - Next generation iOS and Android apps for Mattermost in React Native \[*Apache License 2.0*\] (⭐️2610)
-  - [microsoft/vscode](https://github.com/microsoft/vscode) - Visual Studio Code \[*MIT License*\] (⭐️182538)
+  - [mattermost/mattermost](https://github.com/mattermost/mattermost) - Mattermost is an open source platform for secure collaboration across the entire software development lifecycle.. (⭐️35751)
+  - [mattermost/mattermost-mobile](https://github.com/mattermost/mattermost-mobile) - Next generation iOS and Android apps for Mattermost in React Native \[*Apache License 2.0*\] (⭐️2611)
+  - [microsoft/vscode](https://github.com/microsoft/vscode) - Visual Studio Code \[*MIT License*\] (⭐️182574)
   - [mozzius/backdate-labeller](https://github.com/mozzius/backdate-labeller) - atproto labeller for backdated posts \[*MIT License*\] (⭐️6)
-  - [nocodb/nocodb](https://github.com/nocodb/nocodb) - 🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative (⭐️62441)
-  - [rrweb-io/rrweb](https://github.com/rrweb-io/rrweb) - record and replay the web \[*MIT License*\] (⭐️19298)
+  - [nocodb/nocodb](https://github.com/nocodb/nocodb) - 🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative (⭐️62457)
+  - [rrweb-io/rrweb](https://github.com/rrweb-io/rrweb) - record and replay the web \[*MIT License*\] (⭐️19304)
   - [RuiSiang/PoW-Shield](https://github.com/RuiSiang/PoW-Shield) - Project dedicated to fight Layer 7 DDoS with proof of work, with an additional WAF and controller. Completed with full set of features and containerized for rapid and lightweight deployment. \[*MIT License*\] (⭐️396)
   - [rwietter/atproto-blog](https://github.com/rwietter/atproto-blog) - This is a personal website and blog built with AT Protocol, WhiteWind, and Next.js. \[*MIT License*\] (⭐️4)
-  - [shadcn-ui/ui](https://github.com/shadcn-ui/ui) - A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code. \[*MIT License*\] (⭐️109088)
+  - [shadcn-ui/ui](https://github.com/shadcn-ui/ui) - A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code. \[*MIT License*\] (⭐️109185)
   - [Skiddle-ID/domainchecker](https://github.com/Skiddle-ID/domainchecker) - A Fast Domain Block Checker /w Hono & Cloudflare Workers \[*MIT License*\] (⭐️9) *Archived!*
-  - [supabase/supabase](https://github.com/supabase/supabase) - The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications. \[*Apache License 2.0*\] (⭐️98814)
-  - [TanStack/router](https://github.com/TanStack/router) - 🤖 A client-first, server-capable, fully type-safe router and full-stack framework for the web (React and more). \[*MIT License*\] (⭐️13795)
+  - [supabase/supabase](https://github.com/supabase/supabase) - The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications. \[*Apache License 2.0*\] (⭐️98878)
+  - [TanStack/router](https://github.com/TanStack/router) - 🤖 A client-first, server-capable, fully type-safe router and full-stack framework for the web (React and more). \[*MIT License*\] (⭐️13800)
   - [upstash/jstack](https://github.com/upstash/jstack) - Build seriously fast, lightweight and end-to-end typesafe Next.js apps \[*MIT License*\] (⭐️3778)
   - [upstash/ratelimit-js](https://github.com/upstash/ratelimit-js) - Rate limiting library for serverless runtimes \[*MIT License*\] (⭐️2019)
   - [upstash/redis-js](https://github.com/upstash/redis-js) - HTTP based Redis Client for Serverless and Edge Functions \[*MIT License*\] (⭐️921)
   - [utterance/utterances](https://github.com/utterance/utterances) - :crystal_ball: A lightweight comments widget built on GitHub issues \[*MIT License*\] (⭐️9632)
-  - [vercel/commerce](https://github.com/vercel/commerce) - Next.js Commerce \[*MIT License*\] (⭐️13920)
-  - [wg-easy/wg-easy](https://github.com/wg-easy/wg-easy) - The easiest way to run WireGuard VPN + Web-based Admin UI. \[*GNU AGPLv3*\] (⭐️24901)
+  - [vercel/commerce](https://github.com/vercel/commerce) - Next.js Commerce \[*MIT License*\] (⭐️13921)
+  - [wg-easy/wg-easy](https://github.com/wg-easy/wg-easy) - The easiest way to run WireGuard VPN + Web-based Admin UI. \[*GNU AGPLv3*\] (⭐️24920)
 
 ## Unknown
 
   - [alsyundawy/TrustPositif-Archive](https://github.com/alsyundawy/TrustPositif-Archive) - Raw TrustPositif \[*GNU GPLv3*\] (⭐️37) *Archived!*
   - [arcestia/arcestia](https://github.com/arcestia/arcestia) - Hello World! \[*MIT License*\] (⭐️2)
   - [bluesky-social/proposals](https://github.com/bluesky-social/proposals) - Bluesky proposal discussions (⭐️158)
-  - [devsecops/awesome-devsecops](https://github.com/devsecops/awesome-devsecops) - An authoritative list of awesome devsecops tools with the help from community experiments and contributions. \[*Creative Commons Zero v1.0 Universal*\] (⭐️5341)
-  - [elder-plinius/CL4R1T4S](https://github.com/elder-plinius/CL4R1T4S) - LEAKED SYSTEM PROMPTS FOR CHATGPT, GEMINI, GROK, CLAUDE, PERPLEXITY, CURSOR, DEVIN, REPLIT, AND MORE! - AI SYSTEMS TRANSPARENCY FOR ALL! 👐 \[*GNU AGPLv3*\] (⭐️13138)
+  - [devsecops/awesome-devsecops](https://github.com/devsecops/awesome-devsecops) - An authoritative list of awesome devsecops tools with the help from community experiments and contributions. \[*Creative Commons Zero v1.0 Universal*\] (⭐️5342)
+  - [elder-plinius/CL4R1T4S](https://github.com/elder-plinius/CL4R1T4S) - LEAKED SYSTEM PROMPTS FOR CHATGPT, GEMINI, GROK, CLAUDE, PERPLEXITY, CURSOR, DEVIN, REPLIT, AND MORE! - AI SYSTEMS TRANSPARENCY FOR ALL! 👐 \[*GNU AGPLv3*\] (⭐️13280)
   - [greenpeace/planet4](https://github.com/greenpeace/planet4) - Built on top of Wordpress tech, Greenpeace Planet 4 powers digital platforms to engage with millions and win campaigns around the world. \[*Creative Commons Attribution Share Alike 4.0 International*\] (⭐️74)
-  - [herrbischoff/country-ip-blocks](https://github.com/herrbischoff/country-ip-blocks) - CIDR country-level IP data, straight from the Regional Internet Registries, updated hourly. This is a read-only mirror. (⭐️931) *Archived!*
+  - [herrbischoff/country-ip-blocks](https://github.com/herrbischoff/country-ip-blocks) - CIDR country-level IP data, straight from the Regional Internet Registries, updated hourly. This is a read-only mirror. (⭐️930) *Archived!*
   - [Homebrew/homebrew-services](https://github.com/Homebrew/homebrew-services) - 💀 Homebrew Services (deprecated) (⭐️2043) *Archived!*
-  - [hslatman/awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence) - A curated list of Awesome Threat Intelligence resources \[*Apache License 2.0*\] (⭐️9915)
-  - [jivoi/awesome-osint](https://github.com/jivoi/awesome-osint) - :scream: A curated list of amazingly awesome OSINT (⭐️25173)
+  - [hslatman/awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence) - A curated list of Awesome Threat Intelligence resources \[*Apache License 2.0*\] (⭐️9925)
+  - [jivoi/awesome-osint](https://github.com/jivoi/awesome-osint) - :scream: A curated list of amazingly awesome OSINT (⭐️25198)
   - [kawaiipantsu/ip-blacklist-collection](https://github.com/kawaiipantsu/ip-blacklist-collection) - These are automated updated IP address blacklist/whitelist you can use to fetch and parse and put in your firewall, waf, null-routing, sinkhole or what ever you choose. The blacklists are not necessary threat actors, it's just lists i like to have ready and handy. \[*MIT License*\] (⭐️29)
   - [kawaiipantsu/spamassassin-rules](https://github.com/kawaiipantsu/spamassassin-rules) - Custom SpamAssassin rules I and others have made and contributed with - To mitigate spam mails and phishing mails now also with cool Phishtank rules \[*MIT License*\] (⭐️57)
   - [matro7sh/BypassAV](https://github.com/matro7sh/BypassAV) - This map lists the essential techniques to bypass anti-virus and EDR (⭐️3170)
-  - [MoonshotAI/Kimi-K2](https://github.com/MoonshotAI/Kimi-K2) - Kimi K2 is the large language model series developed by Moonshot AI team (⭐️10484)
-  - [rshipp/awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis) - Defund the Police. (⭐️13503)
-  - [saturn-abhishek/awesome-github-profile-readme](https://github.com/saturn-abhishek/awesome-github-profile-readme) - 😎 A curated list of awesome GitHub Profile which updates in real time  \[*Creative Commons Zero v1.0 Universal*\] (⭐️29318)
+  - [MoonshotAI/Kimi-K2](https://github.com/MoonshotAI/Kimi-K2) - Kimi K2 is the large language model series developed by Moonshot AI team (⭐️10490)
+  - [rshipp/awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis) - Defund the Police. (⭐️13509)
+  - [saturn-abhishek/awesome-github-profile-readme](https://github.com/saturn-abhishek/awesome-github-profile-readme) - 😎 A curated list of awesome GitHub Profile which updates in real time  \[*Creative Commons Zero v1.0 Universal*\] (⭐️29323)
   - [ShadowWhisperer/BlockLists](https://github.com/ShadowWhisperer/BlockLists) - Custom DNS block lists \[*The Unlicense*\] (⭐️395)
   - [ShadowWhisperer/IPs](https://github.com/ShadowWhisperer/IPs) - IP block lists for: Malware, Bots, Hackers, scanners, etc. \[*The Unlicense*\] (⭐️195)
   - [Skiddle-ID/blocklist](https://github.com/Skiddle-ID/blocklist) - Uncensored Kominfo blocklist taken automatically updated every hour. \[*MIT License*\] (⭐️19)
@@ -359,10 +359,10 @@ Total starred repositories: `239`
 
 ## Vue
 
-  - [Lissy93/dashy](https://github.com/Lissy93/dashy) - 🚀 A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more! \[*MIT License*\] (⭐️24185)
-  - [miantiao-me/Sink](https://github.com/miantiao-me/Sink) - ⚡ A Simple / Speedy / Secure Link Shortener with Analytics, 100% run on Cloudflare. \[*GNU AGPLv3*\] (⭐️6406)
+  - [Lissy93/dashy](https://github.com/Lissy93/dashy) - 🚀 A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more! \[*MIT License*\] (⭐️24197)
+  - [miantiao-me/Sink](https://github.com/miantiao-me/Sink) - ⚡ A Simple / Speedy / Secure Link Shortener with Analytics, 100% run on Cloudflare. \[*GNU AGPLv3*\] (⭐️6411)
 
 ## Zig
 
-  - [ziglang/zig](https://github.com/ziglang/zig) - Moved to Codeberg \[*MIT License*\] (⭐️42896)
+  - [ziglang/zig](https://github.com/ziglang/zig) - Moved to Codeberg \[*MIT License*\] (⭐️42902)
 
