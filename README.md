@@ -25,6 +25,7 @@
       <img src="https://skiddle.blue/lastfm.svg" alt="Now Playing">
     </a>
 </div>
+
 ---
 
 ## 💻 What I'm Working On
