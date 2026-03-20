@@ -11,11 +11,17 @@
 <p align="center"><i>You might also know me as Jeff, Skiddle, or arcestia.</i></p>
 
 <div align="center">
+  <!-- SOCIAL-STATS:START -->
   <a href="https://skiddle.id"><img src="https://img.shields.io/badge/Website-121011?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website"></a>
-  <a href="https://bsky.app/profile/skiddle.blue"><img src="https://img.shields.io/badge/Bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=white" alt="Bluesky"></a>
-  <a href="https://x.com/skiddleid"><img src="https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white" alt="X"></a>
-  <a href="https://instagram.com/skiddle.id"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram"></a>
-  <a href="https://open.spotify.com/artist/3Syg5zMokVKFq3ZpdFVK4F"><img src="https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify"></a>
+  <a href="https://github.com/arcestia"><img src="https://img.shields.io/github/followers/arcestia?label=GitHub&style=for-the-badge&logo=github&color=181717" alt="GitHub"></a>
+  <a href="https://github.com/sponsors/arcestia"><img src="https://img.shields.io/badge/Sponsors-10-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors"></a>
+  <a href="https://bsky.app/profile/skiddle.blue"><img src="https://img.shields.io/bluesky/followers/skiddle.blue?label=%40skiddle.blue&style=for-the-badge&logo=bluesky&color=0285FF" alt="Bluesky"></a>
+  <a href="https://x.com/skiddleid"><img src="https://img.shields.io/badge/%40skiddleid-1.5k-000000?style=for-the-badge&logo=X&logoColor=white" alt="X"></a>
+  <a href="https://instagram.com/skiddle.id"><img src="https://img.shields.io/badge/%40skiddle.id-7.5k-E4405F?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram"></a>
+  <a href="https://instagram.com/skiddleton"><img src="https://img.shields.io/badge/%40skiddleton-13.1k-E4405F?style=for-the-badge&logo=Instagram&logoColor=white" alt="Skiddleton"></a>
+  <br>
+  <img src="https://img.shields.io/badge/Total_Followers-22.4k-blue?style=for-the-badge" alt="Total Followers">
+  <!-- SOCIAL-STATS:END -->
 </div>
 
 ---
