@@ -35,7 +35,7 @@
 - Keep solutions pragmatic and production-minded.
 - Support an open, secure, and accessible internet.
 
-<details>
+<details open>
   <summary><h2>🛠️ My Favorite Tools</h2></summary>
 
   <h3>👨‍💻 Programming and Markup Languages</h3>
