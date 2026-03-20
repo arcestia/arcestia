@@ -47,6 +47,20 @@
       "url": "https://instagram.com/skiddleton",
       "color": "C13584",
       "logo": "Instagram"
+    },
+    "youtube": {
+      "name": "YouTube",
+      "handle": "SkiddleID",
+      "url": "https://www.youtube.com/@SkiddleID",
+      "color": "FF0000",
+      "logo": "YouTube"
+    },
+    "soundcloud": {
+      "name": "SoundCloud",
+      "handle": "arcestiaishere",
+      "url": "https://soundcloud.com/arcestiaishere",
+      "color": "FF3300",
+      "logo": "SoundCloud"
     }
   },
   "settings": {

@@ -116,6 +116,58 @@ def get_x_followers(username):
     return 0
 
 
+def get_soundcloud_followers(url):
+    """Fetch SoundCloud follower count using RapidAPI."""
+    if not RAPIDAPI_KEY:
+        return 0
+
+    import urllib.parse
+
+    encoded_url = urllib.parse.quote(url, safe="")
+    api_url = (
+        f"https://soundcloud-scraper.p.rapidapi.com/v1/user/profile?user={encoded_url}"
+    )
+    headers = {
+        "X-RapidAPI-Key": RAPIDAPI_KEY,
+        "X-RapidAPI-Host": "soundcloud-scraper.p.rapidapi.com",
+        "Content-Type": "application/json",
+    }
+
+    try:
+        req = urllib.request.Request(api_url, headers=headers)
+        with urllib.request.urlopen(req) as response:
+            data = json.loads(response.read().decode())
+            return data.get("followerCount", 0)
+    except Exception as e:
+        print(f"Error fetching SoundCloud followers: {e}")
+    return 0
+
+
+def get_youtube_subscribers(url):
+    """Fetch YouTube subscriber count using RapidAPI."""
+    if not RAPIDAPI_KEY:
+        return 0
+
+    import urllib.parse
+
+    encoded_url = urllib.parse.quote(url, safe="")
+    api_url = f"https://youtube138.p.rapidapi.com/channel/details/?id={encoded_url}&hl=en&gl=US"
+    headers = {
+        "X-RapidAPI-Key": RAPIDAPI_KEY,
+        "X-RapidAPI-Host": "youtube138.p.rapidapi.com",
+        "Content-Type": "application/json",
+    }
+
+    try:
+        req = urllib.request.Request(api_url, headers=headers)
+        with urllib.request.urlopen(req) as response:
+            data = json.loads(response.read().decode())
+            return data.get("stats", {}).get("subscribers", 0)
+    except Exception as e:
+        print(f"Error fetching YouTube subscribers: {e}")
+    return 0
+
+
 def get_instagram_followers(username):
     """Fetch Instagram followers using a third-party RapidAPI service."""
     if not RAPIDAPI_KEY:
@@ -183,7 +235,16 @@ def update_readme(stats):
     )
 
     # Platform badges
-    order = ["github", "sponsors", "bluesky", "x", "instagram", "instagram_lab"]
+    order = [
+        "github",
+        "sponsors",
+        "bluesky",
+        "x",
+        "instagram",
+        "instagram_lab",
+        "youtube",
+        "soundcloud",
+    ]
     for key in order:
         p = platforms.get(key)
         if not p:
@@ -194,7 +255,6 @@ def update_readme(stats):
         color = p.get("color", "grey")
         label_color = f"&labelColor={color}" if use_matching_labels else ""
 
-        # GitHub uses a specific shields.io endpoint for followers, others use generic badges
         if key == "github":
             img_url = f"https://img.shields.io/github/followers/{p.get('handle')}?label=GitHub&style={style}&logo=github&color={color}{label_color}"
         else:
@@ -215,8 +275,6 @@ def update_readme(stats):
         f'<img src="https://img.shields.io/badge/Total_Followers-{format_count(total_followers)}-{total_color}?style={style}{total_label_color}" alt="Total Followers">'
     )
 
-    # Construct the final row
-    # Website on its own line, others in a row
     new_stats_html = f"{badges[0]}\n  {' '.join(badges[1:])}"
 
     if os.path.exists(readme_path):
@@ -256,6 +314,16 @@ if __name__ == "__main__":
             ),
             "instagram_lab": get_instagram_followers(
                 platforms.get("instagram_lab", {}).get("handle", "skiddleton")
+            ),
+            "youtube": get_youtube_subscribers(
+                platforms.get("youtube", {}).get(
+                    "url", "https://www.youtube.com/@SkiddleID"
+                )
+            ),
+            "soundcloud": get_soundcloud_followers(
+                platforms.get("soundcloud", {}).get(
+                    "url", "https://soundcloud.com/arcestiaishere"
+                )
             ),
         }
         update_readme(stats)
