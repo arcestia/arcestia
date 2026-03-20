@@ -66,11 +66,12 @@
   <summary><h2>📊 Stats & Activity</h2></summary>
   <div align="center">
     <p>
-      <img src="https://github-readme-stats.vercel.app/api?username=arcestia&show_icons=true&theme=transparent&hide_border=true&title_color=00ADD8&icon_color=00ADD8&text_color=777&count_private=true" alt="GitHub Stats" />
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=arcestia&theme=transparent&hide_border=true&stroke=00ADD8&ring=00ADD8&fire=00ADD8&currStreakLabel=00ADD8" alt="GitHub Streak" />
+      <img src="https://raw.githubusercontent.com/arcestia/arcestia/profile-summary-card-output/Default/0-stats.svg" alt="GitHub Stats" />
+      <img src="https://raw.githubusercontent.com/arcestia/arcestia/profile-summary-card-output/Default/1-repos.svg" alt="GitHub Repos" />
     </p>
     <p>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arcestia&layout=compact&theme=transparent&hide_border=true&title_color=00ADD8&text_color=777" alt="Top Languages" />
+      <img src="https://raw.githubusercontent.com/arcestia/arcestia/profile-summary-card-output/Default/2-most-commit-language.svg" alt="Most Commit Language" />
+      <img src="https://raw.githubusercontent.com/arcestia/arcestia/profile-summary-card-output/Default/3-stats.svg" alt="GitHub Stats 2" />
     </p>
     <h3>🔄 Recent Activity</h3>
     <!-- RECENT-ACTIVITY:START -->
