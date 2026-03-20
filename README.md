@@ -71,12 +71,12 @@
     </p>
     <h3>🔄 Recent Activity</h3>
     <!-- RECENT-ACTIVITY:START -->
-    <ul>
-      <li>🔀 Merged PR <a href="https://github.com/arcestia/arcestia/pull/5">#5</a> in <a href="https://github.com/arcestia/arcestia"><code>arcestia/arcestia</code></a></li>
-      <li>🔀 Opened PR <a href="https://github.com/arcestia/arcestia/pull/5">#5</a> in <a href="https://github.com/arcestia/arcestia"><code>arcestia/arcestia</code></a></li>
-      <li>🏗️ Created branch <code>rebuilt-profile</code> in <a href="https://github.com/arcestia/arcestia"><code>arcestia/arcestia</code></a></li>
-    </ul>
-    <!-- RECENT-ACTIVITY:END -->
+<ul>
+  <li>🔀 Merged PR <a href='None'>#5</a> in <a href='https://github.com/arcestia/arcestia'><code>arcestia/arcestia</code></a></li>
+  <li>🔀 Opened PR <a href='None'>#5</a> in <a href='https://github.com/arcestia/arcestia'><code>arcestia/arcestia</code></a></li>
+  <li>🏗️ Created branch <code>rebuilt-profile</code> in <a href='https://github.com/arcestia/arcestia'><code>arcestia/arcestia</code></a></li>
+</ul>
+<!-- RECENT-ACTIVITY:END -->
   </div>
 </details>
 
