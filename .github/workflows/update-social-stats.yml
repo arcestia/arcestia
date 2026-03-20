@@ -7,7 +7,7 @@ on:
       - "scripts/update_social_stats.py"
   workflow_dispatch: # Manual dispatch
   schedule:
-    - cron: "0 0 * * *" # Every day at midnight.
+    - cron: "0 */6 * * *" # Every 6 hours to check for cache expiration
 
 jobs:
   update-stats:
@@ -32,7 +32,7 @@ jobs:
         run: |
           git config --local user.email "160487326+Skiddle-Git@users.noreply.github.com"
           git config --local user.name "Skiddle-Git"
-          git add README.md
-          git diff --quiet && git diff --staged --quiet || (git commit -m "📊 Updates social media follower statistics" && git push)
+          git add README.md .github/config/stats_cache.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "📊 Updates social media follower statistics and cache" && git push)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

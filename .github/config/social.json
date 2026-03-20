@@ -4,7 +4,7 @@
       "name": "Website",
       "url": "https://skiddle.id",
       "color": "FF5733",
-      "logo": "google-chrome"
+      "logo": "googlechrome"
     },
     "github": {
       "name": "GitHub",
@@ -32,35 +32,35 @@
       "handle": "skiddleid",
       "url": "https://x.com/skiddleid",
       "color": "000000",
-      "logo": "X"
+      "logo": "x"
     },
     "instagram": {
       "name": "Instagram",
       "handle": "skiddle.id",
       "url": "https://instagram.com/skiddle.id",
       "color": "C13584",
-      "logo": "Instagram"
+      "logo": "instagram"
     },
     "instagram_lab": {
       "name": "Lab",
       "handle": "skiddleton",
       "url": "https://instagram.com/skiddleton",
       "color": "C13584",
-      "logo": "Instagram"
+      "logo": "instagram"
     },
     "youtube": {
       "name": "YouTube",
       "handle": "SkiddleID",
       "url": "https://www.youtube.com/@SkiddleID",
       "color": "FF0000",
-      "logo": "YouTube"
+      "logo": "youtube"
     },
     "soundcloud": {
       "name": "SoundCloud",
       "handle": "arcestiaishere",
       "url": "https://soundcloud.com/arcestiaishere",
       "color": "FF3300",
-      "logo": "SoundCloud"
+      "logo": "soundcloud"
     }
   },
   "settings": {

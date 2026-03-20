@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import time
 import urllib.request
 
 # Retrieve Keys from Environment Variables
@@ -8,15 +9,27 @@ RAPIDAPI_KEY = os.environ.get("RAPIDAPI_KEY")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 
 
-def load_config(file_path):
-    """Load JSON configuration file."""
+def load_json(file_path):
+    """Load JSON file safely."""
     if os.path.exists(file_path):
-        with open(file_path, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return None
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"Error loading {file_path}: {e}")
+    return {}
 
 
-def get_github_followers(username):
+def save_json(file_path, data):
+    """Save JSON file safely."""
+    try:
+        with open(file_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2)
+    except Exception as e:
+        print(f"Error saving {file_path}: {e}")
+
+
+def get_github_followers(username, cache):
     """Fetch GitHub follower count using public API."""
     url = f"https://api.github.com/users/{username}"
     headers = {"User-Agent": "Mozilla/5.0"}
@@ -30,10 +43,10 @@ def get_github_followers(username):
             return data.get("followers", 0)
     except Exception as e:
         print(f"Error fetching GitHub followers for {username}: {e}")
-    return 0
+    return cache.get("github", 0)
 
 
-def get_github_sponsors(username):
+def get_github_sponsors(username, cache):
     """Fetch GitHub sponsors count using GraphQL API."""
     if not GITHUB_TOKEN:
         return 0
@@ -71,10 +84,10 @@ def get_github_sponsors(username):
             )
     except Exception as e:
         print(f"Error fetching GitHub sponsors for {username}: {e}")
-        return 0
+        return cache.get("sponsors", 0)
 
 
-def get_bluesky_followers(handle):
+def get_bluesky_followers(handle, cache):
     """Fetch Bluesky follower count using public API."""
     url = f"https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor={handle}"
     try:
@@ -84,10 +97,10 @@ def get_bluesky_followers(handle):
             return data.get("followersCount", 0)
     except Exception as e:
         print(f"Error fetching Bluesky followers for {handle}: {e}")
-    return 0
+    return cache.get("bluesky", 0)
 
 
-def get_x_followers(username):
+def get_x_followers(username, cache):
     """Fetch X followers using a third-party RapidAPI service."""
     if not RAPIDAPI_KEY:
         return 0
@@ -113,10 +126,10 @@ def get_x_followers(username):
             return user_data.get("followers_count", 0)
     except Exception as e:
         print(f"Error fetching X followers: {e}")
-    return 0
+    return cache.get("x", 0)
 
 
-def get_soundcloud_followers(url):
+def get_soundcloud_followers(url, cache):
     """Fetch SoundCloud follower count using RapidAPI."""
     if not RAPIDAPI_KEY:
         return 0
@@ -140,18 +153,22 @@ def get_soundcloud_followers(url):
             return data.get("followerCount", 0)
     except Exception as e:
         print(f"Error fetching SoundCloud followers: {e}")
-    return 0
+    return cache.get("soundcloud", 0)
 
 
-def get_youtube_subscribers(url):
+def get_youtube_subscribers(handle, cache):
     """Fetch YouTube subscriber count using RapidAPI."""
     if not RAPIDAPI_KEY:
         return 0
 
+    # Ensure handle starts with @ for the API
+    if not handle.startswith("@"):
+        handle = f"@{handle}"
+
     import urllib.parse
 
-    encoded_url = urllib.parse.quote(url, safe="")
-    api_url = f"https://youtube138.p.rapidapi.com/channel/details/?id={encoded_url}&hl=en&gl=US"
+    encoded_handle = urllib.parse.quote(handle, safe="")
+    api_url = f"https://youtube138.p.rapidapi.com/channel/details/?id={encoded_handle}&hl=en&gl=US"
     headers = {
         "X-RapidAPI-Key": RAPIDAPI_KEY,
         "X-RapidAPI-Host": "youtube138.p.rapidapi.com",
@@ -165,10 +182,10 @@ def get_youtube_subscribers(url):
             return data.get("stats", {}).get("subscribers", 0)
     except Exception as e:
         print(f"Error fetching YouTube subscribers: {e}")
-    return 0
+    return cache.get("youtube", 0)
 
 
-def get_instagram_followers(username):
+def get_instagram_followers(username, cache, cache_key):
     """Fetch Instagram followers using a third-party RapidAPI service."""
     if not RAPIDAPI_KEY:
         return 0
@@ -189,8 +206,8 @@ def get_instagram_followers(username):
             data = json.loads(response.read().decode())
             return data.get("result", {}).get("edge_followed_by", {}).get("count", 0)
     except Exception as e:
-        print(f"Error fetching Instagram followers: {e}")
-    return 0
+        print(f"Error fetching Instagram followers for {username}: {e}")
+    return cache.get(cache_key, 0)
 
 
 def format_count(count):
@@ -212,7 +229,7 @@ def update_readme(stats):
     readme_path = os.path.join(base_dir, "README.md")
     config_path = os.path.join(base_dir, ".github", "config", "social.json")
 
-    config = load_config(config_path)
+    config = load_json(config_path)
     if not config:
         print("Error: Could not load social.json config")
         return
@@ -294,36 +311,77 @@ def update_readme(stats):
 if __name__ == "__main__":
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     config_path = os.path.join(base_dir, ".github", "config", "social.json")
-    config = load_config(config_path)
+    cache_path = os.path.join(base_dir, ".github", "config", "stats_cache.json")
+
+    config = load_json(config_path)
+    cache_data = load_json(cache_path)
+
+    # Cache expiration logic (24 hours = 86400 seconds)
+    last_update = cache_data.get("last_updated_at", 0)
+    current_time = time.time()
+    cache = cache_data.get("stats", {})
 
     if config:
         platforms = config.get("platforms", {})
-        stats = {
-            "github": get_github_followers(
-                platforms.get("github", {}).get("handle", "arcestia")
-            ),
-            "sponsors": get_github_sponsors(
-                platforms.get("sponsors", {}).get("handle", "arcestia")
-            ),
-            "bluesky": get_bluesky_followers(
-                platforms.get("bluesky", {}).get("handle", "skiddle.blue")
-            ),
-            "x": get_x_followers(platforms.get("x", {}).get("handle", "skiddleid")),
-            "instagram": get_instagram_followers(
-                platforms.get("instagram", {}).get("handle", "skiddle.id")
-            ),
-            "instagram_lab": get_instagram_followers(
-                platforms.get("instagram_lab", {}).get("handle", "skiddleton")
-            ),
-            "youtube": get_youtube_subscribers(
-                platforms.get("youtube", {}).get(
-                    "url", "https://www.youtube.com/@SkiddleID"
-                )
-            ),
-            "soundcloud": get_soundcloud_followers(
+        stats = {}
+
+        # Only fetch new stats if 24 hours have passed or cache is empty
+        if current_time - last_update > 86400 or not cache:
+            print("Cache expired or empty. Fetching fresh stats...")
+
+            print("Fetching GitHub followers...")
+            stats["github"] = get_github_followers(
+                platforms.get("github", {}).get("handle", "arcestia"), cache
+            )
+
+            print("Fetching GitHub sponsors...")
+            stats["sponsors"] = get_github_sponsors(
+                platforms.get("sponsors", {}).get("handle", "arcestia"), cache
+            )
+
+            print("Fetching Bluesky followers...")
+            stats["bluesky"] = get_bluesky_followers(
+                platforms.get("bluesky", {}).get("handle", "skiddle.blue"), cache
+            )
+
+            print("Fetching X followers...")
+            stats["x"] = get_x_followers(
+                platforms.get("x", {}).get("handle", "skiddleid"), cache
+            )
+
+            print("Fetching Instagram followers (skiddle.id)...")
+            stats["instagram"] = get_instagram_followers(
+                platforms.get("instagram", {}).get("handle", "skiddle.id"),
+                cache,
+                "instagram",
+            )
+
+            print("Fetching Instagram followers (skiddleton)...")
+            stats["instagram_lab"] = get_instagram_followers(
+                platforms.get("instagram_lab", {}).get("handle", "skiddleton"),
+                cache,
+                "instagram_lab",
+            )
+
+            print("Fetching YouTube subscribers...")
+            stats["youtube"] = get_youtube_subscribers(
+                platforms.get("youtube", {}).get("handle", "SkiddleID"), cache
+            )
+
+            print("Fetching SoundCloud followers...")
+            stats["soundcloud"] = get_soundcloud_followers(
                 platforms.get("soundcloud", {}).get(
                     "url", "https://soundcloud.com/arcestiaishere"
-                )
-            ),
-        }
+                ),
+                cache,
+            )
+
+            # Update cache with new timestamp
+            save_json(cache_path, {"last_updated_at": current_time, "stats": stats})
+        else:
+            print(
+                f"Using cached stats (Last updated {int((current_time - last_update) / 3600)}h ago)"
+            )
+            stats = cache
+
         update_readme(stats)
