@@ -1,0 +1,40 @@
+{
+  "categories": [
+    {
+      "name": "Programming and Markup Languages",
+      "icon": "👨‍💻",
+      "tools": [
+        { "name": "Go", "color": "00ADD8", "logo": "go" },
+        { "name": "Rust", "color": "000000", "logo": "rust" },
+        { "name": "Python", "color": "3776AB", "logo": "python" },
+        { "name": "Bash", "color": "4EAA25", "logo": "gnu-bash" },
+        { "name": "SQL", "color": "003B57", "logo": "postgresql" }
+      ]
+    },
+    {
+      "name": "Databases and Infrastructure",
+      "icon": "🗄️",
+      "tools": [
+        { "name": "PostgreSQL", "color": "316192", "logo": "postgresql" },
+        { "name": "Redis", "color": "DC382D", "logo": "redis" },
+        { "name": "Docker", "color": "2496ED", "logo": "docker" },
+        { "name": "Kubernetes", "color": "326CE5", "logo": "kubernetes" },
+        { "name": "Proxmox", "color": "E57000", "logo": "proxmox" }
+      ]
+    },
+    {
+      "name": "Software and Development",
+      "icon": "💻",
+      "tools": [
+        { "name": "Linux", "color": "FCC624", "logo": "linux", "logoColor": "black" },
+        { "name": "Git", "color": "F05032", "logo": "git" },
+        { "name": "VS Code", "color": "007ACC", "logo": "visual-studio-code" },
+        { "name": "Postman", "color": "FF6C37", "logo": "postman" }
+      ]
+    }
+  ],
+  "settings": {
+    "style": "for-the-badge",
+    "defaultLogoColor": "white"
+  }
+}
