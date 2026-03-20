@@ -25,6 +25,21 @@
 
 ---
 
+<div align="center">
+  <h2>📊 Stats & Activity</h2>
+  <p>
+    <img src="https://github-readme-stats.vercel.app/api?username=arcestia&show_icons=true&theme=transparent&hide_border=true&title_color=00ADD8&icon_color=00ADD8&text_color=777&count_private=true" alt="GitHub Stats" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=arcestia&theme=transparent&hide_border=true&stroke=00ADD8&ring=00ADD8&fire=00ADD8&currStreakLabel=00ADD8" alt="GitHub Streak" />
+  </p>
+  <p>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arcestia&layout=compact&theme=transparent&hide_border=true&title_color=00ADD8&text_color=777" alt="Top Languages" />
+  </p>
+  <!-- RECENT-ACTIVITY:START -->
+  <!-- RECENT-ACTIVITY:END -->
+</div>
+
+---
+
 ## 🔄 Now
 - Shipping **Specter**, a domain status monitoring platform focused on reliability and actionable alerts.
 - Training and benchmarking **Axon**, my AI-oriented chess engine project.
