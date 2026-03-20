@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "website": {
+      "name": "Website",
+      "url": "https://skiddle.id",
+      "color": "FF5733",
+      "logo": "google-chrome"
+    },
+    "github": {
+      "name": "GitHub",
+      "handle": "arcestia",
+      "url": "https://github.com/arcestia",
+      "color": "6cc644",
+      "logo": "github"
+    },
+    "sponsors": {
+      "name": "Sponsors",
+      "handle": "arcestia",
+      "url": "https://github.com/sponsors/arcestia",
+      "color": "EA4AAA",
+      "logo": "githubsponsors"
+    },
+    "bluesky": {
+      "name": "Bluesky",
+      "handle": "skiddle.blue",
+      "url": "https://bsky.app/profile/skiddle.blue",
+      "color": "00acee",
+      "logo": "bluesky"
+    },
+    "x": {
+      "name": "X",
+      "handle": "skiddleid",
+      "url": "https://x.com/skiddleid",
+      "color": "000000",
+      "logo": "X"
+    },
+    "instagram": {
+      "name": "Instagram",
+      "handle": "skiddle.id",
+      "url": "https://instagram.com/skiddle.id",
+      "color": "C13584",
+      "logo": "Instagram"
+    },
+    "instagram_lab": {
+      "name": "Lab",
+      "handle": "skiddleton",
+      "url": "https://instagram.com/skiddleton",
+      "color": "C13584",
+      "logo": "Instagram"
+    }
+  },
+  "settings": {
+    "style": "flat-square",
+    "total_color": "8A2BE2",
+    "use_matching_labels": true
+  }
+}

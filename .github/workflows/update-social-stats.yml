@@ -1,6 +1,10 @@
 name: 📊 Update Social Statistics
 
 on:
+  push:
+    paths:
+      - ".github/config/social.json"
+      - "scripts/update_social_stats.py"
   workflow_dispatch: # Manual dispatch
   schedule:
     - cron: "0 0 * * *" # Every day at midnight.
