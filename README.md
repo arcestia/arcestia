@@ -66,13 +66,15 @@
   <summary><h2>📊 Stats & Activity</h2></summary>
   <div align="center">
     <p>
-      <img src="https://raw.githubusercontent.com/arcestia/arcestia/master/profile-summary-card-output/default/0-profile-details.svg" alt="GitHub Stats" />
-      <img src="https://raw.githubusercontent.com/arcestia/arcestia/master/profile-summary-card-output/default/1-repos-per-language.svg" alt="GitHub Repos" />
+      <img src="https://raw.githubusercontent.com/arcestia/arcestia/master/profile-summary-card-output/default/0-profile-details.svg" alt="GitHub Stats" width="100%" />
     </p>
     <p>
-      <img src="https://raw.githubusercontent.com/arcestia/arcestia/master/profile-summary-card-output/default/2-most-commit-language.svg" alt="Most Commit Language" />
-      <img src="https://raw.githubusercontent.com/arcestia/arcestia/master/profile-summary-card-output/default/3-stats.svg" alt="GitHub Stats 2" />
-      <img src="https://raw.githubusercontent.com/arcestia/arcestia/master/profile-summary-card-output/default/4-productive-time.svg" alt="Productive Time" />
+      <img src="https://raw.githubusercontent.com/arcestia/arcestia/master/profile-summary-card-output/default/1-repos-per-language.svg" alt="GitHub Repos" width="49%" />
+      <img src="https://raw.githubusercontent.com/arcestia/arcestia/master/profile-summary-card-output/default/2-most-commit-language.svg" alt="Most Commit Language" width="49%" />
+    </p>
+    <p>
+      <img src="https://raw.githubusercontent.com/arcestia/arcestia/master/profile-summary-card-output/default/3-stats.svg" alt="GitHub Stats 2" width="49%" />
+      <img src="https://raw.githubusercontent.com/arcestia/arcestia/master/profile-summary-card-output/default/4-productive-time.svg" alt="Productive Time" width="49%" />
     </p>
     <h3>🔄 Recent Activity</h3>
     <!-- RECENT-ACTIVITY:START -->
