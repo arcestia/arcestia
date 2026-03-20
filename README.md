@@ -10,6 +10,12 @@
 
 <p align="center"><i>You might also know me as Jeff, Skiddle, or arcestia.</i></p>
 
+<p align="center">
+  <a href="https://www.last.fm/user/arcestia">
+    <img src="https://skiddle.blue/lastfm.svg" alt="Now Playing">
+  </a>
+</p>
+
 <div align="center">
   <!-- SOCIAL-STATS:START -->
   <a href="https://skiddle.id"><img src="https://img.shields.io/badge/Website-FF5733?style=flat-square&logo=google-chrome&logoColor=white&labelColor=FF5733" alt="Website"></a>
