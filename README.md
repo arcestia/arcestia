@@ -35,7 +35,10 @@
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arcestia&layout=compact&theme=transparent&hide_border=true&title_color=00ADD8&text_color=777" alt="Top Languages" />
   </p>
   <!-- RECENT-ACTIVITY:START -->
-  <!-- RECENT-ACTIVITY:END -->
+- 🔀 Merged PR [#5](None) in [`arcestia/arcestia`](https://github.com/arcestia/arcestia)
+- 🔀 Opened PR [#5](None) in [`arcestia/arcestia`](https://github.com/arcestia/arcestia)
+- 🏗️ Created branch `rebuilt-profile` in [`arcestia/arcestia`](https://github.com/arcestia/arcestia)
+<!-- RECENT-ACTIVITY:END -->
 </div>
 
 ---
