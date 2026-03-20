@@ -7,6 +7,17 @@ import urllib.request
 RAPIDAPI_KEY = os.environ.get("RAPIDAPI_KEY")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 
+# Badge Color Configuration (Hex or standard color names)
+BADGE_COLORS = {
+    "website": "FF5733",  # Sunset Orange
+    "github": "6cc644",  # GitHub Green
+    "sponsors": "EA4AAA",  # Pink
+    "bluesky": "00acee",  # Sky Blue
+    "x": "000000",  # Black
+    "instagram": "C13584",  # Purple/Magenta
+    "total": "8A2BE2",  # Violet
+}
+
 
 def get_github_followers(username):
     """Fetch GitHub follower count using public API."""
@@ -55,7 +66,6 @@ def get_github_sponsors(username):
     data = json.dumps({"query": query}).encode("utf-8")
 
     try:
-        # POST request required for GraphQL
         req = urllib.request.Request(url, data=data, headers=headers, method="POST")
         with urllib.request.urlopen(req) as response:
             res_data = json.loads(response.read().decode())
@@ -89,7 +99,6 @@ def get_x_followers(username):
         print("Note: RAPIDAPI_KEY not found. Defaulting to 0 for X.")
         return 0
 
-    # Updated to use twitter241.p.rapidapi.com as provided
     url = f"https://twitter241.p.rapidapi.com/user?username={username}"
     headers = {
         "X-RapidAPI-Key": RAPIDAPI_KEY,
@@ -101,7 +110,6 @@ def get_x_followers(username):
         req = urllib.request.Request(url, headers=headers)
         with urllib.request.urlopen(req) as response:
             data = json.loads(response.read().decode())
-            # Navigating the nested response: result -> data -> user -> result -> legacy -> followers_count
             user_data = (
                 data.get("result", {})
                 .get("data", {})
@@ -121,14 +129,12 @@ def get_instagram_followers(username):
         print("Note: RAPIDAPI_KEY not found. Defaulting to 0 for Instagram.")
         return 0
 
-    # Updated to use instagram120.p.rapidapi.com as provided
     url = "https://instagram120.p.rapidapi.com/api/instagram/profile"
     headers = {
         "X-RapidAPI-Key": RAPIDAPI_KEY,
         "X-RapidAPI-Host": "instagram120.p.rapidapi.com",
         "Content-Type": "application/json",
     }
-    # This endpoint requires a POST request with the username in JSON format
     post_data = json.dumps({"username": username}).encode("utf-8")
 
     try:
@@ -137,7 +143,6 @@ def get_instagram_followers(username):
         )
         with urllib.request.urlopen(req) as response:
             data = json.loads(response.read().decode())
-            # Navigating the response: result -> edge_followed_by -> count
             return data.get("result", {}).get("edge_followed_by", {}).get("count", 0)
     except Exception as e:
         print(f"Error fetching Instagram followers via RapidAPI: {e}")
@@ -177,24 +182,25 @@ def update_readme(
     with open(readme_path, "r", encoding="utf-8") as f:
         content = f.read()
 
-    # Create dynamic badges with current counts and usernames for consistency
-    gh_badge = f"https://img.shields.io/github/followers/arcestia?label=GitHub&style=for-the-badge&logo=github&color=181717"
-    bsky_badge = f"https://img.shields.io/bluesky/followers/skiddle.blue?label=%40skiddle.blue&style=for-the-badge&logo=bluesky&color=0285FF"
-    x_badge = f"https://img.shields.io/badge/%40skiddleid-{format_count(x_count)}-000000?style=for-the-badge&logo=X&logoColor=white"
-    ig_badge = f"https://img.shields.io/badge/%40skiddle.id-{format_count(ig_count)}-E4405F?style=for-the-badge&logo=Instagram&logoColor=white"
-    ig_lab_badge = f"https://img.shields.io/badge/%40skiddleton-{format_count(ig_lab_count)}-E4405F?style=for-the-badge&logo=Instagram&logoColor=white"
-    sponsors_badge = f"https://img.shields.io/badge/Sponsors-{format_count(gh_sponsors_count)}-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white"
+    # Create dynamic badges with matching label and value colors for a fully colorful look (using flat-square style)
+    website_badge = f"https://img.shields.io/badge/Website-{BADGE_COLORS['website']}?style=flat-square&logo=google-chrome&logoColor=white&labelColor={BADGE_COLORS['website']}"
+    gh_badge = f"https://img.shields.io/github/followers/arcestia?label=GitHub&style=flat-square&logo=github&color={BADGE_COLORS['github']}&labelColor={BADGE_COLORS['github']}"
+    sponsors_badge = f"https://img.shields.io/badge/Sponsors-{format_count(gh_sponsors_count)}-{BADGE_COLORS['sponsors']}?style=flat-square&logo=githubsponsors&logoColor=white&labelColor={BADGE_COLORS['sponsors']}"
+    bsky_badge = f"https://img.shields.io/bluesky/followers/skiddle.blue?label=%40skiddle.blue&style=flat-square&logo=bluesky&color={BADGE_COLORS['bluesky']}&labelColor={BADGE_COLORS['bluesky']}"
+    x_badge = f"https://img.shields.io/badge/%40skiddleid-{format_count(x_count)}-{BADGE_COLORS['x']}?style=flat-square&logo=X&logoColor=white&labelColor={BADGE_COLORS['x']}"
+    ig_badge = f"https://img.shields.io/badge/%40skiddle.id-{format_count(ig_count)}-{BADGE_COLORS['instagram']}?style=flat-square&logo=Instagram&logoColor=white&labelColor={BADGE_COLORS['instagram']}"
+    ig_lab_badge = f"https://img.shields.io/badge/%40skiddleton-{format_count(ig_lab_count)}-{BADGE_COLORS['instagram']}?style=flat-square&logo=Instagram&logoColor=white&labelColor={BADGE_COLORS['instagram']}"
+    total_badge = f"https://img.shields.io/badge/Total_Followers-{format_count(total)}-{BADGE_COLORS['total']}?style=flat-square&labelColor={BADGE_COLORS['total']}"
 
     new_stats = (
-        f'  <a href="https://skiddle.id"><img src="https://img.shields.io/badge/Website-121011?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website"></a>\n'
-        f'  <a href="https://github.com/arcestia"><img src="{gh_badge}" alt="GitHub"></a>\n'
-        f'  <a href="https://github.com/sponsors/arcestia"><img src="{sponsors_badge}" alt="GitHub Sponsors"></a>\n'
-        f'  <a href="https://bsky.app/profile/skiddle.blue"><img src="{bsky_badge}" alt="Bluesky"></a>\n'
-        f'  <a href="https://x.com/skiddleid"><img src="{x_badge}" alt="X"></a>\n'
-        f'  <a href="https://instagram.com/skiddle.id"><img src="{ig_badge}" alt="Instagram"></a>\n'
-        f'  <a href="https://instagram.com/skiddleton"><img src="{ig_lab_badge}" alt="Skiddleton"></a>\n'
-        f"  <br>\n"
-        f'  <img src="https://img.shields.io/badge/Total_Followers-{format_count(total)}-blue?style=for-the-badge" alt="Total Followers">'
+        f'  <a href="https://skiddle.id"><img src="{website_badge}" alt="Website"></a>\n'
+        f'  <a href="https://github.com/arcestia"><img src="{gh_badge}" alt="GitHub"></a> '
+        f'  <a href="https://github.com/sponsors/arcestia"><img src="{sponsors_badge}" alt="GitHub Sponsors"></a> '
+        f'  <a href="https://bsky.app/profile/skiddle.blue"><img src="{bsky_badge}" alt="Bluesky"></a> '
+        f'  <a href="https://x.com/skiddleid"><img src="{x_badge}" alt="X"></a> '
+        f'  <a href="https://instagram.com/skiddle.id"><img src="{ig_badge}" alt="Instagram"></a> '
+        f'  <a href="https://instagram.com/skiddleton"><img src="{ig_lab_badge}" alt="Skiddleton"></a> '
+        f'  <img src="{total_badge}" alt="Total Followers">'
     )
 
     # Use regex to replace content between the markers

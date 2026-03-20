@@ -12,15 +12,8 @@
 
 <div align="center">
   <!-- SOCIAL-STATS:START -->
-  <a href="https://skiddle.id"><img src="https://img.shields.io/badge/Website-121011?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website"></a>
-  <a href="https://github.com/arcestia"><img src="https://img.shields.io/github/followers/arcestia?label=GitHub&style=for-the-badge&logo=github&color=181717" alt="GitHub"></a>
-  <a href="https://github.com/sponsors/arcestia"><img src="https://img.shields.io/badge/Sponsors-10-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors"></a>
-  <a href="https://bsky.app/profile/skiddle.blue"><img src="https://img.shields.io/bluesky/followers/skiddle.blue?label=%40skiddle.blue&style=for-the-badge&logo=bluesky&color=0285FF" alt="Bluesky"></a>
-  <a href="https://x.com/skiddleid"><img src="https://img.shields.io/badge/%40skiddleid-1.5k-000000?style=for-the-badge&logo=X&logoColor=white" alt="X"></a>
-  <a href="https://instagram.com/skiddle.id"><img src="https://img.shields.io/badge/%40skiddle.id-7.5k-E4405F?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram"></a>
-  <a href="https://instagram.com/skiddleton"><img src="https://img.shields.io/badge/%40skiddleton-13.1k-E4405F?style=for-the-badge&logo=Instagram&logoColor=white" alt="Skiddleton"></a>
-  <br>
-  <img src="https://img.shields.io/badge/Total_Followers-22.4k-blue?style=for-the-badge" alt="Total Followers">
+  <a href="https://skiddle.id"><img src="https://img.shields.io/badge/Website-FF5733?style=flat-square&logo=google-chrome&logoColor=white&labelColor=FF5733" alt="Website"></a>
+  <a href="https://github.com/arcestia"><img src="https://img.shields.io/github/followers/arcestia?label=GitHub&style=flat-square&logo=github&color=6cc644&labelColor=6cc644" alt="GitHub"></a>   <a href="https://github.com/sponsors/arcestia"><img src="https://img.shields.io/badge/Sponsors-10-EA4AAA?style=flat-square&logo=githubsponsors&logoColor=white&labelColor=EA4AAA" alt="GitHub Sponsors"></a>   <a href="https://bsky.app/profile/skiddle.blue"><img src="https://img.shields.io/bluesky/followers/skiddle.blue?label=%40skiddle.blue&style=flat-square&logo=bluesky&color=00acee&labelColor=00acee" alt="Bluesky"></a>   <a href="https://x.com/skiddleid"><img src="https://img.shields.io/badge/%40skiddleid-1.5k-000000?style=flat-square&logo=X&logoColor=white&labelColor=000000" alt="X"></a>   <a href="https://instagram.com/skiddle.id"><img src="https://img.shields.io/badge/%40skiddle.id-7.5k-C13584?style=flat-square&logo=Instagram&logoColor=white&labelColor=C13584" alt="Instagram"></a>   <a href="https://instagram.com/skiddleton"><img src="https://img.shields.io/badge/%40skiddleton-13.1k-C13584?style=flat-square&logo=Instagram&logoColor=white&labelColor=C13584" alt="Skiddleton"></a>   <img src="https://img.shields.io/badge/Total_Followers-22.4k-8A2BE2?style=flat-square&labelColor=8A2BE2" alt="Total Followers">
   <!-- SOCIAL-STATS:END -->
 </div>
 
