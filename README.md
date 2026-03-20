@@ -23,25 +23,7 @@
   <!-- SOCIAL-STATS:END -->
 </div>
 
----
 
-<div align="center">
-  <h2>📊 Stats & Activity</h2>
-  <p>
-    <img src="https://github-readme-stats.vercel.app/api?username=arcestia&show_icons=true&theme=transparent&hide_border=true&title_color=00ADD8&icon_color=00ADD8&text_color=777&count_private=true" alt="GitHub Stats" />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=arcestia&theme=transparent&hide_border=true&stroke=00ADD8&ring=00ADD8&fire=00ADD8&currStreakLabel=00ADD8" alt="GitHub Streak" />
-  </p>
-  <p>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arcestia&layout=compact&theme=transparent&hide_border=true&title_color=00ADD8&text_color=777" alt="Top Languages" />
-  </p>
-  <!-- RECENT-ACTIVITY:START -->
-- 🔀 Merged PR [#5](None) in [`arcestia/arcestia`](https://github.com/arcestia/arcestia)
-- 🔀 Opened PR [#5](None) in [`arcestia/arcestia`](https://github.com/arcestia/arcestia)
-- 🏗️ Created branch `rebuilt-profile` in [`arcestia/arcestia`](https://github.com/arcestia/arcestia)
-<!-- RECENT-ACTIVITY:END -->
-</div>
-
----
 
 ## 🔄 Now
 - Shipping **Specter**, a domain status monitoring platform focused on reliability and actionable alerts.
@@ -75,6 +57,27 @@
   <h3>🧠 AI & Machine Learning</h3>
   <p>    <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />    <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />    <img alt="Keras" src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" />  </p>
   <!-- TOOLS:END -->
+</details>
+
+<details>
+  <summary><h2>📊 Stats & Activity</h2></summary>
+  <div align="center">
+    <p>
+      <img src="https://github-readme-stats.vercel.app/api?username=arcestia&show_icons=true&theme=transparent&hide_border=true&title_color=00ADD8&icon_color=00ADD8&text_color=777&count_private=true" alt="GitHub Stats" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=arcestia&theme=transparent&hide_border=true&stroke=00ADD8&ring=00ADD8&fire=00ADD8&currStreakLabel=00ADD8" alt="GitHub Streak" />
+    </p>
+    <p>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arcestia&layout=compact&theme=transparent&hide_border=true&title_color=00ADD8&text_color=777" alt="Top Languages" />
+    </p>
+    <h3>🔄 Recent Activity</h3>
+    <!-- RECENT-ACTIVITY:START -->
+    <ul>
+      <li>🔀 Merged PR <a href="https://github.com/arcestia/arcestia/pull/5">#5</a> in <a href="https://github.com/arcestia/arcestia"><code>arcestia/arcestia</code></a></li>
+      <li>🔀 Opened PR <a href="https://github.com/arcestia/arcestia/pull/5">#5</a> in <a href="https://github.com/arcestia/arcestia"><code>arcestia/arcestia</code></a></li>
+      <li>🏗️ Created branch <code>rebuilt-profile</code> in <a href="https://github.com/arcestia/arcestia"><code>arcestia/arcestia</code></a></li>
+    </ul>
+    <!-- RECENT-ACTIVITY:END -->
+  </div>
 </details>
 
 ## 🌍 Initiatives

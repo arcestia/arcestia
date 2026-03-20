@@ -40,30 +40,31 @@ def format_event(event):
             return None
         count = len(commits)
         s = "s" if count > 1 else ""
-        return f"📝 Pushed {count} commit{s} to [`{repo_name}`]({repo_url})"
+        return f"📝 Pushed {count} commit{s} to <a href='{repo_url}'><code>{repo_name}</code></a>"
 
     elif event_type == "PullRequestEvent":
         action = payload.get("action")
         number = payload.get("number")
         pr_url = payload.get("pull_request", {}).get("html_url")
-        return f"🔀 {action.capitalize()} PR [#{number}]({pr_url}) in [`{repo_name}`]({repo_url})"
+        return f"🔀 {action.capitalize()} PR <a href='{pr_url}'>#{number}</a> in <a href='{repo_url}'><code>{repo_name}</code></a>"
 
     elif event_type == "IssuesEvent":
         action = payload.get("action")
         number = payload.get("issue", {}).get("number")
         issue_url = payload.get("issue", {}).get("html_url")
-        return f"ℹ️ {action.capitalize()} issue [#{number}]({issue_url}) in [`{repo_name}`]({repo_url})"
+        return f"ℹ️ {action.capitalize()} issue <a href='{issue_url}'>#{number}</a> in <a href='{repo_url}'><code>{repo_name}</code></a>"
 
     elif event_type == "CreateEvent":
         ref_type = payload.get("ref_type")
-        return f"🏗️ Created {ref_type} `{payload.get('ref') or repo_name}` in [`{repo_name}`]({repo_url})"
+        ref_name = payload.get("ref") or repo_name
+        return f"🏗️ Created {ref_type} <code>{ref_name}</code> in <a href='{repo_url}'><code>{repo_name}</code></a>"
 
     elif event_type == "WatchEvent":
-        return f"⭐ Starred [`{repo_name}`]({repo_url})"
+        return f"⭐ Starred <a href='{repo_url}'><code>{repo_name}</code></a>"
 
     elif event_type == "ReleaseEvent":
         tag = payload.get("release", {}).get("tag_name")
-        return f"🚀 Released `{tag}` in [`{repo_name}`]({repo_url})"
+        return f"🚀 Released <code>{tag}</code> in <a href='{repo_url}'><code>{repo_name}</code></a>"
 
     return None
 
@@ -102,12 +103,12 @@ if __name__ == "__main__":
 
         formatted = format_event(event)
         if formatted and formatted not in seen_actions:
-            formatted_activities.append(f"- {formatted}")
+            formatted_activities.append(f"  <li>{formatted}</li>")
             seen_actions.add(formatted)
 
     if formatted_activities:
-        activity_md = "\n".join(formatted_activities)
-        update_readme(activity_md)
+        activity_html = "<ul>\n" + "\n".join(formatted_activities) + "\n</ul>"
+        update_readme(activity_html)
         print("Successfully updated README with recent activity.")
     else:
         print("No recent activity found to update.")
