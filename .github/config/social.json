@@ -15,7 +15,6 @@
     },
     "sponsors": {
       "name": "Sponsors",
-      "handle": "arcestia",
       "url": "https://github.com/sponsors/arcestia",
       "color": "EA4AAA",
       "logo": "githubsponsors"
@@ -48,13 +47,7 @@
       "color": "C13584",
       "logo": "instagram"
     },
-    "youtube": {
-      "name": "YouTube",
-      "handle": "SkiddleID",
-      "url": "https://www.youtube.com/@SkiddleID",
-      "color": "FF0000",
-      "logo": "youtube"
-    },
+
     "soundcloud": {
       "name": "SoundCloud",
       "handle": "arcestiaishere",

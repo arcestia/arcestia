@@ -56,7 +56,7 @@ def get_github_sponsors(username, cache):
         """
     query {
       user(login: "%s") {
-        sponsors {
+        sponsorshipsAsMaintainer {
           totalCount
         }
       }
@@ -79,7 +79,7 @@ def get_github_sponsors(username, cache):
             return (
                 res_data.get("data", {})
                 .get("user", {})
-                .get("sponsors", {})
+                .get("sponsorshipsAsMaintainer", {})
                 .get("totalCount", 0)
             )
     except Exception as e:
@@ -156,35 +156,6 @@ def get_soundcloud_followers(url, cache):
     return cache.get("soundcloud", 0)
 
 
-def get_youtube_subscribers(handle, cache):
-    """Fetch YouTube subscriber count using RapidAPI."""
-    if not RAPIDAPI_KEY:
-        return 0
-
-    # Ensure handle starts with @ for the API
-    if not handle.startswith("@"):
-        handle = f"@{handle}"
-
-    import urllib.parse
-
-    encoded_handle = urllib.parse.quote(handle, safe="")
-    api_url = f"https://youtube138.p.rapidapi.com/channel/details/?id={encoded_handle}&hl=en&gl=US"
-    headers = {
-        "X-RapidAPI-Key": RAPIDAPI_KEY,
-        "X-RapidAPI-Host": "youtube138.p.rapidapi.com",
-        "Content-Type": "application/json",
-    }
-
-    try:
-        req = urllib.request.Request(api_url, headers=headers)
-        with urllib.request.urlopen(req) as response:
-            data = json.loads(response.read().decode())
-            return data.get("stats", {}).get("subscribers", 0)
-    except Exception as e:
-        print(f"Error fetching YouTube subscribers: {e}")
-    return cache.get("youtube", 0)
-
-
 def get_instagram_followers(username, cache, cache_key):
     """Fetch Instagram followers using a third-party RapidAPI service."""
     if not RAPIDAPI_KEY:
@@ -259,7 +230,6 @@ def update_readme(stats):
         "x",
         "instagram",
         "instagram_lab",
-        "youtube",
         "soundcloud",
     ]
     for key in order:
@@ -361,11 +331,6 @@ if __name__ == "__main__":
                 platforms.get("instagram_lab", {}).get("handle", "skiddleton"),
                 cache,
                 "instagram_lab",
-            )
-
-            print("Fetching YouTube subscribers...")
-            stats["youtube"] = get_youtube_subscribers(
-                platforms.get("youtube", {}).get("handle", "SkiddleID"), cache
             )
 
             print("Fetching SoundCloud followers...")
