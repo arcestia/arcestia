@@ -35,9 +35,9 @@
 
 ## 💻 Featured Work
 - **Specter** `Go` `Fiber` `PostgreSQL` `React`
-  - *Full-stack observability toolkit for domain health and availability.*
+  - *Advanced observability platform for domain health and monitoring. Currently closed-source; will be open-sourced once essential features are stabilized.*
 - **Axon** `Go` `Assembly` `C++` `PyTorch` `TensorFlow`
-  - *Advanced chess engine playground for ML experiments and engine optimization.*
+  - *Advanced [chess engine](https://github.com/Skiddle-Labs/axon-engine) playground for ML experiments and engine optimization.*
 - **Infrastructure & Homelab** `Proxmox` `Docker` `Ansible` `Terraform`
   - *High-availability environment for self-hosting, storage, and distributed services.*
 - **Paper Pulse** `Collaboration` `Creative`
@@ -106,17 +106,15 @@
 <details>
   <summary><h2>📝 Latest Articles</h2></summary>
   <br/>
-  <!-- BLOG-POST-LIST:START --><ul>
-$items
-  </ul><ul>
-$items
-  </ul><ul>
-$items
-  </ul><ul>
-$items
-  </ul><ul>
-$items
-  </ul><!-- BLOG-POST-LIST:END -->
+  <!-- BLOG-POST-LIST:START -->
+  <ul>
+    <li><a href="https://skiddle.id/posts/3m6cn7p77of2o/">Penutupan Akses Publik API Checknawala</a></li>
+    <li><a href="https://skiddle.id/posts/3m6cjqfkcfr23/">The Story Behind Taking Down My Free checkdomain API</a></li>
+    <li><a href="https://skiddle.id/posts/3lzyaaxwvgg2e/">How It All Started #1</a></li>
+    <li><a href="https://skiddle.id/posts/3lzita3vuqy2f/">I Migrate All My Email to Purelymail</a></li>
+    <li><a href="https://skiddle.id/posts/3lz6nxxqb6s2x/">My Last Month at Aerialite</a></li>
+  </ul>
+  <!-- BLOG-POST-LIST:END -->
 </details>
 
 ## 🤝 Let’s Collaborate
