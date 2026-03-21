@@ -28,21 +28,50 @@
 
 
 
-## 🔄 Now
-- Shipping **Specter**, a domain status monitoring platform focused on reliability and actionable alerts.
-- Training and benchmarking **Axon**, my AI-oriented chess engine project.
-- Scaling and tuning my **homelab stack** (Proxmox, storage, observability, and automation).
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔄 Currently Shipping</h3>
+      <ul>
+        <li>🚀 <b>Specter</b> — Building a resilient domain monitoring & observability platform.</li>
+        <li>🧠 <b>Axon</b> — Refactoring my AI chess engine for better heuristic evaluation.</li>
+        <li>🏠 <b>Homelab</b> — Tuning my Proxmox cluster and distributed storage arrays.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧠 Core Principles</h3>
+      <ul>
+        <li>🏗️ <b>Reliability First</b> — Build systems that remain stable under extreme load.</li>
+        <li>🛠️ <b>Pragmatic Design</b> — Prioritize production-ready, maintainable solutions.</li>
+        <li>🌐 <b>Open Web</b> — Advocate for a secure, private, and accessible internet.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-## 💻 Featured Work
-- **Specter** — Monitoring + observability toolkit for domain health and availability.
-- **Axon** — Chess engine playground for ML experiments and engine optimization.
-- **Infrastructure & Homelab** — Multi-node environment for self-hosting, storage, and distributed services.
-- **Paper Pulse** — A creative collaboration project with my fiancée.
-
-## 🧠 Principles
-- Build systems that are stable under load.
-- Keep solutions pragmatic and production-minded.
-- Support an open, secure, and accessible internet.
+<h3>💻 Featured Work</h3>
+<div align="center">
+  <table width="100%">
+    <tr>
+      <td width="25%" align="center">
+        <a href="https://github.com/arcestia/specter"><b>Specter</b></a><br/>
+        <i>Observability</i>
+      </td>
+      <td width="25%" align="center">
+        <a href="https://github.com/arcestia/axon"><b>Axon</b></a><br/>
+        <i>AI & Engines</i>
+      </td>
+      <td width="25%" align="center">
+        <b>Infra</b><br/>
+        <i>Self-Hosted</i>
+      </td>
+      <td width="25%" align="center">
+        <b>Paper Pulse</b><br/>
+        <i>Creative</i>
+      </td>
+    </tr>
+  </table>
+</div>
 
 <details open>
   <summary><h2>🛠️ My Favorite Tools</h2></summary>
