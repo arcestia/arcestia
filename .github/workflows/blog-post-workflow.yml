@@ -26,8 +26,8 @@ jobs:
           feed_list: "https://skiddle.id/rss.xml"
           max_post_count: 5
           readme_path: README.md
-          template: "          <ul>\n$items\n          </ul>"
-          item_template: '            <li><a href="$url">$title</a></li>'
+          template: "  <ul>\n$items\n  </ul>"
+          item_template: '    <li><a href="$url">$title</a></li>'
           gh_token: ${{ secrets.BOT_GITHUB_TOKEN }}
           commit_message: "📰 Updates recent blog posts (short)"
           committer_username: Skiddle-Git
