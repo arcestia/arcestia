@@ -2,7 +2,7 @@ name: 📰 Update Blog Post List
 on:
   workflow_dispatch: # Manual dispatch
   schedule:
-    - cron: '0 */3 * * *' # Every 3 hours.
+    - cron: "0 */3 * * *" # Every 3 hours.
 jobs:
   get-posts:
     name: Get Blog Posts from RSS Feed
@@ -17,7 +17,7 @@ jobs:
           max_post_count: 100
           readme_path: BLOG-POSTS.md
           gh_token: ${{ secrets.BOT_GITHUB_TOKEN }}
-          commit_message: '📰 Updates recent blog posts (all)'
+          commit_message: "📰 Updates recent blog posts (all)"
           committer_username: Skiddle-Git
           committer_email: 160487326+Skiddle-Git@users.noreply.github.com
       - name: Pull in listed.to posts into readme
@@ -26,7 +26,9 @@ jobs:
           feed_list: "https://skiddle.id/rss.xml"
           max_post_count: 5
           readme_path: README.md
+          template: "<ul>\n$items\n      </ul>"
+          item_template: '        <li><a href="$url">$title</a></li>'
           gh_token: ${{ secrets.BOT_GITHUB_TOKEN }}
-          commit_message: '📰 Updates recent blog posts (short)'
+          commit_message: "📰 Updates recent blog posts (short)"
           committer_username: Skiddle-Git
           committer_email: 160487326+Skiddle-Git@users.noreply.github.com
