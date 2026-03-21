@@ -87,30 +87,39 @@
   </div>
 </details>
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🌍 Initiatives</h3>
-      <ul>
-        <li><b>Ascendio Foundation</b><br/>Founder, focused on digital rights and open-source initiatives.</li>
-        <li><b>Internet Archiving</b><br/>Contributor to global internet preservation efforts.</li>
-        <li><b>Digital Rights Advocacy</b><br/>Public education and awareness support.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📝 Latest Articles</h3>
-      <!-- BLOG-POST-LIST:START -->
-      <ul>
-        <li><a href="https://skiddle.id/posts/3m6cn7p77of2o/">Penutupan Akses Publik API Checknawala</a></li>
-        <li><a href="https://skiddle.id/posts/3m6cjqfkcfr23/">The Story Behind Taking Down My Free checkdomain API</a></li>
-        <li><a href="https://skiddle.id/posts/3lzyaaxwvgg2e/">How It All Started #1</a></li>
-        <li><a href="https://skiddle.id/posts/3lzita3vuqy2f/">I Migrate All My Email to Purelymail</a></li>
-        <li><a href="https://skiddle.id/posts/3lz6nxxqb6s2x/">My Last Month at Aerialite</a></li>
-      </ul>
-      <!-- BLOG-POST-LIST:END -->
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <table width="100%">
+    <tr>
+      <td width="50%" align="center" valign="top">
+        <img src="https://img.shields.io/badge/🌍_Initiatives-00ADD8?style=for-the-badge&logoColor=white" alt="Initiatives" />
+        <br/><br/>
+        <div align="left">
+          <b>🏛️ Ascendio Foundation</b><br/>
+          <i>Founder • Digital Rights & Open Source</i><br/><br/>
+          <b>💾 Internet Archiving</b><br/>
+          <i>Contributor • Preservation Efforts</i><br/><br/>
+          <b>⚖️ Rights Advocacy</b><br/>
+          <i>Public Education & Support</i>
+        </div>
+      </td>
+      <td width="50%" align="center" valign="top">
+        <img src="https://img.shields.io/badge/📝_Latest_Articles-FF5733?style=for-the-badge&logoColor=white" alt="Latest Articles" />
+        <br/><br/>
+        <div align="left">
+          <!-- BLOG-POST-LIST:START -->
+          <ul>
+            <li><a href="https://skiddle.id/posts/3m6cn7p77of2o/">Penutupan Akses Publik API Checknawala</a></li>
+            <li><a href="https://skiddle.id/posts/3m6cjqfkcfr23/">The Story Behind Taking Down My Free checkdomain API</a></li>
+            <li><a href="https://skiddle.id/posts/3lzyaaxwvgg2e/">How It All Started #1</a></li>
+            <li><a href="https://skiddle.id/posts/3lzita3vuqy2f/">I Migrate All My Email to Purelymail</a></li>
+            <li><a href="https://skiddle.id/posts/3lz6nxxqb6s2x/">My Last Month at Aerialite</a></li>
+          </ul>
+          <!-- BLOG-POST-LIST:END -->
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## 🤝 Let’s Collaborate
 I’m open to collaborations around infrastructure tooling, resilient backend systems, and open internet projects.
