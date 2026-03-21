@@ -48,6 +48,27 @@
 - 🛠️ **Pragmatic Design** — Keep solutions simple, maintainable, and focused on solving real problems.
 - 🌐 **Open Web** — Advocate for a secure, private, and accessible internet for everyone.
 
+<details>
+  <summary><h2>🏢 GitHub Organizations</h2></summary>
+  <br/>
+  <table width="100%">
+    <tr>
+      <td width="33%" valign="top">
+        <h4><a href="https://github.com/Skiddle-ID">🌐 Skiddle ID</a></h4>
+        <i>The main release branch and branding for my JS & open protocol projects.</i>
+      </td>
+      <td width="33%" valign="top">
+        <h4><a href="https://github.com/Skiddle-Labs">🧪 Skiddle Labs</a></h4>
+        <i>The experimental workbench for prototyping and breaking new tech.</i>
+      </td>
+      <td width="33%" valign="top">
+        <h4><a href="https://github.com/skiddle-archives">📦 Skiddle Archives</a></h4>
+        <i>The archival branch for preserving historical and superseded work.</i>
+      </td>
+    </tr>
+  </table>
+</details>
+
 <details open>
   <summary><h2>🛠️ My Favorite Tools</h2></summary>
   <!-- TOOLS:START -->
