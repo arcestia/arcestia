@@ -36,7 +36,7 @@
 ## 💻 Featured Work
 - **Specter** `Go` `Fiber` `PostgreSQL` `React`
   - *Full-stack observability toolkit for domain health and availability.*
-- **Axon** `C++` `Machine Learning` `Chess`
+- **Axon** `Go` `Assembly` `C++` `PyTorch` `TensorFlow`
   - *Advanced chess engine playground for ML experiments and engine optimization.*
 - **Infrastructure & Homelab** `Proxmox` `Docker` `Ansible` `Terraform`
   - *High-availability environment for self-hosting, storage, and distributed services.*
