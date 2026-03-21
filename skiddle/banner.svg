@@ -1,5 +1,5 @@
 <svg width="800" height="150" viewBox="0 0 800 150" xmlns="http://www.w3.org/2000/svg">
-  <rect x="0.5" y="0.5" width="799" height="149" fill="#000000" fill-opacity="0" stroke="#000" stroke-width="1" rx="4"/>
+  <rect x="0.5" y="0.5" width="799" height="149" fill="#000000" fill-opacity="0" stroke="none" stroke-width="1" rx="4"/>
   <defs>
     <animate id="cycle" begin="0s;cycle.end" dur="28s"/>
     <clipPath id="master-clip"><rect x="0" y="0" width="800" height="150"/></clipPath>
