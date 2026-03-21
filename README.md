@@ -28,50 +28,25 @@
 
 
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🔄 Currently Shipping</h3>
-      <ul>
-        <li>🚀 <b>Specter</b> — Building a resilient domain monitoring & observability platform.</li>
-        <li>🧠 <b>Axon</b> — Refactoring my AI chess engine for better heuristic evaluation.</li>
-        <li>🏠 <b>Homelab</b> — Tuning my Proxmox cluster and distributed storage arrays.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🧠 Core Principles</h3>
-      <ul>
-        <li>🏗️ <b>Reliability First</b> — Build systems that remain stable under extreme load.</li>
-        <li>🛠️ <b>Pragmatic Design</b> — Prioritize production-ready, maintainable solutions.</li>
-        <li>🌐 <b>Open Web</b> — Advocate for a secure, private, and accessible internet.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+## 🔄 Currently Shipping
+- 🚀 **Specter** — Building a resilient domain monitoring & observability platform focused on reliability and actionable alerts.
+- 🧠 **Axon** — Refactoring my AI chess engine for better heuristic evaluation and engine optimization.
+- 🏠 **Homelab** — Tuning my multi-node Proxmox cluster, distributed storage, and observability stack.
 
-<h3>💻 Featured Work</h3>
-<div align="center">
-  <table width="100%">
-    <tr>
-      <td width="25%" align="center">
-        <a href="https://github.com/arcestia/specter"><b>Specter</b></a><br/>
-        <i>Observability</i>
-      </td>
-      <td width="25%" align="center">
-        <a href="https://github.com/arcestia/axon"><b>Axon</b></a><br/>
-        <i>AI & Engines</i>
-      </td>
-      <td width="25%" align="center">
-        <b>Infra</b><br/>
-        <i>Self-Hosted</i>
-      </td>
-      <td width="25%" align="center">
-        <b>Paper Pulse</b><br/>
-        <i>Creative</i>
-      </td>
-    </tr>
-  </table>
-</div>
+## 💻 Featured Work
+- **Specter** `Go` `Fiber` `PostgreSQL` `React`
+  - *Full-stack observability toolkit for domain health and availability.*
+- **Axon** `C++` `Machine Learning` `Chess`
+  - *Advanced chess engine playground for ML experiments and engine optimization.*
+- **Infrastructure & Homelab** `Proxmox` `Docker` `Ansible` `Terraform`
+  - *High-availability environment for self-hosting, storage, and distributed services.*
+- **Paper Pulse** `Collaboration` `Creative`
+  - *A creative collaboration project focused on design and digital expression.*
+
+## 🧠 Core Principles
+- 🏗️ **Reliability First** — Build systems that are stable under extreme load and production-minded.
+- 🛠️ **Pragmatic Design** — Keep solutions simple, maintainable, and focused on solving real problems.
+- 🌐 **Open Web** — Advocate for a secure, private, and accessible internet for everyone.
 
 <details open>
   <summary><h2>🛠️ My Favorite Tools</h2></summary>
