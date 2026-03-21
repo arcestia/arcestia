@@ -87,7 +87,9 @@
   </div>
 </details>
 
-<div align="center">
+<details>
+  <summary><h2>💡 More Info</h2></summary>
+  <div align="center">
   <table width="100%">
     <tr>
       <td width="50%" align="center" valign="top">
@@ -119,7 +121,8 @@
       </td>
     </tr>
   </table>
-</div>
+  </div>
+</details>
 
 ## 🤝 Let’s Collaborate
 I’m open to collaborations around infrastructure tooling, resilient backend systems, and open internet projects.
