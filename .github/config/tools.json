@@ -6,10 +6,18 @@
       "tools": [
         { "name": "TypeScript", "color": "3178C6", "logo": "typescript" },
         { "name": "Go", "color": "00ADD8", "logo": "go" },
-        { "name": "Fiber", "color": "00ADD8", "logo": "gofiber" },
         { "name": "Rust", "color": "000000", "logo": "rust" },
         { "name": "Swift", "color": "F05138", "logo": "swift" },
-        { "name": "Python", "color": "3776AB", "logo": "python" }
+        { "name": "Python", "color": "3776AB", "logo": "python" },
+        { "name": "PHP", "color": "777BB4", "logo": "php" }
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "icon": "🏗️",
+      "tools": [
+        { "name": "Fiber", "color": "00ADD8", "logo": "gofiber" },
+        { "name": "Laravel", "color": "FF2D20", "logo": "laravel" }
       ]
     },
     {
