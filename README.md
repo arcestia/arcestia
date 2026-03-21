@@ -3,9 +3,7 @@
 <h1 align="center">Hello, I'm Laurensius Jeffrey 👋</h1>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=00ADD8&center=true&vCenter=true&width=700&lines=Software+Engineer;Part-time+Stock+Trader;Building+Specter+and+Axon;Designing+Reliable+Systems" alt="Typing SVG" />
-  </a>
+  <img src="skiddle/banner.svg" alt="Typing Banner" />
 </p>
 
 <p align="center"><i>You might also know me as Jeff, Skiddle, or arcestia.</i></p>
