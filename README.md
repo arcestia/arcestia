@@ -51,22 +51,11 @@
 <details>
   <summary><h2>🏢 GitHub Organizations</h2></summary>
   <br/>
-  <table width="100%">
-    <tr>
-      <td width="33%" valign="top">
-        <h4><a href="https://github.com/Skiddle-ID">🌐 Skiddle ID</a></h4>
-        <i>The main release branch and branding for my JS & open protocol projects.</i>
-      </td>
-      <td width="33%" valign="top">
-        <h4><a href="https://github.com/Skiddle-Labs">🧪 Skiddle Labs</a></h4>
-        <i>The experimental workbench for prototyping and breaking new tech.</i>
-      </td>
-      <td width="33%" valign="top">
-        <h4><a href="https://github.com/skiddle-archives">📦 Skiddle Archives</a></h4>
-        <i>The archival branch for preserving historical and superseded work.</i>
-      </td>
-    </tr>
-  </table>
+  <ul>
+    <li>🌐 <b><a href="https://github.com/Skiddle-ID">Skiddle ID</a></b> — The main release branch and branding for my JS & open protocol projects.</li>
+    <li>🧪 <b><a href="https://github.com/Skiddle-Labs">Skiddle Labs</a></b> — The experimental workbench for prototyping, breaking things, and exploring new tech.</li>
+    <li>📦 <b><a href="https://github.com/skiddle-archives">Skiddle Archives</a></b> — The archival branch for preserving historical and superseded work.</li>
+  </ul>
 </details>
 
 <details open>
