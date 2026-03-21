@@ -26,8 +26,6 @@
   <!-- SOCIAL-STATS:END -->
 </div>
 
-
-
 ## 🔄 Currently Shipping
 - 🚀 **Specter** — Building a resilient domain monitoring & observability platform focused on reliability and actionable alerts.
 - 🧠 **Axon** — Refactoring my AI chess engine for better heuristic evaluation and engine optimization.
@@ -42,11 +40,6 @@
   - *High-availability environment for self-hosting, storage, and distributed services.*
 - **Paper Pulse** `Collaboration` `Creative`
   - *A creative collaboration project focused on design and digital expression.*
-
-## 🧠 Core Principles
-- 🏗️ **Reliability First** — Build systems that are stable under extreme load and production-minded.
-- 🛠️ **Pragmatic Design** — Keep solutions simple, maintainable, and focused on solving real problems.
-- 🌐 **Open Web** — Advocate for a secure, private, and accessible internet for everyone.
 
 <details>
   <summary><h2>🏢 GitHub Organizations</h2></summary>
@@ -77,6 +70,11 @@
   <p>    <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />    <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />    <img alt="Keras" src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" />  </p>
   <!-- TOOLS:END -->
 </details>
+
+## 🧠 Core Principles
+- 🏗️ **Reliability First** — Build systems that are stable under extreme load and production-minded.
+- 🛠️ **Pragmatic Design** — Keep solutions simple, maintainable, and focused on solving real problems.
+- 🌐 **Open Web** — Advocate for a secure, private, and accessible internet for everyone.
 
 <details>
   <summary><h2>📊 Stats & Activity</h2></summary>
