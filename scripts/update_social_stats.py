@@ -61,14 +61,13 @@ def get_github_sponsors(username, cache):
             sponsorshipsAsMaintainer%s {
               totalCount
             }
-            sponsorshipsAsSponsor%s {
+            sponsorshipsAsSponsor {
               totalCount
             }
           }
         }
         """ % (
             username,
-            priv_str,
             priv_str,
         )
 
@@ -82,9 +81,13 @@ def get_github_sponsors(username, cache):
         try:
             req = urllib.request.Request(url, data=data, headers=headers, method="POST")
             with urllib.request.urlopen(req) as response:
-                return json.loads(response.read().decode())
+                res_content = response.read().decode()
+                print(f"DEBUG: GraphQL Response: {res_content}")
+                return json.loads(res_content)
         except Exception as e:
             print(f"GraphQL request error: {e}")
+            if hasattr(e, "read"):
+                print(f"DEBUG: Error body: {e.read().decode()}")
             return None
 
     # Try with private sponsors first
@@ -93,6 +96,9 @@ def get_github_sponsors(username, cache):
     # If it failed or returned errors (common if token lacks scope for includePrivate)
     if not res_data or "errors" in res_data:
         if res_data and "errors" in res_data:
+            print(
+                f"DEBUG: Token likely missing 'read:user' scope or incorrect permissions."
+            )
             print(f"GraphQL Error (Private): {res_data['errors'][0].get('message')}")
 
         print("Falling back to public-only sponsors...")
