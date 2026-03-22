@@ -259,7 +259,6 @@ def update_readme(stats):
     order = [
         "github",
         "sponsors",
-        "sponsoring",
         "bluesky",
         "x",
         "instagram",
