@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - ".github/config/tools.json"
-      - "scripts/update_tools.py"
+      - ".github/scripts/update_tools.py"
   workflow_dispatch: # Manual trigger
 
 jobs:
@@ -21,7 +21,7 @@ jobs:
           python-version: "3.x"
 
       - name: Run update script
-        run: python scripts/update_tools.py
+        run: python .github/scripts/update_tools.py
 
       - name: Commit and Push changes
         run: |

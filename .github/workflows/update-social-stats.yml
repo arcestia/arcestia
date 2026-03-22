@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - ".github/config/social.json"
-      - "scripts/update_social_stats.py"
+      - ".github/scripts/update_social_stats.py"
   workflow_dispatch: # Manual dispatch
   schedule:
     - cron: "0 */6 * * *" # Every 6 hours to check for cache expiration
@@ -23,7 +23,7 @@ jobs:
           python-version: "3.x"
 
       - name: Run update script
-        run: python scripts/update_social_stats.py
+        run: python .github/scripts/update_social_stats.py
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}

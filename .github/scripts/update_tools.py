@@ -47,7 +47,9 @@ def generate_tools_html(config):
 def update_readme():
     """Update the README.md file with the latest tools from config."""
     # Determine paths
-    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    base_dir = os.path.dirname(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    )
     readme_path = os.path.join(base_dir, "README.md")
     config_path = os.path.join(base_dir, ".github", "config", "tools.json")
 

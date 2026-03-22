@@ -229,7 +229,9 @@ def format_count(count):
 
 def update_readme(stats):
     """Update README.md with content generated from stats and social.json config."""
-    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    base_dir = os.path.dirname(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    )
     readme_path = os.path.join(base_dir, "README.md")
     config_path = os.path.join(base_dir, ".github", "config", "social.json")
 
@@ -312,7 +314,9 @@ def update_readme(stats):
 
 
 if __name__ == "__main__":
-    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    base_dir = os.path.dirname(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    )
     config_path = os.path.join(base_dir, ".github", "config", "social.json")
     cache_path = os.path.join(base_dir, ".github", "config", "stats_cache.json")
 

@@ -6,7 +6,7 @@ on:
   workflow_dispatch: # Allows manual triggering
   push:
     paths:
-      - "scripts/update_activity.py"
+      - ".github/scripts/update_activity.py"
 
 jobs:
   update-activity:
@@ -22,7 +22,7 @@ jobs:
           python-version: "3.x"
 
       - name: Run update script
-        run: python scripts/update_activity.py
+        run: python .github/scripts/update_activity.py
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_GH_TOKEN }}
 

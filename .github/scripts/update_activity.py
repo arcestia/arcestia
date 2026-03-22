@@ -71,7 +71,9 @@ def format_event(event):
 
 def update_readme(activity_markdown):
     """Update the README.md file between activity markers."""
-    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    base_dir = os.path.dirname(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    )
     readme_path = os.path.join(base_dir, "README.md")
 
     if not os.path.exists(readme_path):
