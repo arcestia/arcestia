@@ -3,7 +3,7 @@ name: ⭐ Generate Stared Repo List
 on:
   workflow_dispatch: # Manual dispatch
   schedule:
-    - cron: '0 1 * * *' # At 01:00.
+    - cron: "0 1 * * *" # At 01:00.
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -17,7 +17,7 @@ jobs:
         with:
           github-user: ${{ github.actor }}
           github-token: ${{ secrets.GH_TOKEN }}
-          list-file: "STARRED-REPOS.md"
+          list-file: "lists/STARRED-REPOS.md"
 
       # Commit the changes
       - name: Commit files
