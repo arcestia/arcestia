@@ -112,11 +112,17 @@
 <details>
   <summary><h2>📝 Latest Articles</h2></summary>
   <br/>
-  <!-- BLOG-POST-LIST:START -->
-  <ul>
-    $items
-  </ul>
-  <!-- BLOG-POST-LIST:END -->
+  <!-- BLOG-POST-LIST:START --><ul>
+$items
+  </ul><ul>
+$items
+  </ul><ul>
+$items
+  </ul><ul>
+$items
+  </ul><ul>
+$items
+  </ul><!-- BLOG-POST-LIST:END -->
 </details>
 
 ## 🤝 Let’s Collaborate
