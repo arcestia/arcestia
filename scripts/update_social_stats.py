@@ -47,54 +47,71 @@ def get_github_followers(username, cache):
 
 
 def get_github_sponsors(username, cache):
-    """Fetch GitHub sponsors count using GraphQL API."""
+    """Fetch GitHub sponsors count using GraphQL API with fallback."""
     if not GITHUB_TOKEN:
         return 0
 
     url = "https://api.github.com/graphql"
-    query = (
-        """
-    query {
-      user(login: "%s") {
-        sponsorshipsAsMaintainer(includePrivate: true) {
-          totalCount
+
+    def fetch_sponsors(include_private=True):
+        priv_str = "(includePrivate: true)" if include_private else ""
+        query = """
+        query {
+          user(login: "%s") {
+            sponsorshipsAsMaintainer%s {
+              totalCount
+            }
+            sponsorshipsAsSponsor%s {
+              totalCount
+            }
+          }
         }
-        sponsorshipsAsSponsor(includePrivate: true) {
-          totalCount
+        """ % (
+            username,
+            priv_str,
+            priv_str,
+        )
+
+        headers = {
+            "Authorization": f"Bearer {GITHUB_TOKEN}",
+            "Content-Type": "application/json",
+            "User-Agent": "Mozilla/5.0",
         }
-      }
-    }
-    """
-        % username
-    )
+        data = json.dumps({"query": query}).encode("utf-8")
 
-    headers = {
-        "Authorization": f"Bearer {GITHUB_TOKEN}",
-        "Content-Type": "application/json",
-        "User-Agent": "Mozilla/5.0",
-    }
-    data = json.dumps({"query": query}).encode("utf-8")
+        try:
+            req = urllib.request.Request(url, data=data, headers=headers, method="POST")
+            with urllib.request.urlopen(req) as response:
+                return json.loads(response.read().decode())
+        except Exception as e:
+            print(f"GraphQL request error: {e}")
+            return None
 
-    try:
-        req = urllib.request.Request(url, data=data, headers=headers, method="POST")
-        with urllib.request.urlopen(req) as response:
-            res_data = json.loads(response.read().decode())
-            user_data = res_data.get("data", {}).get("user", {})
-            sponsors_count = user_data.get("sponsorshipsAsMaintainer", {}).get(
-                "totalCount", 0
-            )
-            sponsoring_count = user_data.get("sponsorshipsAsSponsor", {}).get(
-                "totalCount", 0
-            )
+    # Try with private sponsors first
+    res_data = fetch_sponsors(include_private=True)
 
-            # Store counts in cache for reference
-            cache["sponsors"] = sponsors_count
-            cache["sponsoring"] = sponsoring_count
+    # If it failed or returned errors (common if token lacks scope for includePrivate)
+    if not res_data or "errors" in res_data:
+        if res_data and "errors" in res_data:
+            print(f"GraphQL Error (Private): {res_data['errors'][0].get('message')}")
 
-            return sponsors_count
-    except Exception as e:
-        print(f"Error fetching GitHub sponsors for {username}: {e}")
+        print("Falling back to public-only sponsors...")
+        res_data = fetch_sponsors(include_private=False)
+
+    if not res_data or "errors" in res_data:
+        if res_data and "errors" in res_data:
+            print(f"GraphQL Error (Public): {res_data['errors'][0].get('message')}")
         return cache.get("sponsors", 0)
+
+    user_data = res_data.get("data", {}).get("user", {})
+    sponsors_count = user_data.get("sponsorshipsAsMaintainer", {}).get("totalCount", 0)
+    sponsoring_count = user_data.get("sponsorshipsAsSponsor", {}).get("totalCount", 0)
+
+    # Store counts in cache for reference
+    cache["sponsors"] = sponsors_count
+    cache["sponsoring"] = sponsoring_count
+
+    return sponsors_count
 
 
 def get_bluesky_followers(handle, cache):
@@ -306,19 +323,20 @@ if __name__ == "__main__":
         platforms = config.get("platforms", {})
         stats = {}
 
-        # Only fetch new stats if 24 hours have passed or cache is empty
+        # Always fetch fresh GitHub stats (high rate limit, no cost)
+        print("Fetching fresh GitHub followers...")
+        stats["github"] = get_github_followers(
+            platforms.get("github", {}).get("handle", "arcestia"), cache
+        )
+
+        print("Fetching fresh GitHub sponsors...")
+        stats["sponsors"] = get_github_sponsors(
+            platforms.get("sponsors", {}).get("handle", "arcestia"), cache
+        )
+
+        # For other platforms, use cache if not expired (stricter rate limits)
         if current_time - last_update > 86400 or not cache:
-            print("Cache expired or empty. Fetching fresh stats...")
-
-            print("Fetching GitHub followers...")
-            stats["github"] = get_github_followers(
-                platforms.get("github", {}).get("handle", "arcestia"), cache
-            )
-
-            print("Fetching GitHub sponsors...")
-            stats["sponsors"] = get_github_sponsors(
-                platforms.get("sponsors", {}).get("handle", "arcestia"), cache
-            )
+            print("Cache expired or empty for other platforms. Fetching fresh stats...")
 
             print("Fetching Bluesky followers...")
             stats["bluesky"] = get_bluesky_followers(
@@ -356,8 +374,15 @@ if __name__ == "__main__":
             save_json(cache_path, {"last_updated_at": current_time, "stats": stats})
         else:
             print(
-                f"Using cached stats (Last updated {int((current_time - last_update) / 3600)}h ago)"
+                f"Using cached stats for other platforms (Last updated {int((current_time - last_update) / 3600)}h ago)"
             )
-            stats = cache
+            # Merge fresh GitHub stats with cached values for other platforms
+            stats.update(
+                {
+                    k: v
+                    for k, v in cache.items()
+                    if k not in ["github", "sponsors", "sponsoring"]
+                }
+            )
 
         update_readme(stats)
