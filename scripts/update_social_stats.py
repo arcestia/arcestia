@@ -56,7 +56,10 @@ def get_github_sponsors(username, cache):
         """
     query {
       user(login: "%s") {
-        sponsorshipsAsMaintainer {
+        sponsorshipsAsMaintainer(includePrivate: true) {
+          totalCount
+        }
+        sponsorshipsAsSponsor(includePrivate: true) {
           totalCount
         }
       }
@@ -76,12 +79,19 @@ def get_github_sponsors(username, cache):
         req = urllib.request.Request(url, data=data, headers=headers, method="POST")
         with urllib.request.urlopen(req) as response:
             res_data = json.loads(response.read().decode())
-            return (
-                res_data.get("data", {})
-                .get("user", {})
-                .get("sponsorshipsAsMaintainer", {})
-                .get("totalCount", 0)
+            user_data = res_data.get("data", {}).get("user", {})
+            sponsors_count = user_data.get("sponsorshipsAsMaintainer", {}).get(
+                "totalCount", 0
             )
+            sponsoring_count = user_data.get("sponsorshipsAsSponsor", {}).get(
+                "totalCount", 0
+            )
+
+            # Store counts in cache for reference
+            cache["sponsors"] = sponsors_count
+            cache["sponsoring"] = sponsoring_count
+
+            return sponsors_count
     except Exception as e:
         print(f"Error fetching GitHub sponsors for {username}: {e}")
         return cache.get("sponsors", 0)
@@ -226,6 +236,7 @@ def update_readme(stats):
     order = [
         "github",
         "sponsors",
+        "sponsoring",
         "bluesky",
         "x",
         "instagram",

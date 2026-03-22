@@ -25,7 +25,7 @@ jobs:
       - name: Run update script
         run: python scripts/update_social_stats.py
         env:
-          GITHUB_TOKEN: ${{ secrets.BOT_GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
 
       - name: Commit and Push changes
