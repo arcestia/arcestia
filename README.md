@@ -3,7 +3,7 @@
 <h1 align="center">Hello, I'm Laurensius Jeffrey 👋</h1>
 
 <p align="center">
-  <img src="personal/skiddle/banner.svg" alt="Typing Banner" />
+  <img src="personal/banner.svg" alt="Typing Banner" />
 </p>
 
 <p align="center"><i>You might also know me as Jeff, Skiddle, or arcestia.</i></p>
