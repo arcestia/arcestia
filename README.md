@@ -91,7 +91,7 @@
     <h3>🔄 Recent Activity</h3>
     <!-- RECENT-ACTIVITY:START -->
 <ul>
-  <li>🏗️ Created branch <code>main</code> in <a href='https://github.com/arcestia/committed'><code>arcestia/committed</code></a></li>
+  <li>ℹ️ Assigned issue <a href='https://github.com/ScarletFoundry/love-journey/issues/1'>#1</a> in <a href='https://github.com/ScarletFoundry/love-journey'><code>ScarletFoundry/love-journey</code></a></li>
 </ul>
 <!-- RECENT-ACTIVITY:END -->
   </div>
