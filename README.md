@@ -9,9 +9,7 @@
 <p align="center"><i>You might also know me as Jeff, Skiddle, or arcestia.</i></p>
 
 <p align="center">
-  <a href="https://www.last.fm/user/arcestia">
-    <img src="https://skiddle.blue/lastfm.svg" alt="Now Playing">
-  </a>
+  <img src="https://skiddle.blue/lastfm.svg" alt="Now Playing">
 </p>
 
 <div align="center">
