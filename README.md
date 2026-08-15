@@ -112,15 +112,15 @@
   <br/>
   <!-- BLOG-POST-LIST:START --><ul>
 $items
-  </ul><ul>
+</ul><ul>
 $items
-  </ul><ul>
+</ul><ul>
 $items
-  </ul><ul>
+</ul><ul>
 $items
-  </ul><ul>
+</ul><ul>
 $items
-  </ul><!-- BLOG-POST-LIST:END -->
+</ul><!-- BLOG-POST-LIST:END -->
 </details>
 
 ## 🤝 Let’s Collaborate
