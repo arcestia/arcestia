@@ -92,7 +92,6 @@
     <!-- RECENT-ACTIVITY:START -->
 <ul>
   <li>🚀 Released <code>v3.1</code> in <a href='https://github.com/Skiddle-ID/skiddle.id'><code>Skiddle-ID/skiddle.id</code></a></li>
-  <li>🏗️ Created branch <code>develop</code> in <a href='https://github.com/Skiddle-ID/skiddle.id'><code>Skiddle-ID/skiddle.id</code></a></li>
 </ul>
 <!-- RECENT-ACTIVITY:END -->
   </div>
