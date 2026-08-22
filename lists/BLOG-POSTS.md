@@ -4,10 +4,10 @@
 
 
 <!-- BLOG-POST-LIST:START -->
-- [Penutupan Akses Publik API Checknawala](https://skiddle.id/posts/undefined/)
-- [The Story Behind Taking Down My Free checkdomain API](https://skiddle.id/posts/undefined/)
-- [How It All Started #1](https://skiddle.id/posts/undefined/)
-- [I Migrate All My Email to Purelymail](https://skiddle.id/posts/undefined/)
-- [My Last Month at Aerialite](https://skiddle.id/posts/undefined/)
-- [A Newest Refactoring of My Personal Sites](https://skiddle.id/posts/undefined/)
+- [Penutupan Akses Publik API Checknawala](https://skiddle.id/posts/3m6cn7p77of2o/)
+- [The Story Behind Taking Down My Free checkdomain API](https://skiddle.id/posts/3m6cjqfkcfr23/)
+- [How It All Started #1](https://skiddle.id/posts/3lzyaaxwvgg2e/)
+- [I Migrate All My Email to Purelymail](https://skiddle.id/posts/3lzita3vuqy2f/)
+- [My Last Month at Aerialite](https://skiddle.id/posts/3lz6nxxqb6s2x/)
+- [A Newest Refactoring of My Personal Sites](https://skiddle.id/posts/3lyutoqgvqh2k/)
 <!-- BLOG-POST-LIST:END -->
