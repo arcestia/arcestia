@@ -99,8 +99,6 @@
   <li>🔀 Opened PR <a href='None'>#6</a> in <a href='https://github.com/Skiddle-ID/wallpapers'><code>Skiddle-ID/wallpapers</code></a></li>
   <li>🔀 Merged PR <a href='None'>#5</a> in <a href='https://github.com/Skiddle-ID/wallpapers'><code>Skiddle-ID/wallpapers</code></a></li>
   <li>🔀 Opened PR <a href='None'>#5</a> in <a href='https://github.com/Skiddle-ID/wallpapers'><code>Skiddle-ID/wallpapers</code></a></li>
-  <li>🔀 Merged PR <a href='None'>#4</a> in <a href='https://github.com/Skiddle-ID/wallpapers'><code>Skiddle-ID/wallpapers</code></a></li>
-  <li>🔀 Opened PR <a href='None'>#4</a> in <a href='https://github.com/Skiddle-ID/wallpapers'><code>Skiddle-ID/wallpapers</code></a></li>
 </ul>
 <!-- RECENT-ACTIVITY:END -->
   </div>
