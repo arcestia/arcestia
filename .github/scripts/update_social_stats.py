@@ -2,6 +2,7 @@ import json
 import os
 import re
 import time
+import urllib.parse
 import urllib.request
 
 # Retrieve Keys from Environment Variables
@@ -228,8 +229,23 @@ def format_count(count):
         return str(count) if count else "0"
 
 
+def format_bytes_mb(mb):
+    """Format megabytes into human-readable size string (MB/GB/TB)."""
+    try:
+        val = float(mb)
+        if val >= 1024 * 1024:
+            return f"{val / (1024 * 1024):.2f}TB".replace(".00", "")
+        elif val >= 1024:
+            return f"{val / 1024:.2f}GB".replace(".00", "")
+        elif val > 0:
+            return f"{val:.1f}MB"
+        return ""
+    except (ValueError, TypeError):
+        return str(mb) if mb else ""
+
+
 def get_whatpulse_stats(username, cache):
-    """Fetch WhatPulse keys and clicks via official API or public profile."""
+    """Fetch WhatPulse keys, clicks, download, and upload via official API or public profile."""
     # 1. Try official API if token is provided
     if WHATPULSE_API_TOKEN:
         try:
@@ -246,13 +262,17 @@ def get_whatpulse_stats(username, cache):
                 data = json.loads(resp.read().decode())
                 totals = data.get("user", {}).get("totals", {})
                 if totals.get("keys") is not None and totals.get("clicks") is not None:
+                    down_str = format_bytes_mb(totals.get("download_mb", 0))
+                    up_str = format_bytes_mb(totals.get("upload_mb", 0))
                     print(
                         f"Successfully fetched WhatPulse stats via official API for {username}: "
-                        f"{totals.get('keys')} keys, {totals.get('clicks')} clicks"
+                        f"{totals.get('keys')} keys, {totals.get('clicks')} clicks, {down_str} down, {up_str} up"
                     )
                     return {
                         "keys": int(totals.get("keys", 0)),
                         "clicks": int(totals.get("clicks", 0)),
+                        "download": down_str,
+                        "upload": up_str,
                     }
         except Exception as e:
             print(f"WhatPulse API error: {e}. Falling back to public profile...")
@@ -269,20 +289,29 @@ def get_whatpulse_stats(username, cache):
         clean = re.sub(r"<script.*?</script>", "", html, flags=re.DOTALL)
         clean = re.sub(r"<style.*?</style>", "", clean, flags=re.DOTALL)
         clean_text = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", clean))
-        m = re.search(r"([\d,]+)\s+keys\s*·\s*([\d,]+)\s+clicks", clean_text)
+        m = re.search(
+            r"([\d,]+)\s+keys\s*·\s*([\d,]+)\s+clicks(?:\s+([\d.]+[KMGTP]?B)\s*↓\s*·\s*([\d.]+[KMGTP]?B)\s*↑)?",
+            clean_text,
+        )
         if m:
+            down_str = m.group(3) if m.group(3) else ""
+            up_str = m.group(4) if m.group(4) else ""
             print(
                 f"Successfully parsed WhatPulse stats from public profile for {username}: "
-                f"{m.group(1)} keys, {m.group(2)} clicks"
+                f"{m.group(1)} keys, {m.group(2)} clicks, {down_str} down, {up_str} up"
             )
             return {
                 "keys": int(m.group(1).replace(",", "")),
                 "clicks": int(m.group(2).replace(",", "")),
+                "download": down_str,
+                "upload": up_str,
             }
     except Exception as e:
         print(f"Error fetching WhatPulse public profile for {username}: {e}")
 
-    return cache.get("whatpulse", {"keys": 0, "clicks": 0})
+    return cache.get(
+        "whatpulse", {"keys": 0, "clicks": 0, "download": "", "upload": ""}
+    )
 
 
 def update_readme(stats, whatpulse_stats=None):
@@ -375,8 +404,16 @@ def update_readme(stats, whatpulse_stats=None):
 
             keys_str = format_count(whatpulse_stats.get("keys", 0))
             clicks_str = format_count(whatpulse_stats.get("clicks", 0))
+            parts = [f"{keys_str} keys", f"{clicks_str} clicks"]
+            if whatpulse_stats.get("download"):
+                parts.append(f"{whatpulse_stats['download']} ↓")
+            if whatpulse_stats.get("upload"):
+                parts.append(f"{whatpulse_stats['upload']} ↑")
+
+            badge_text = " · ".join(parts)
+            encoded_val = urllib.parse.quote(badge_text)
             wp_badge_url = (
-                f"https://img.shields.io/badge/WhatPulse-{keys_str}_keys_%C2%B7_{clicks_str}_clicks-{wp_color}"
+                f"https://img.shields.io/badge/WhatPulse-{encoded_val}-{wp_color}"
                 f"?style={wp_style}&labelColor={wp_label_color}"
             )
             wp_badge_html = f'<a href="https://whatpulse.org/u/{wp_user}"><img alt="WhatPulse" src="{wp_badge_url}"/></a>'
