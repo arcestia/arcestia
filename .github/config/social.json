@@ -56,6 +56,12 @@
       "logo": "soundcloud"
     }
   },
+  "whatpulse": {
+    "username": "skiddle",
+    "color": "00ADD8",
+    "label_color": "333333",
+    "style": "flat-square"
+  },
   "settings": {
     "style": "flat-square",
     "total_color": "8A2BE2",

@@ -7,6 +7,7 @@ import urllib.request
 # Retrieve Keys from Environment Variables
 RAPIDAPI_KEY = os.environ.get("RAPIDAPI_KEY")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
+WHATPULSE_API_TOKEN = os.environ.get("WHATPULSE_API_TOKEN")
 
 
 def load_json(file_path):
@@ -136,7 +137,7 @@ def get_bluesky_followers(handle, cache):
 def get_x_followers(username, cache):
     """Fetch X followers using a third-party RapidAPI service."""
     if not RAPIDAPI_KEY:
-        return 0
+        return cache.get("x", 0)
 
     url = f"https://twitter241.p.rapidapi.com/user?username={username}"
     headers = {
@@ -165,7 +166,7 @@ def get_x_followers(username, cache):
 def get_soundcloud_followers(url, cache):
     """Fetch SoundCloud follower count using RapidAPI."""
     if not RAPIDAPI_KEY:
-        return 0
+        return cache.get("soundcloud", 0)
 
     import urllib.parse
 
@@ -192,7 +193,7 @@ def get_soundcloud_followers(url, cache):
 def get_instagram_followers(username, cache, cache_key):
     """Fetch Instagram followers using a third-party RapidAPI service."""
     if not RAPIDAPI_KEY:
-        return 0
+        return cache.get(cache_key, 0)
 
     url = "https://instagram120.p.rapidapi.com/api/instagram/profile"
     headers = {
@@ -227,7 +228,56 @@ def format_count(count):
         return str(count) if count else "0"
 
 
-def update_readme(stats):
+def get_whatpulse_stats(username, cache):
+    """Fetch WhatPulse keys and clicks via official API or public profile."""
+    # 1. Try official API if token is provided
+    if WHATPULSE_API_TOKEN:
+        try:
+            url = f"https://whatpulse.org/api/v1/users/{username}"
+            req = urllib.request.Request(
+                url,
+                headers={
+                    "Authorization": f"Bearer {WHATPULSE_API_TOKEN}",
+                    "Accept": "application/json",
+                    "User-Agent": "Mozilla/5.0",
+                },
+            )
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                data = json.loads(resp.read().decode())
+                totals = data.get("user", {}).get("totals", {})
+                if totals.get("keys") is not None and totals.get("clicks") is not None:
+                    return {
+                        "keys": int(totals.get("keys", 0)),
+                        "clicks": int(totals.get("clicks", 0)),
+                    }
+        except Exception as e:
+            print(f"WhatPulse API error: {e}. Falling back to public profile...")
+
+    # 2. Fallback to public profile parsing
+    try:
+        url = f"https://whatpulse.org/u/{username}"
+        req = urllib.request.Request(
+            url,
+            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"},
+        )
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            html = resp.read().decode("utf-8")
+        clean = re.sub(r"<script.*?</script>", "", html, flags=re.DOTALL)
+        clean = re.sub(r"<style.*?</style>", "", clean, flags=re.DOTALL)
+        clean_text = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", clean))
+        m = re.search(r"([\d,]+)\s+keys\s*·\s*([\d,]+)\s+clicks", clean_text)
+        if m:
+            return {
+                "keys": int(m.group(1).replace(",", "")),
+                "clicks": int(m.group(2).replace(",", "")),
+            }
+    except Exception as e:
+        print(f"Error fetching WhatPulse public profile for {username}: {e}")
+
+    return cache.get("whatpulse", {"keys": 0, "clicks": 0})
+
+
+def update_readme(stats, whatpulse_stats=None):
     """Update README.md with content generated from stats and social.json config."""
     base_dir = os.path.dirname(
         os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -305,12 +355,31 @@ def update_readme(stats):
 
         pattern = r"<!-- SOCIAL-STATS:START -->.*?<!-- SOCIAL-STATS:END -->"
         replacement = f"<!-- SOCIAL-STATS:START -->\n  {new_stats_html}\n  <!-- SOCIAL-STATS:END -->"
+        content = re.sub(pattern, replacement, content, flags=re.DOTALL)
 
-        updated_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+        # Update WhatPulse badge if stats available
+        if whatpulse_stats:
+            wp_config = config.get("whatpulse", {})
+            wp_user = wp_config.get("username", "skiddle")
+            wp_color = wp_config.get("color", "00ADD8")
+            wp_label_color = wp_config.get("label_color", "333333")
+            wp_style = wp_config.get("style", "flat-square")
+
+            keys_str = format_count(whatpulse_stats.get("keys", 0))
+            clicks_str = format_count(whatpulse_stats.get("clicks", 0))
+            wp_badge_url = (
+                f"https://img.shields.io/badge/WhatPulse-{keys_str}_keys_%C2%B7_{clicks_str}_clicks-{wp_color}"
+                f"?style={wp_style}&labelColor={wp_label_color}"
+            )
+            wp_badge_html = f'<a href="https://whatpulse.org/u/{wp_user}"><img alt="WhatPulse" src="{wp_badge_url}"/></a>'
+
+            wp_pattern = r"<!-- WHATPULSE-STATS:START -->.*?<!-- WHATPULSE-STATS:END -->"
+            wp_replacement = f"<!-- WHATPULSE-STATS:START -->\n    {wp_badge_html}\n    <!-- WHATPULSE-STATS:END -->"
+            content = re.sub(wp_pattern, wp_replacement, content, flags=re.DOTALL)
 
         with open(readme_path, "w", encoding="utf-8") as f:
-            f.write(updated_content)
-        print(f"Successfully updated social stats in README.md")
+            f.write(content)
+        print("Successfully updated README.md")
 
 
 if __name__ == "__main__":
@@ -330,7 +399,10 @@ if __name__ == "__main__":
 
     if config:
         platforms = config.get("platforms", {})
+        wp_config = config.get("whatpulse", {})
+        wp_username = wp_config.get("username", "skiddle")
         stats = {}
+        whatpulse_stats = cache_data.get("whatpulse", {})
 
         # Always fetch fresh GitHub stats (high rate limit, no cost)
         print("Fetching fresh GitHub followers...")
@@ -344,8 +416,8 @@ if __name__ == "__main__":
         )
 
         # For other platforms, use cache if not expired (stricter rate limits)
-        if current_time - last_update > 86400 or not cache:
-            print("Cache expired or empty for other platforms. Fetching fresh stats...")
+        if current_time - last_update > 86400 or not cache or not whatpulse_stats:
+            print("Cache expired or empty. Fetching fresh stats...")
 
             print("Fetching Bluesky followers...")
             stats["bluesky"] = get_bluesky_followers(
@@ -379,8 +451,18 @@ if __name__ == "__main__":
                 cache,
             )
 
+            print(f"Fetching WhatPulse stats ({wp_username})...")
+            whatpulse_stats = get_whatpulse_stats(wp_username, cache_data)
+
             # Update cache with new timestamp
-            save_json(cache_path, {"last_updated_at": current_time, "stats": stats})
+            save_json(
+                cache_path,
+                {
+                    "last_updated_at": current_time,
+                    "stats": stats,
+                    "whatpulse": whatpulse_stats,
+                },
+            )
         else:
             print(
                 f"Using cached stats for other platforms (Last updated {int((current_time - last_update) / 3600)}h ago)"
@@ -394,4 +476,4 @@ if __name__ == "__main__":
                 }
             )
 
-        update_readme(stats)
+        update_readme(stats, whatpulse_stats)
