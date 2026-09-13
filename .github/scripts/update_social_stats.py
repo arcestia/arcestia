@@ -246,6 +246,10 @@ def get_whatpulse_stats(username, cache):
                 data = json.loads(resp.read().decode())
                 totals = data.get("user", {}).get("totals", {})
                 if totals.get("keys") is not None and totals.get("clicks") is not None:
+                    print(
+                        f"Successfully fetched WhatPulse stats via official API for {username}: "
+                        f"{totals.get('keys')} keys, {totals.get('clicks')} clicks"
+                    )
                     return {
                         "keys": int(totals.get("keys", 0)),
                         "clicks": int(totals.get("clicks", 0)),
@@ -267,6 +271,10 @@ def get_whatpulse_stats(username, cache):
         clean_text = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", clean))
         m = re.search(r"([\d,]+)\s+keys\s*·\s*([\d,]+)\s+clicks", clean_text)
         if m:
+            print(
+                f"Successfully parsed WhatPulse stats from public profile for {username}: "
+                f"{m.group(1)} keys, {m.group(2)} clicks"
+            )
             return {
                 "keys": int(m.group(1).replace(",", "")),
                 "clicks": int(m.group(2).replace(",", "")),
