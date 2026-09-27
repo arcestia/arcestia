@@ -18,7 +18,7 @@
   <p>
     <a href="https://hits.sh/github.com/arcestia/arcestia/"><img alt="Hits" src="https://hits.sh/github.com/arcestia/arcestia.svg?style=flat-square&label=Visitors&color=00ADD8&labelColor=333333"/></a>
     <!-- WHATPULSE-STATS:START -->
-    <a href="https://whatpulse.org/u/skiddle"><img alt="WhatPulse" src="https://img.shields.io/badge/WhatPulse-6.1M%20keys%20%C2%B7%204.1M%20clicks%20%C2%B7%2082.95TB%20%E2%86%93%20%C2%B7%2077.82TB%20%E2%86%91-00ADD8?style=flat-square&labelColor=333333"/></a>
+    <a href="https://whatpulse.org/u/skiddle"><img alt="WhatPulse" src="https://img.shields.io/badge/WhatPulse-6.1M%20keys%20%C2%B7%204.2M%20clicks%20%C2%B7%2083.04TB%20%E2%86%93%20%C2%B7%2077.82TB%20%E2%86%91-00ADD8?style=flat-square&labelColor=333333"/></a>
     <!-- WHATPULSE-STATS:END -->
   </p>
   <!-- SOCIAL-STATS:START -->
