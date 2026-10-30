@@ -52,3 +52,13 @@
 ```
 
     
+
+---
+
+![](./4-productive-time.svg)
+
+```
+![](https://raw.githubusercontent.com/arcestia/arcestia/master/profile-summary-card-output/panda/4-productive-time.svg)
+```
+
+    
