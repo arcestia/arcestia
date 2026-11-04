@@ -94,7 +94,9 @@
     <h3>🔄 Recent Activity</h3>
     <!-- RECENT-ACTIVITY:START -->
 <ul>
-  <li>🔀 Closed PR <a href='None'>#29</a> in <a href='https://github.com/arcestia/shortlink'><code>arcestia/shortlink</code></a></li>
+  <li>ℹ️ Assigned issue <a href='https://github.com/Skiddle-ID/monitoring/issues/716'>#716</a> in <a href='https://github.com/Skiddle-ID/monitoring'><code>Skiddle-ID/monitoring</code></a></li>
+  <li>ℹ️ Labeled issue <a href='https://github.com/Skiddle-ID/monitoring/issues/716'>#716</a> in <a href='https://github.com/Skiddle-ID/monitoring'><code>Skiddle-ID/monitoring</code></a></li>
+  <li>ℹ️ Opened issue <a href='https://github.com/Skiddle-ID/monitoring/issues/716'>#716</a> in <a href='https://github.com/Skiddle-ID/monitoring'><code>Skiddle-ID/monitoring</code></a></li>
 </ul>
 <!-- RECENT-ACTIVITY:END -->
   </div>
