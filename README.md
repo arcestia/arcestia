@@ -94,6 +94,7 @@
     <h3>🔄 Recent Activity</h3>
     <!-- RECENT-ACTIVITY:START -->
 <ul>
+  <li>ℹ️ Closed issue <a href='https://github.com/Skiddle-ID/monitoring/issues/716'>#716</a> in <a href='https://github.com/Skiddle-ID/monitoring'><code>Skiddle-ID/monitoring</code></a></li>
   <li>ℹ️ Assigned issue <a href='https://github.com/Skiddle-ID/monitoring/issues/716'>#716</a> in <a href='https://github.com/Skiddle-ID/monitoring'><code>Skiddle-ID/monitoring</code></a></li>
   <li>ℹ️ Labeled issue <a href='https://github.com/Skiddle-ID/monitoring/issues/716'>#716</a> in <a href='https://github.com/Skiddle-ID/monitoring'><code>Skiddle-ID/monitoring</code></a></li>
   <li>ℹ️ Opened issue <a href='https://github.com/Skiddle-ID/monitoring/issues/716'>#716</a> in <a href='https://github.com/Skiddle-ID/monitoring'><code>Skiddle-ID/monitoring</code></a></li>
