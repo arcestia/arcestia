@@ -4,10 +4,11 @@
 
 
 <!-- BLOG-POST-LIST:START -->
-- [Penutupan Akses Publik API Checknawala](https://skiddle.id/posts/3m6cn7p77of2o/)
-- [The Story Behind Taking Down My Free checkdomain API](https://skiddle.id/posts/3m6cjqfkcfr23/)
-- [How It All Started #1](https://skiddle.id/posts/3lzyaaxwvgg2e/)
-- [I Migrate All My Email to Purelymail](https://skiddle.id/posts/3lzita3vuqy2f/)
-- [My Last Month at Aerialite](https://skiddle.id/posts/3lz6nxxqb6s2x/)
-- [A Newest Refactoring of My Personal Sites](https://skiddle.id/posts/3lyutoqgvqh2k/)
+- [Bringing Back the v1 Design](https://skiddle.id/posts/bringing-back-the-v1-design/)
+- [Penutupan Akses Publik API Checknawala](https://skiddle.id/posts/penutupan-akses-publik-api-checknawala/)
+- [The Story Behind Taking Down My Free checkdomain API](https://skiddle.id/posts/the-story-behind-taking-down-my-free-checkdomain-api/)
+- [How It All Started #1](https://skiddle.id/posts/how-it-all-started-1/)
+- [I Migrate All My Email to Purelymail](https://skiddle.id/posts/i-migrate-all-my-email-to-purelymail/)
+- [My Last Month at Aerialite](https://skiddle.id/posts/my-last-month-at-aerialite/)
+- [A Newest Refactoring of My Personal Sites](https://skiddle.id/posts/a-newest-refactoring-of-my-personal-sites/)
 <!-- BLOG-POST-LIST:END -->
