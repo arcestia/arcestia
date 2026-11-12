@@ -123,7 +123,7 @@
   <summary><h2>📝 Latest Articles</h2></summary>
   <br/>
     <ul>
-    <!-- BLOG-POST-LIST:START --><li><a href="https://skiddle.id/posts/3m6cn7p77of2o/">Penutupan Akses Publik API Checknawala</a></li><li><a href="https://skiddle.id/posts/3m6cjqfkcfr23/">The Story Behind Taking Down My Free checkdomain API</a></li><li><a href="https://skiddle.id/posts/3lzyaaxwvgg2e/">How It All Started #1</a></li><li><a href="https://skiddle.id/posts/3lzita3vuqy2f/">I Migrate All My Email to Purelymail</a></li><li><a href="https://skiddle.id/posts/3lz6nxxqb6s2x/">My Last Month at Aerialite</a></li><!-- BLOG-POST-LIST:END -->
+    <!-- BLOG-POST-LIST:START --><li><a href="https://skiddle.id/posts/bringing-back-the-v1-design/">Bringing Back the v1 Design</a></li><li><a href="https://skiddle.id/posts/penutupan-akses-publik-api-checknawala/">Penutupan Akses Publik API Checknawala</a></li><li><a href="https://skiddle.id/posts/the-story-behind-taking-down-my-free-checkdomain-api/">The Story Behind Taking Down My Free checkdomain API</a></li><li><a href="https://skiddle.id/posts/how-it-all-started-1/">How It All Started #1</a></li><li><a href="https://skiddle.id/posts/i-migrate-all-my-email-to-purelymail/">I Migrate All My Email to Purelymail</a></li><!-- BLOG-POST-LIST:END -->
     </ul>
 </details>
 
