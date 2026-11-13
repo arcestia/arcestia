@@ -4,6 +4,7 @@
 
 
 <!-- BLOG-POST-LIST:START -->
+- [Shipping My Personal Site Like Production](https://skiddle.id/posts/shipping-my-personal-site-like-production/)
 - [Bringing Back the v1 Design](https://skiddle.id/posts/bringing-back-the-v1-design/)
 - [Penutupan Akses Publik API Checknawala](https://skiddle.id/posts/penutupan-akses-publik-api-checknawala/)
 - [The Story Behind Taking Down My Free checkdomain API](https://skiddle.id/posts/the-story-behind-taking-down-my-free-checkdomain-api/)
