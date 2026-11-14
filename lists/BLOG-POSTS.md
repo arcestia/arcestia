@@ -4,6 +4,9 @@
 
 
 <!-- BLOG-POST-LIST:START -->
+- [Fast and Accessible](https://skiddle.id/posts/fast-and-accessible/)
+- [Locking Down My Personal Site](https://skiddle.id/posts/locking-down-my-personal-site/)
+- [Share Cards and Comments Without a Backend](https://skiddle.id/posts/share-cards-and-comments-without-a-backend/)
 - [Shipping My Personal Site Like Production](https://skiddle.id/posts/shipping-my-personal-site-like-production/)
 - [Bringing Back the v1 Design](https://skiddle.id/posts/bringing-back-the-v1-design/)
 - [Penutupan Akses Publik API Checknawala](https://skiddle.id/posts/penutupan-akses-publik-api-checknawala/)
