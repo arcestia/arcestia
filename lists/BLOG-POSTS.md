@@ -4,6 +4,7 @@
 
 
 <!-- BLOG-POST-LIST:START -->
+- [Never Quite Done](https://skiddle.id/posts/never-quite-done/)
 - [Publishing My Blog to AT Protocol](https://skiddle.id/posts/publishing-my-blog-to-at-protocol/)
 - [Fast and Accessible](https://skiddle.id/posts/fast-and-accessible/)
 - [Locking Down My Personal Site](https://skiddle.id/posts/locking-down-my-personal-site/)
