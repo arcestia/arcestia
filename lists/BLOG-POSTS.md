@@ -4,6 +4,7 @@
 
 
 <!-- BLOG-POST-LIST:START -->
+- [Lab Notes #1: Where Am I in This Series?](https://skiddle.id/posts/lab-notes-1/)
 - [Never Quite Done](https://skiddle.id/posts/never-quite-done/)
 - [Publishing My Blog to AT Protocol](https://skiddle.id/posts/publishing-my-blog-to-at-protocol/)
 - [Fast and Accessible](https://skiddle.id/posts/fast-and-accessible/)
