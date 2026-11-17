@@ -123,7 +123,7 @@
   <summary><h2>📝 Latest Articles</h2></summary>
   <br/>
     <ul>
-    <!-- BLOG-POST-LIST:START --><li><a href="https://skiddle.id/posts/never-quite-done/">Never Quite Done</a></li><li><a href="https://skiddle.id/posts/publishing-my-blog-to-at-protocol/">Publishing My Blog to AT Protocol</a></li><li><a href="https://skiddle.id/posts/fast-and-accessible/">Fast and Accessible</a></li><li><a href="https://skiddle.id/posts/locking-down-my-personal-site/">Locking Down My Personal Site</a></li><li><a href="https://skiddle.id/posts/share-cards-and-comments-without-a-backend/">Share Cards and Comments Without a Backend</a></li><!-- BLOG-POST-LIST:END -->
+    <!-- BLOG-POST-LIST:START --><li><a href="https://skiddle.id/posts/lab-notes-1/">Lab Notes #1: Where Am I in This Series?</a></li><li><a href="https://skiddle.id/posts/never-quite-done/">Never Quite Done</a></li><li><a href="https://skiddle.id/posts/publishing-my-blog-to-at-protocol/">Publishing My Blog to AT Protocol</a></li><li><a href="https://skiddle.id/posts/fast-and-accessible/">Fast and Accessible</a></li><li><a href="https://skiddle.id/posts/locking-down-my-personal-site/">Locking Down My Personal Site</a></li><!-- BLOG-POST-LIST:END -->
     </ul>
 </details>
 
