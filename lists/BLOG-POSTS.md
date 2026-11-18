@@ -4,6 +4,7 @@
 
 
 <!-- BLOG-POST-LIST:START -->
+- [Lab Notes #2: The Whole Site Lives in My Repo Now](https://skiddle.id/posts/lab-notes-2/)
 - [Lab Notes #1: Where Am I in This Series?](https://skiddle.id/posts/lab-notes-1/)
 - [Never Quite Done](https://skiddle.id/posts/never-quite-done/)
 - [Publishing My Blog to AT Protocol](https://skiddle.id/posts/publishing-my-blog-to-at-protocol/)
