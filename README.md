@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://www.last.fm/user/arcestia">
-    <img src="https://skiddle.blue/lastfm.svg" alt="Last.fm Now Playing">
+    <img src="https://skiddle.id/music.svg" alt="Teal.fm Now Playing">
   </a>
 </p>
 
