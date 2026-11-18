@@ -94,16 +94,16 @@
     <h3>🔄 Recent Activity</h3>
     <!-- RECENT-ACTIVITY:START -->
 <ul>
-  <li>🏗️ Created branch <code>feat/status-lexicon</code> in <a href='https://github.com/Skiddle-ID/skiddle.id'><code>Skiddle-ID/skiddle.id</code></a></li>
-  <li>🔀 Opened PR <a href='None'>#135</a> in <a href='https://github.com/Skiddle-ID/skiddle.id'><code>Skiddle-ID/skiddle.id</code></a></li>
-  <li>ℹ️ Closed issue <a href='https://github.com/Skiddle-ID/monitoring/issues/717'>#717</a> in <a href='https://github.com/Skiddle-ID/monitoring'><code>Skiddle-ID/monitoring</code></a></li>
-  <li>🏗️ Created branch <code>docs/roadmap-lexicons-done</code> in <a href='https://github.com/Skiddle-ID/skiddle.id'><code>Skiddle-ID/skiddle.id</code></a></li>
-  <li>🔀 Merged PR <a href='None'>#134</a> in <a href='https://github.com/Skiddle-ID/skiddle.id'><code>Skiddle-ID/skiddle.id</code></a></li>
-  <li>🔀 Opened PR <a href='None'>#134</a> in <a href='https://github.com/Skiddle-ID/skiddle.id'><code>Skiddle-ID/skiddle.id</code></a></li>
-  <li>🔀 Merged PR <a href='None'>#133</a> in <a href='https://github.com/Skiddle-ID/skiddle.id'><code>Skiddle-ID/skiddle.id</code></a></li>
-  <li>🔀 Opened PR <a href='None'>#133</a> in <a href='https://github.com/Skiddle-ID/skiddle.id'><code>Skiddle-ID/skiddle.id</code></a></li>
-  <li>🏗️ Created branch <code>feat/reading-font</code> in <a href='https://github.com/Skiddle-ID/skiddle.id'><code>Skiddle-ID/skiddle.id</code></a></li>
-  <li>🔀 Merged PR <a href='None'>#132</a> in <a href='https://github.com/Skiddle-ID/skiddle.id'><code>Skiddle-ID/skiddle.id</code></a></li>
+  <li>🏗️ Created branch <code>chore/merge-v3-into-v4</code> in <a href='https://github.com/Skiddle-ID/skiddle.id'><code>Skiddle-ID/skiddle.id</code></a></li>
+  <li>🏗️ Created branch <code>docs/roadmap-posts-on-atproto</code> in <a href='https://github.com/Skiddle-ID/skiddle.id'><code>Skiddle-ID/skiddle.id</code></a></li>
+  <li>🏗️ Created branch <code>feat/admin-editor</code> in <a href='https://github.com/Skiddle-ID/skiddle.id'><code>Skiddle-ID/skiddle.id</code></a></li>
+  <li>🏗️ Created branch <code>feat/lists-from-pds</code> in <a href='https://github.com/Skiddle-ID/skiddle.id'><code>Skiddle-ID/skiddle.id</code></a></li>
+  <li>🏗️ Created branch <code>chore/v3-into-v4-steps-2-3</code> in <a href='https://github.com/Skiddle-ID/skiddle.id'><code>Skiddle-ID/skiddle.id</code></a></li>
+  <li>🏗️ Created branch <code>feat/posts-from-pds</code> in <a href='https://github.com/Skiddle-ID/skiddle.id'><code>Skiddle-ID/skiddle.id</code></a></li>
+  <li>🏗️ Created branch <code>feat/license-ai-opt-out</code> in <a href='https://github.com/Skiddle-ID/skiddle.id'><code>Skiddle-ID/skiddle.id</code></a></li>
+  <li>🏗️ Created branch <code>feat/move-pckt-posts</code> in <a href='https://github.com/Skiddle-ID/skiddle.id'><code>Skiddle-ID/skiddle.id</code></a></li>
+  <li>🔀 Opened PR <a href='None'>#138</a> in <a href='https://github.com/Skiddle-ID/skiddle.id'><code>Skiddle-ID/skiddle.id</code></a></li>
+  <li>🏗️ Created branch <code>feat/sync-post-content</code> in <a href='https://github.com/Skiddle-ID/skiddle.id'><code>Skiddle-ID/skiddle.id</code></a></li>
 </ul>
 <!-- RECENT-ACTIVITY:END -->
   </div>
