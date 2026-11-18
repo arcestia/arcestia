@@ -9,7 +9,7 @@
 <p align="center"><i>You might also know me as Jeff, Skiddle, or arcestia.</i></p>
 
 <p align="center">
-  <a href="https://www.last.fm/user/arcestia">
+  <a href="https://skiddle.id/listening/">
     <img src="https://skiddle.id/music.svg" alt="Teal.fm Now Playing">
   </a>
 </p>
