@@ -122,7 +122,7 @@
   <summary><h2>📝 Latest Articles</h2></summary>
   <br/>
     <ul>
-    <!-- BLOG-POST-LIST:START --><li><a href="https://skiddle.id/posts/lab-notes-2/">Lab Notes #2: The Whole Site Lives in My Repo Now</a></li><li><a href="https://skiddle.id/posts/lab-notes-1/">Lab Notes #1: Where Am I in This Series?</a></li><li><a href="https://skiddle.id/posts/never-quite-done/">Never Quite Done</a></li><li><a href="https://skiddle.id/posts/publishing-my-blog-to-at-protocol/">Publishing My Blog to AT Protocol</a></li><li><a href="https://skiddle.id/posts/fast-and-accessible/">Fast and Accessible</a></li><!-- BLOG-POST-LIST:END -->
+    <!-- BLOG-POST-LIST:START --><li><a href="https://skiddle.id/posts/lab-notes-3/">Lab Notes #3: My Agents Work While I Sleep</a></li><li><a href="https://skiddle.id/posts/lab-notes-2/">Lab Notes #2: The Whole Site Lives in My Repo Now</a></li><li><a href="https://skiddle.id/posts/lab-notes-1/">Lab Notes #1: Where Am I in This Series?</a></li><li><a href="https://skiddle.id/posts/never-quite-done/">Never Quite Done</a></li><li><a href="https://skiddle.id/posts/publishing-my-blog-to-at-protocol/">Publishing My Blog to AT Protocol</a></li><!-- BLOG-POST-LIST:END -->
     </ul>
 </details>
 
